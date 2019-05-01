@@ -1,7 +1,7 @@
 package paoo.Game;
 
 public enum BlockType {
-    GRASS(0), SOIL(1), WATER(2), TREE(3), MOUNTAIN(4), TOWN(5);
+    BACKGROUND(0);
 
     private final int value;
 

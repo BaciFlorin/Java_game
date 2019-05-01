@@ -6,7 +6,7 @@ import paoo.Game.Board;
 public class Main {
 
     public static void main(String[] args) throws Exception{
-	    GameView theView = new GameView();
+        GameView theView = new GameView();
 
 	    Board panel = new Board();
         panel.revalidate();
