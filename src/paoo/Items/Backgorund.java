@@ -8,4 +8,15 @@ public class Backgorund extends Item {
         getImageDimensions();
     }
 
+    public void setXY(int x,int y)
+    {
+        this.x=x;
+        this.y=y;
+    }
+
+    public void move()
+    {
+        x-=1;
+    }
+
 }

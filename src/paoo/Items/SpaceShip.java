@@ -1,5 +1,6 @@
 package paoo.Items;
 
+import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.List;
@@ -54,6 +55,11 @@ public class SpaceShip extends Item {
     public void fire()
     {
         missiles.add(new Missile(x+width,y+height/2));
+    }
+
+    public void updateImg(Image img)
+    {
+        image=img;
     }
 
     public void keyReleased(KeyEvent e)

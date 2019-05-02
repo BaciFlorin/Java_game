@@ -53,10 +53,10 @@ public class GameView extends javax.swing.JFrame {
         gamePanel = new javax.swing.JPanel();
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Paoo game template");
-        setPreferredSize(new java.awt.Dimension(Map.BOARD_WIDTH + 16, Map.BOARD_HEIGHT + 30));
+        setPreferredSize(new java.awt.Dimension(Map.BOARD_WIDTH , Map.BOARD_HEIGHT ));
 
-        gamePanel.setMinimumSize(new java.awt.Dimension(Map.BOARD_WIDTH + 16, Map.BOARD_HEIGHT + 30));
-        gamePanel.setSize(new java.awt.Dimension(Map.BOARD_WIDTH + 16, Map.BOARD_HEIGHT + 30));
+        gamePanel.setMinimumSize(new java.awt.Dimension(Map.BOARD_WIDTH , Map.BOARD_HEIGHT ));
+        gamePanel.setSize(new java.awt.Dimension(Map.BOARD_WIDTH , Map.BOARD_HEIGHT ));
         gamePanel.setLayout(new java.awt.GridLayout(1, 0));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -69,8 +69,6 @@ public class GameView extends javax.swing.JFrame {
                 layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addComponent(gamePanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
-
-
         pack();
     }
 

@@ -18,6 +18,9 @@ public class Board extends JPanel implements ActionListener {
     private ArrayList<Item> items = new ArrayList<>();
     private SpaceShip spaceShip;
     private Timer timer;
+    private ImageLoader imageLoader;
+    private Backgorund[] backgorunds;
+    private int time=0;
 
     public Board() {
         initBoard();
@@ -27,6 +30,10 @@ public class Board extends JPanel implements ActionListener {
      * Initialize the board.
      */
     private void initBoard() {
+        imageLoader=new ImageLoader();
+        backgorunds=new Backgorund[2];
+        backgorunds[0]=new Backgorund(0,0);
+        backgorunds[1]=new Backgorund(Map.BOARD_WIDTH,0);
         addKeyListener(new TAdapter());
         setFocusable(true);
         setBackground(Color.BLACK);
@@ -74,6 +81,14 @@ public class Board extends JPanel implements ActionListener {
                 g2d.drawImage(a.getImage(), a.getX(), a.getY(), this);
             }
         }
+
+        for(Backgorund a:backgorunds)
+        {
+            if(a.isVisible())
+            {
+                g2d.drawImage(a.getImage(),a.getX(),a.getY(),this);
+            }
+        }
         g2d.drawImage(spaceShip.getImage(), spaceShip.getX(),
                 spaceShip.getY(), this);
 
@@ -84,15 +99,17 @@ public class Board extends JPanel implements ActionListener {
             g2d.drawImage(missile.getImage(), missile.getX(),
                     missile.getY(), this);
         }
-
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
         updateMissiles();
         updateSpaceShip();
+        updateBackground();
+        updateImages();
         repaint();
     }
+
     private void updateMissiles() {
         java.util.List<Missile> missiles = spaceShip.getMissiles();
 
@@ -116,6 +133,18 @@ public class Board extends JPanel implements ActionListener {
         spaceShip.move();
     }
 
+    private void updateBackground()
+    {
+        for(int i=0;i<backgorunds.length;i++)
+        {
+            backgorunds[i].move();
+            if(backgorunds[i].getX()<-Map.BOARD_WIDTH)
+            {
+                backgorunds[i].setXY(backgorunds[backgorunds.length-i-1].getX()+Map.BOARD_WIDTH,backgorunds[backgorunds.length-i-1].getY());
+            }
+        }
+    }
+
     private class TAdapter extends KeyAdapter {
 
         @Override
@@ -126,6 +155,18 @@ public class Board extends JPanel implements ActionListener {
         @Override
         public void keyPressed(KeyEvent e) {
             spaceShip.keyPressed(e);
+        }
+    }
+
+    private void updateImages()
+    {
+        if(spaceShip.getX()%2==0 || spaceShip.getY()%2==1)
+        {
+            spaceShip.updateImg(imageLoader.GetSpaceShip()[1]);
+        }
+        else
+        {
+            spaceShip.updateImg(imageLoader.GetSpaceShip()[0]);
         }
     }
 }
