@@ -2,8 +2,8 @@ package paoo.Items;
 
 public class Missile extends Item {
 
-        private final int BOARD_WIDTH = 1360;
-        private final int MISSILE_SPEED = 2;
+        private final int BOARD_WIDTH = 1160;
+        private final int MISSILE_SPEED = 3;
 
         public Missile(int x, int y) {
             super(x, y);

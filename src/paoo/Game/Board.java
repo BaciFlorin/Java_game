@@ -15,14 +15,17 @@ import javax.swing.JPanel;
  */
 public class Board extends JPanel implements ActionListener {
 
-    private ArrayList<Item> items = new ArrayList<>();
     private SpaceShip spaceShip;
     private Timer timer;
-    private ImageLoader imageLoader;
     private Backgorund[] backgorunds;
-    private int time=0;
+    private ArrayList<SmallEnemy> stage1;
+    private boolean inGame;
 
     public Board() {
+        inGame=true;
+        spaceShip=new SpaceShip(20,20);
+        timer=new Timer(20,this);
+        timer.start();
         initBoard();
     }
 
@@ -30,44 +33,45 @@ public class Board extends JPanel implements ActionListener {
      * Initialize the board.
      */
     private void initBoard() {
-        imageLoader=new ImageLoader();
+        //background initialization
         backgorunds=new Backgorund[2];
         backgorunds[0]=new Backgorund(0,0);
         backgorunds[1]=new Backgorund(Map.BOARD_WIDTH,0);
+
         addKeyListener(new TAdapter());
         setFocusable(true);
         setBackground(Color.BLACK);
         setPreferredSize(new Dimension(Map.BOARD_WIDTH, Map.BOARD_HEIGHT));
-        spaceShip=new SpaceShip(20,20);
-        timer=new Timer(10,this);
-        timer.start();
-        initBlocks();
+        setMaximumSize(new Dimension(Map.BOARD_WIDTH, Map.BOARD_HEIGHT));
+        initEnemyes();
     }
 
     /**
-     * Initialize blocks according to the map.
+     * Initialize enemyes according to the map.
      */
-    void initBlocks() {
-        int type;
-        for (int x = 0; x < Map.level.length; x++) {
-            for (int y = 0; y < Map.level[0].length; y++) {
-                type = Map.level[x][y];
-                BlockType bType = BlockType.getTypeFromInt(type);
-                switch (bType) {
-                    case BACKGROUND:
-                        items.add(new Backgorund(y * 1366, x * 720));
-                        break;
-                    default:
-                        break;
-                }
-            }
+    private void initEnemyes() {
+        stage1=new ArrayList<>();
+
+        for(int[]p:Map.enemyesPos)
+        {
+            stage1.add(new SmallEnemy(p[0],p[1]));
         }
     }
 
+
+    /*
+        Paint component
+     */
     @Override
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
-        drawObjects(g);
+        if(inGame) {
+            drawObjects(g);
+        }
+        else
+        {
+            drawGameOver(g);
+        }
         Toolkit.getDefaultToolkit().sync();
     }
 
@@ -75,39 +79,76 @@ public class Board extends JPanel implements ActionListener {
      * Draw objects on the board.
      */
     private void drawObjects(Graphics g) {
-        Graphics2D g2d=(Graphics2D) g;
-        for (Item a : items) {
-            if (a.isVisible()) {
+            Graphics2D g2d = (Graphics2D) g;
+
+
+            for (Backgorund a : backgorunds) {
+                if (a.isVisible()) {
+                    g2d.drawImage(a.getImage(), a.getX(), a.getY(), this);
+                }
+            }
+            if (spaceShip.isVisible()) {
+                g2d.drawImage(spaceShip.getImage(), spaceShip.getX(),
+                        spaceShip.getY(), this);
+            }
+
+            java.util.List<Missile> missiles = spaceShip.getMissiles();
+
+            for (Missile missile : missiles) {
+                if (missile.isVisible()) {
+                    g2d.drawImage(missile.getImage(), missile.getX(),
+                            missile.getY(), this);
+                }
+            }
+
+            for (SmallEnemy a : stage1) {
                 g2d.drawImage(a.getImage(), a.getX(), a.getY(), this);
+                java.util.List<EnemyMissile> missileList = a.GetMissiles();
+
+                for (EnemyMissile e : missileList) {
+                    if (e.isVisible()) {
+                        g2d.drawImage(e.getImage(), e.getX(), e.getY(), this);
+                    }
+                }
             }
-        }
-
-        for(Backgorund a:backgorunds)
-        {
-            if(a.isVisible())
-            {
-                g2d.drawImage(a.getImage(),a.getX(),a.getY(),this);
-            }
-        }
-        g2d.drawImage(spaceShip.getImage(), spaceShip.getX(),
-                spaceShip.getY(), this);
-
-        java.util.List<Missile> missiles = spaceShip.getMissiles();
-
-        for (Missile missile : missiles) {
-
-            g2d.drawImage(missile.getImage(), missile.getX(),
-                    missile.getY(), this);
-        }
     }
 
     @Override
-    public void actionPerformed(ActionEvent e) {
-        updateMissiles();
-        updateSpaceShip();
-        updateBackground();
-        updateImages();
-        repaint();
+    public void actionPerformed(ActionEvent e)
+    {
+        if(this.isVisible()) {
+            ingame();
+            updateMissiles();
+            updateSpaceShip();
+            updateBackground();
+            updateEnemyes();
+            checkCollisions();
+            repaint();
+        }
+    }
+
+    //Game over text
+
+    private void drawGameOver(Graphics g) {
+
+        String msg = "Game Over";
+        Font small = new Font("Helvetica", Font.BOLD, 14);
+        FontMetrics fm = getFontMetrics(small);
+
+        g.setColor(Color.white);
+        g.setFont(small);
+        g.drawString(msg, (Map.BOARD_WIDTH - fm.stringWidth(msg)) / 2,
+                Map.BOARD_HEIGHT / 2);
+    }
+
+    /*
+        Update functions
+     */
+
+    private void updateSpaceShip() {
+        if(spaceShip.isVisible()) {
+            spaceShip.move();
+        }
     }
 
     private void updateMissiles() {
@@ -126,11 +167,18 @@ public class Board extends JPanel implements ActionListener {
             }
 
         }
-    }
 
-    private void updateSpaceShip() {
-
-        spaceShip.move();
+        for(SmallEnemy a:stage1) {
+            java.util.List<EnemyMissile> missileList = a.GetMissiles();
+            for (int i=0;i<missileList.size();i++) {
+                EnemyMissile m=missileList.get(i);
+                if (m.isVisible()) {
+                    m.move();
+                } else {
+                    missileList.remove(i);
+                }
+            }
+        }
     }
 
     private void updateBackground()
@@ -145,6 +193,92 @@ public class Board extends JPanel implements ActionListener {
         }
     }
 
+    private void updateEnemyes()
+    {
+        if(stage1.isEmpty())
+        {
+            inGame=false;
+        }
+
+        for(int i=0;i<stage1.size();i++)
+        {
+            SmallEnemy en=stage1.get(i);
+            if(en.isVisible())
+            {
+                en.moveAndFire();
+            }else
+            {
+                stage1.remove(i);
+            }
+        }
+    }
+
+    /*
+        Checks if game is still running and stops the timer
+     */
+
+    private void ingame() {
+
+        if (!inGame) {
+            timer.stop();
+        }
+    }
+
+    /*
+        Collisions
+     */
+
+    private void checkCollisions()
+    {
+        Rectangle r3=spaceShip.getBounds();
+        for(SmallEnemy enemy:stage1)
+        {
+            Rectangle r2=enemy.getBounds();
+
+            if(r3.intersects(r2))
+            {
+                spaceShip.setVisible(false);
+                enemy.setVisible(false);
+                inGame=false;
+            }
+
+            java.util.List<EnemyMissile> missileList=enemy.GetMissiles();
+
+            for(EnemyMissile m:missileList)
+            {
+                Rectangle r4=m.getBounds();
+                if(r3.intersects(r4))
+                {
+                    spaceShip.setVisible(false);
+                    m.setVisible(false);
+                    inGame=false;
+                }
+            }
+        }
+
+        java.util.List<Missile>  ms=spaceShip.getMissiles();
+
+        for(Missile m:ms)
+        {
+            Rectangle r1=m.getBounds();
+
+            for(SmallEnemy enemy:stage1)
+            {
+                Rectangle r2=enemy.getBounds();
+
+                if(r1.intersects(r2))
+                {
+                    m.setVisible(false);
+                    enemy.setVisible(false);
+                }
+            }
+        }
+    }
+
+    /*
+        Key Adapter
+     */
+
     private class TAdapter extends KeyAdapter {
 
         @Override
@@ -157,16 +291,11 @@ public class Board extends JPanel implements ActionListener {
             spaceShip.keyPressed(e);
         }
     }
-
-    private void updateImages()
+    /*
+        New functions to add
+     */
+    public boolean isRunning()
     {
-        if(spaceShip.getX()%2==0 || spaceShip.getY()%2==1)
-        {
-            spaceShip.updateImg(imageLoader.GetSpaceShip()[1]);
-        }
-        else
-        {
-            spaceShip.updateImg(imageLoader.GetSpaceShip()[0]);
-        }
+        return inGame;
     }
 }

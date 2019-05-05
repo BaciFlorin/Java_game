@@ -1,5 +1,8 @@
 package paoo.Items;
 
+import paoo.Game.Map;
+
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;
@@ -23,10 +26,45 @@ public class SpaceShip extends Item {
         getImageDimensions();
     }
 
-    public void move()
-    {
-        x+=dx;
-        y+=dy;
+    public void move(){
+        x += dx;
+        if(x<0)
+        {
+            x=0;
+        }
+        if(x>(Map.BOARD_WIDTH/2)-width)
+        {
+            x=(Map.BOARD_WIDTH/2)-width;
+        }
+        y += dy;
+        if(y<0) {
+           y=0;
+        }
+        if(y>Map.BOARD_HEIGHT-height-30)
+        {
+            y=Map.BOARD_HEIGHT-height-30;
+        }
+        if(x%2==0)
+        {
+            ImageIcon _new=new ImageIcon("images/Plane/Fly (2).png");
+            image=_new.getImage();
+        }
+        else
+        {
+            ImageIcon _new=new ImageIcon("images/Plane/Fly (1).png");
+            image=_new.getImage();
+        }
+
+        if(y%2==0)
+        {
+            ImageIcon _new=new ImageIcon("images/Plane/Fly (2).png");
+            image=_new.getImage();
+        }
+        else
+        {
+            ImageIcon _new=new ImageIcon("images/Plane/Fly (1).png");
+            image=_new.getImage();
+        }
     }
 
     public void keyPressed(KeyEvent e)
@@ -37,13 +75,13 @@ public class SpaceShip extends Item {
         {
             case KeyEvent.VK_SPACE:fire();
             break;
-            case KeyEvent.VK_LEFT:dx=-1;
+            case KeyEvent.VK_LEFT:dx=-2;
             break;
-            case KeyEvent.VK_RIGHT:dx=1;
+            case KeyEvent.VK_RIGHT:dx=2;
             break;
-            case KeyEvent.VK_DOWN:dy=1;
+            case KeyEvent.VK_DOWN:dy=2;
             break;
-            case KeyEvent.VK_UP:dy=-1;
+            case KeyEvent.VK_UP:dy=-2;
             break;
         }
     }

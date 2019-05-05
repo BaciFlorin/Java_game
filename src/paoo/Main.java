@@ -2,15 +2,14 @@ package paoo;
 
 import paoo.Game.GameView;
 import paoo.Game.Board;
+import paoo.Game.Menu;
 
 public class Main {
 
     public static void main(String[] args) throws Exception{
         GameView theView = new GameView();
 
-	    Board panel = new Board();
-        panel.revalidate();
-        panel.repaint();
+	    Menu panel = new Menu();
 
         theView.getPanel().add(panel);
         panel.requestFocusInWindow();
