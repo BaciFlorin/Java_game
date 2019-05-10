@@ -8,23 +8,28 @@ import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import paoo.Items.*;
 
-import javax.swing.Timer;
-import javax.swing.JPanel;
+import javax.swing.*;
+
 /**
  * Board class of the game
  */
-public class Board extends JPanel implements ActionListener {
+public class Board extends JFrame implements Runnable {
 
     private SpaceShip spaceShip;
     private Timer timer;
-    private Backgorund[] backgorunds;
-    private ArrayList<SmallEnemy> stage1;
+    private Backgorund[] backgorunds=new Backgorund[2];
+    private ArrayList<SmallEnemy> stage1=new ArrayList<>();
     private boolean inGame;
 
+    //
+    private
+
     public Board() {
+        backgorunds[0]=new Backgorund(0,0);
+        backgorunds[1]=new Backgorund(Map.BOARD_WIDTH,0);
         inGame=true;
         spaceShip=new SpaceShip(20,20);
-        timer=new Timer(20,this);
+        timer=new Timer(10,this);
         timer.start();
         initBoard();
     }
@@ -34,10 +39,6 @@ public class Board extends JPanel implements ActionListener {
      */
     private void initBoard() {
         //background initialization
-        backgorunds=new Backgorund[2];
-        backgorunds[0]=new Backgorund(0,0);
-        backgorunds[1]=new Backgorund(Map.BOARD_WIDTH,0);
-
         addKeyListener(new TAdapter());
         setFocusable(true);
         setBackground(Color.BLACK);
