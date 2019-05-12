@@ -51,4 +51,10 @@ public class Item {
     public Rectangle getBounds() {
         return new Rectangle(x, y, width, height);
     }
+
+    public void tick()
+    {
+
+    }
+
 }

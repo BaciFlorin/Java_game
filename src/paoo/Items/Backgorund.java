@@ -1,5 +1,7 @@
 package paoo.Items;
 
+import javax.swing.*;
+
 public class Backgorund extends Item {
     public Backgorund(int x,int y)
     {
@@ -19,4 +21,9 @@ public class Backgorund extends Item {
         x-=1;
     }
 
+    public void changeImage(String simage)
+    {
+        ImageIcon img=new ImageIcon(simage);
+        image=img.getImage();
+    }
 }

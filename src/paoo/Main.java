@@ -1,8 +1,6 @@
 package paoo;
-
-import paoo.Game.GameView;
-import paoo.Game.Board;
-import paoo.Game.Menu;
+import paoo.Game.Game;
+import paoo.Menu.Menu;
 
 public class Main {
 
