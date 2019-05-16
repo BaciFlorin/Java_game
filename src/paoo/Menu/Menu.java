@@ -4,20 +4,67 @@ import paoo.SimpleFrame;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.awt.image.BufferStrategy;
 
 public class Menu implements Runnable{
     //details about size and others
-    private static final int WIDTH=300;
-    private static final int HEIGHT=200;
+    private static final int WIDTH=500;
+    private static final int HEIGHT=650;
     private static final String name="Menu";
     private static SimpleFrame frame;
+    private static JButton j;
 
     //boolean
     private static boolean running=false;
     private static boolean gameOver=false;
-    private static boolean startSelected=true;
-    private static boolean exitSelected=false;
+    private static boolean plusLevel;
+    private static boolean minusLevel;
+    private static boolean plusDiff;
+    private static boolean minusDiff;
     private static boolean reload=false;
+    private static boolean music=true;
+    private static int level=1;
+    private static int dificulty=1;
+    private static boolean optionMenu=false;
+
+    public static void setOptionMenu(boolean p)
+    {
+        optionMenu=p;
+    }
+
+    public static void setMusic(boolean p){music=p;}
+    public static boolean isMusic(){return music;}
+
+
+    public static void setPlusLevel(boolean p){plusLevel=p;}
+    public static boolean isPlusLevelSel(){return plusLevel;}
+
+    public static void setMinusLevel(boolean p){minusLevel=p;}
+    public static boolean isMinusLevelSel(){return minusLevel;}
+
+    public static void setPlusDiff(boolean p){plusDiff=p;}
+    public static boolean isPlusDiffSel(){return plusDiff;}
+
+    public static void setMinusDiff(boolean p){minusDiff=p;}
+    public static boolean isMinusDiffSel(){return minusDiff;}
+
+    public static int getLevel(){return level;}
+    public static void setLevel(int n){
+        if(n<=3 && n>=1) {
+            level = n;
+        }
+    }
+
+    public static int getDificulty(){return dificulty;}
+    public static void setDificulty(int n){
+        if(n<=3 && n>=1)
+        {
+            dificulty=n;
+        }
+    }
+
+
+    public static boolean isOptionMenu(){return optionMenu;}
 
     //input
     private static MouseListener Mouse=new MouseInput();
@@ -25,7 +72,7 @@ public class Menu implements Runnable{
 
     public static void play()
     {
-        frame = new SimpleFrame(WIDTH, HEIGHT, 2, name);
+        frame = new SimpleFrame(WIDTH, HEIGHT, 1, name);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.requestFocus();
         frame.setVisible(true);
@@ -80,55 +127,56 @@ public class Menu implements Runnable{
         // frame.getFrame().getContentPane().setBackground(Color.GREEN);
         frame.addMouseListener(Mouse);
         frame.addKeyListener(Key);
-        Graphics g=frame.getGraphics();
-        g.setColor(Color.BLACK);
-        g.fillRect(0, 0, frame.getWidth(), frame.getHeight());
-        g.setColor(new Color(0xFF660000));
-        g.fillRect(0, 0, WIDTH * 3, HEIGHT * 3);
-        g.setColor(new Color(0xFFFF9900));
-        //g.setFont(font.getArial());
-        if (isGameOver()) {
-            g.drawString("GAME OVER... What will you do now?", 35, 30);
+        BufferStrategy bs = frame.getBufferStrategy();
+        if (bs == null) {
+            frame.createBufferStrategy(3);                                        // Creates a new bs with triple buffering, which reduces tearing and cross-image pixelation
+            return;
         }
-        //if(!isReloadMenu()) {
-            g.drawLine(0, HEIGHT * 3, 0, 0);
-            g.drawLine(0, 0, (WIDTH * 3), 0);
-            g.drawLine((WIDTH * 3), 0, (WIDTH * 3), (HEIGHT * 3));
-            g.drawLine(0, (HEIGHT * 3), (WIDTH * 3), (HEIGHT * 3));
-            // (LEFT,DOWN,WIDTH,HEIGHT)
-            //Start button
-            if (isStartSelected()) {
-                g.setColor(new Color(0xFFBB4400));
-            } else {
-                g.setColor(new Color(0xFF2B4410));
-            }
-            g.fillRect(35, 40, (frame.getWidth() - 67), 113);
-            g.setColor(Color.BLACK);
-            g.drawString("Start", 220, 95);
-
-            //Exit button
-            if (isExitSelected()) {
-                g.setColor(new Color(0xFFBB4400));
-            } else {
-                g.setColor(new Color(0xFF2B4410));
-            }
-            g.fillRect(35, 170, (frame.getWidth() - 70), 110);
-            g.setColor(Color.BLACK);
-            g.drawString("Exit", 220, 220);
-
-        //}
-        if(false)
+        Graphics g = bs.getDrawGraphics();
+        if(!optionMenu) {
+            g.drawImage((new ImageIcon("images/backgr.png")).getImage(), 0, 0, null);
+            g.drawImage((new ImageIcon("images/buttons/Menu/play.png")).getImage(), 50, 100, null);
+            g.drawImage((new ImageIcon("images/buttons/Menu/load.png")).getImage(), 50, 200, null);
+            g.drawImage((new ImageIcon("images/buttons/Menu/options.png")).getImage(), 50, 300, null);
+            g.drawImage((new ImageIcon("images/buttons/Menu/help.png")).getImage(), 50, 400, null);
+            g.drawImage((new ImageIcon("images/buttons/Menu/quit.png")).getImage(), 50, 500, null);
+        }
+        else
         {
-            g.drawLine(0, HEIGHT * 3, 0, 0);
-            g.drawLine(0, 0, (WIDTH * 3), 0);
-            g.setColor(new Color(0xFF2B4410));
-            g.fillRect(35, 40, (frame.getWidth() - 67), 113);
-            g.setColor(Color.BLACK);
-            g.drawString("Reload", 220, 95);
+            g.drawImage((new ImageIcon("images/backgr.png")).getImage(), 0, 0, null);
+            g.drawImage((new ImageIcon("images/buttons/Menu/music.png")).getImage(), 50, 100, null);
+            if(Menu.isMusic())
+            {
+                g.drawImage((new ImageIcon("images/buttons/Menu/ON.png")).getImage(), 300, 100, null);
+            }
+            else {
+                g.drawImage((new ImageIcon("images/buttons/Menu/OFF.png")).getImage(), 300, 100, null);
+            }
+            g.drawImage((new ImageIcon("images/buttons/Menu/dificulty.png")).getImage(), 50, 200, null);
+            g.drawImage((new ImageIcon("images/buttons/plus.png")).getImage(), 330, 220, null);
+            String temp="";
+            if(dificulty==1)
+            {
+                temp="eazy";
+            }
+            else if(dificulty==2)
+            {
+                temp="normal";
+            }
+            else
+            {
+                temp="hard";
+            }
+            g.setFont(new Font("Arial", java.awt.Font.BOLD, 27));
+            g.setColor(Color.white);
+            g.drawString(temp,380,240);
+            g.drawImage((new ImageIcon("images/buttons/minus.png")).getImage(), 450, 220, null);
+
+            g.drawImage((new ImageIcon("images/buttons/Menu/level.png")).getImage(), 50, 300, null);
+            g.drawImage((new ImageIcon("images/buttons/Menu/back.png")).getImage(), 50, 400, null);
         }
-
         g.dispose();
-
+        bs.show();
     }
     //Start functions
     public synchronized void start() {
@@ -149,18 +197,6 @@ public class Menu implements Runnable{
 
     public static void setFrame(SimpleFrame frame){Menu.frame=frame;}
 
-    public static boolean isStartSelected(){return startSelected;}
-
-    public static boolean isExitSelected(){return exitSelected;}
-
-    public static void setStartSelected(boolean start){
-        startSelected=start;
-    }
-
-    public static void setExitSelected(boolean exit)
-    {
-        exitSelected=exit;
-    }
 
     public static boolean isReloadMenu(){return reload;}
 

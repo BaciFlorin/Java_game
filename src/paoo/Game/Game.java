@@ -34,6 +34,8 @@ public class Game implements Runnable {
     //Proprieties
 
     private static boolean changeLevel=false;
+    private static boolean pause=false;
+    private static boolean gameOver=false;
     private static int map=0;
     private static int fps;
     private static int tps;
@@ -45,15 +47,19 @@ public class Game implements Runnable {
     private static MouseInput mouse;
     private static WindowHandle window;
     private int tickCount=0;
-
-
+    private Font font;
 
     //elements of the game
+    private int lives=3;
+    private java.util.List<Shoots> incercari;
+    private java.util.List<Heart> hearts;
     private static SpaceShip spaceShip;
     private Timer timer;
-    private Backgorund[] backgorunds=new Backgorund[2];
-    private LevelHandle level=new LevelHandle();
+    private LevelHandle level;
 
+
+    public void setLives(int n){lives=n;}
+    public int getLives(){return lives;}
     public Game() {
         frame=new JFrame();
         frame.setMinimumSize(new Dimension(WIDTH,HEIGHT));
@@ -78,13 +84,26 @@ public class Game implements Runnable {
         input=new InputHandle();
         mouse=new MouseInput();
         window=new WindowHandle();
+        level=new LevelHandle();
+        level.loadLevelFromSQL();
+        hearts=new ArrayList<>();
+        for(int i=0;i<lives;i++)
+        {
+            hearts.add(new Heart(120+i*50,595));
+        }
         frame.addKeyListener(input);
         frame.addMouseListener(mouse);
         frame.addWindowListener(window);
 
         /*backgorunds[0]=new Backgorund(0,0);
         backgorunds[1]=new Backgorund(Map.BOARD_WIDTH,0);*/
-        spaceShip=new SpaceShip(20,20);
+        spaceShip=new SpaceShip(30,30);
+        incercari=new ArrayList<>();
+        for(int i=0;i<spaceShip.getNr_shoots();i++)
+        {
+            incercari.add(new Shoots(200+i*50,640));
+        }
+        font=new Font();
     }
 
     /*
@@ -141,7 +160,7 @@ public class Game implements Runnable {
             } catch (InterruptedException e) {                // If the current thread is interrupted, the interrupted status is cleared
                 e.printStackTrace();
             }
-            if(shouldUpdate)
+            if(shouldUpdate && !Game.isPause() && !Game.isOver())
             {
                 updateMissiles();
                 updateSpaceShip();
@@ -181,32 +200,59 @@ public class Game implements Runnable {
 
     public void render()
     {
+
         BufferStrategy bs = frame.getBufferStrategy();
         if (bs == null) {
             frame.createBufferStrategy(3);                                        // Creates a new bs with triple buffering, which reduces tearing and cross-image pixelation
             return;
         }
         Graphics g2d = bs.getDrawGraphics();
-        /*for (Backgorund a : backgorunds) {
-            if (a.isVisible()) {
-                g2d.drawImage(a.getImage(), a.getX(), a.getY(), null);
-            }
-        }*/
-        if (spaceShip.isVisible()) {
-            g2d.drawImage(spaceShip.getImage(), spaceShip.getX(),
-                    spaceShip.getY(), null);
+        if(Game.isOver()) {
+            g2d.drawImage((new ImageIcon("images/gameover.jpg")).getImage(), -100, 0, null);
+            g2d.drawImage((new ImageIcon("images/buttons/Reload.png")).getImage(), 200, 500, null);
+            g2d.drawImage((new ImageIcon("images/buttons/Quit.png")).getImage(), 650, 500, null);
+
         }
+        else {
 
-        java.util.List<Missile> missiles = spaceShip.getMissiles();
+            if (!isPause()) {
+                level.render(g2d);
+                if (spaceShip.isVisible()) {
+                    g2d.drawImage(spaceShip.getImage(), spaceShip.getX(),
+                            spaceShip.getY(), null);
+                }
 
-        for (Missile missile : missiles) {
-            if (missile.isVisible()) {
-                g2d.drawImage(missile.getImage(), missile.getX(),
-                        missile.getY(), null);
+                java.util.List<Missile> missiles = spaceShip.getMissiles();
+
+                for (Missile missile : missiles) {
+                    if (missile.isVisible()) {
+                        g2d.drawImage(missile.getImage(), missile.getX(),
+                                missile.getY(), null);
+                    }
+                }
+
+                font.render("Lifes:", g2d, 20, 618);
+                for (Heart a : hearts) {
+                    if (a.isVisible()) {
+                        g2d.drawImage(a.getImage(), a.getX(), a.getY(), null);
+                    }
+                }
+                font.render("Ammunition:", g2d, 20, 660);
+                for (Shoots a : incercari) {
+                    if (a.isVisible()) {
+                        g2d.drawImage(a.getImage(), a.getX(), a.getY(), null);
+                    }
+                }
+            } else {
+                g2d.drawImage((new ImageIcon("images/backgr.png")).getImage(), 0, 0, null);
+                g2d.drawImage((new ImageIcon("images/buttons/Game_pause.png")).getImage(), 240, 100, null);
+
+                g2d.drawImage((new ImageIcon("images/buttons/resume.png")).getImage(), 400, 200, null);
+                g2d.drawImage((new ImageIcon("images/buttons/Save.png")).getImage(), 400, 300, null);
+                g2d.drawImage((new ImageIcon("images/buttons/Quit.png")).getImage(), 400, 400, null);
+
             }
         }
-
-        level.render(g2d);
         g2d.dispose();                                                                            // Frees up memory and resources for graphics
         bs.show();
     }
@@ -224,19 +270,25 @@ public class Game implements Runnable {
 
     private void updateMissiles() {
         java.util.List<Missile> missiles = spaceShip.getMissiles();
-
         for (int i = 0; i < missiles.size(); i++) {
 
             Missile missile = missiles.get(i);
 
             if (missile.isVisible()) {
-
                 missile.move();
             } else {
-
                 missiles.remove(i);
+                spaceShip.regenerateAmu();
             }
+        }
 
+        for(int i=0;i<spaceShip.getNr_shoots();i++)
+        {
+            incercari.get(i).setVisible(true);
+        }
+        for(int i=spaceShip.getNr_shoots();i<5;i++)
+        {
+            incercari.get(i).setVisible(false);
         }
 
         for(int i=0;i<level.getItems().size();i++) {
@@ -291,26 +343,25 @@ public class Game implements Runnable {
                 spaceShip.setVisible(false);
                 enemy.setVisible(false);
                 Game.setRunning(false);
-                Game.getFrame().setVisible(false);
-                Menu.setRunning(true);
-                Menu.getFrame().setVisible(true);
-                Menu.setReloadMenu(true);
+                Game.setGameOver(true);
             }
 
             java.util.List<EnemyMissile> missileList=enemy.GetMissiles();
 
             for(EnemyMissile m:missileList)
             {
-                Rectangle r4=m.getBounds();
-                if(r3.intersects(r4))
-                {
-                    spaceShip.setVisible(false);
-                    m.setVisible(false);
-                    Game.setRunning(false);
-                    Game.getFrame().setVisible(false);
-                    Menu.setRunning(true);
-                    Menu.getFrame().setVisible(true);
-                    Menu.setReloadMenu(true);
+                if(m.isVisible()) {
+                    Rectangle r4 = m.getBounds();
+                    if (r3.intersects(r4)) {
+                        if(lives!=0) {
+                            hearts.get(lives - 1).setVisible(false);
+                            lives--;
+                            m.setVisible(false);
+                            if (lives == 0) {
+                                Game.setGameOver(true);
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -360,8 +411,15 @@ public class Game implements Runnable {
     public int getTickCount(){return tickCount;}
 
     public void setTickCount(int tick){tickCount=tick;}
-
     public static SpaceShip getSpaceShip(){return spaceShip;}
 
     public static JFrame getFrame(){return frame;}
+
+    public static boolean isPause(){return pause;}
+
+    public static void setPause(boolean p){pause=p;}
+
+    public static void setGameOver(boolean o){gameOver=o;}
+
+    public static boolean isOver(){return gameOver;}
 }

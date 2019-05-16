@@ -54,10 +54,10 @@ public class LevelHandle {
         String buff=" ";
         int c;
         try{
-            f=new FileReader("level");
+            f=new FileReader("F:\\Work time\\Facultate\\an2-semestrul 2\\Proiectarea aplicatiilor orientate pe obiect\\Game\\PaooGame\\src\\paoo\\Game\\Level\\level");
             while((c=f.read())!=-1)
             {
-                buff+=c;
+                buff+=(char)c;
             }
         }
         catch(IOException e)
@@ -65,12 +65,14 @@ public class LevelHandle {
             System.out.println(e.toString());
         }
 
-        String[] parse=buff.split("\n");
-
-
-        backgorund.changeImage(parse[0]);
+        String[] parse=buff.split("&");
+        System.out.println("Nume:"+parse[0]);
+       // backgorund.changeImage(parse[0]);
+        System.out.println("Nr entitati:"+parse[0]);
         int nr_entitati=Integer.parseInt(parse[1]);
-        String[] tipuri=parse[2].split(",");
+        System.out.println("Tipuri:"+parse[2]);
+        String[] tipuri=parse[2].split(" ");
+        System.out.println("Pozitii:"+parse[3]);
         String[] pozitii=parse[3].split(",");
         for(int i=0;i<nr_entitati;i++)
         {

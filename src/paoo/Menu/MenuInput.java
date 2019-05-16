@@ -55,7 +55,6 @@ public class MenuInput implements KeyListener {
 
     private void setValues()
     {
-        Menu.setStartSelected(buttons[0]);
-        Menu.setExitSelected(buttons[1]);
+
     }
 }

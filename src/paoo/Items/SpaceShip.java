@@ -12,11 +12,13 @@ public class SpaceShip extends Item {
     private int dx;
     private int dy;
     private List<Missile> missiles;
+    private int nr_shoots;
 
     public SpaceShip(int x, int y)
     {
         super(x, y);
         initSpaceShip();
+
     }
 
     private void initSpaceShip()
@@ -24,25 +26,26 @@ public class SpaceShip extends Item {
         missiles=new ArrayList<>();
         loadImage("images/Plane/Fly (1).png");
         getImageDimensions();
+        nr_shoots=5;
     }
 
     public void move(){
         x += dx;
-        if(x<0)
+        if(x<10)
         {
-            x=0;
+            x=10;
         }
         if(x>(Map.BOARD_WIDTH/2)-width)
         {
             x=(Map.BOARD_WIDTH/2)-width;
         }
         y += dy;
-        if(y<0) {
-           y=0;
+        if(y<100) {
+           y=100;
         }
-        if(y>Map.BOARD_HEIGHT-height-30)
+        if(y>Map.BOARD_HEIGHT-height-110)
         {
-            y=Map.BOARD_HEIGHT-height-30;
+            y=Map.BOARD_HEIGHT-height-110;
         }
         if(x%2==0)
         {
@@ -90,9 +93,19 @@ public class SpaceShip extends Item {
         return missiles;
     }
 
-    public void fire()
+    public synchronized void fire()
     {
-        missiles.add(new Missile(x+width,y+height/2));
+        if(nr_shoots!=0) {
+            missiles.add(new Missile(x + width, y + height / 2));
+            nr_shoots--;
+        }
+    }
+
+    public synchronized void regenerateAmu()
+    {
+        if(nr_shoots<5) {
+            nr_shoots++;
+        }
     }
 
     public void updateImg(Image img)
@@ -116,6 +129,7 @@ public class SpaceShip extends Item {
                 break;
         }
     }
-
+    public int getNr_shoots(){return nr_shoots;}
+    public void setNr_shoots(int n){nr_shoots=n;}
 
 }
