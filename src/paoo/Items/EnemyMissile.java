@@ -1,12 +1,9 @@
 package paoo.Items;
 
-public class EnemyMissile extends Item {
-    private final int BOARD_WIDTH = 1160;
-    private final int MISSILE_SPEED = 3;
+public class EnemyMissile extends Shoot {
 
     public EnemyMissile(int x, int y) {
         super(x, y);
-
         initMissile();
     }
 
@@ -16,6 +13,7 @@ public class EnemyMissile extends Item {
         getImageDimensions();
     }
 
+    @Override
     public void move() {
 
         x -= MISSILE_SPEED;

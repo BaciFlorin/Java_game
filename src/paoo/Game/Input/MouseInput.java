@@ -2,6 +2,7 @@ package paoo.Game.Input;
 
 import paoo.Game.Game;
 
+import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
@@ -10,26 +11,37 @@ public class MouseInput implements MouseListener {
     public void mouseClicked(MouseEvent e) {
         if(Game.isPause())
         {
-            if(e.getY()<250 && e.getX()<700 && e.getY()>200 && e.getX()>400)
+            //scoate de pe pauza
+            if(Game.getResumeButton().isPressed(e.getX(),e.getY()))
             {
                 Game.setPause(false);
             }
-            if(e.getY()<350 && e.getX()<700 && e.getY()>300 && e.getX()>400)
+
+            //Salveaza jocul si inchide
+            if(Game.getSaveButton().isPressed(e.getX(),e.getY()))
             {
-                Game.setPause(false);
+                Game.getLevelHandle().saveLevelToFile();
+                System.exit(0);
             }
-            if(e.getY()<450 && e.getX()<700 && e.getY()>400 && e.getX()>400)
+
+            //inchide jocul
+            if(Game.getQuitButton().isPressed(e.getX(),e.getY()))
             {
+                Game.getLevelHandle().getBase().close();
+                Game.getLevelHandle().getLbase().close();
                 System.exit(0);
             }
         }
         if(Game.isOver())
         {
-            if(e.getY()<550 && e.getX()<700 && e.getY()>500 && e.getX()>400)
+            //incarca din nou acelasi level si revine
+            if(Game.getReloadButton().isPressed(e.getX(),e.getY()))
             {
+                Game.restore();
                 Game.setGameOver(false);
             }
-            if(e.getY()<550 && e.getX()<900 && e.getY()>500 && e.getX()>650)
+            //iese din joc
+            if(Game.getQuitButton().isPressed(e.getX(),e.getY()))
             {
                 System.exit(0);
             }

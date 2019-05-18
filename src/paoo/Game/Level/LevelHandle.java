@@ -1,25 +1,46 @@
 package paoo.Game.Level;
 
-import paoo.Items.Backgorund;
-import paoo.Items.EnemyMissile;
-import paoo.Items.Item;
-import paoo.Items.SmallEnemy;
+import paoo.Game.BaseValues;
+import paoo.Items.*;
 
 import java.awt.*;
+import java.io.BufferedWriter;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 public class LevelHandle {
 
-    private int nr_level;
-    private List<Item> items=new ArrayList<>();
+    private int nrLevel;
+    private int difficulty;
+    private boolean enableMusic;
+    private String saveFile;
+
+    //obiectul care comunica cu baza de date
+    private BaseValues base;
+    private LevelBase lbase;
+    private List<Ship> items=new ArrayList<>();
     private Backgorund backgorund;
 
     public LevelHandle()
     {
+        //baza de date
+        base=new BaseValues();
+
+        //Initializarea imaginii din spate
         backgorund=new Backgorund(0,0);
+
+        //initializarea setarilor jocului
+        nrLevel=base.getLevel();
+        difficulty=base.getDifficulty();
+        saveFile=base.getFile();
+        enableMusic=(base.getMusic()==1);
+
+        //tabelul din baza de date care imi contine tipul inamicilor si pozitiile acestora
+        lbase=new LevelBase(nrLevel);
     }
 
     public void render(Graphics g)
@@ -27,88 +48,174 @@ public class LevelHandle {
         g.drawImage(backgorund.getImage(),backgorund.getX(),backgorund.getY(),null);
         for(int i=0;i<items.size();i++)
         {
-            SmallEnemy item=(SmallEnemy)items.get(i);
-            g.drawImage(item.getImage(),item.getX(),item.getY(),null);
-                java.util.List<EnemyMissile> missileList = item.GetMissiles();
-                for (EnemyMissile e : missileList) {
-                    if (e.isVisible()) {
-                        g.drawImage(e.getImage(), e.getX(), e.getY(), null);
+                Ship item = items.get(i);
+                if (item.isVisible()) {
+                    g.drawImage(item.getImage(), item.getX(), item.getY(), null);
+                    java.util.List<Shoot> missileList = item.getShoots();
+                    for (Shoot e : missileList) {
+                        if (e.isVisible()) {
+                            g.drawImage(e.getImage(), e.getX(), e.getY(), null);
+                        }
                     }
                 }
         }
+        g.setColor(Color.BLACK);
+        g.setFont(new Font("Arial", java.awt.Font.BOLD, 27));
+        g.drawString("Nivelul:"+nrLevel,500,60);
     }
 
-    public void addItem(Item nou)
+    public void saveLevelToFile()
     {
-        items.add(nou);
+        String str = "";
+        str+=nrLevel+"\n"+items.size()+"\n"+difficulty+"\n";
+        String types="";
+        String xpos="";
+        String ypos="";
+        for(int i=0;i<items.size();i++)
+        {
+            if(items.get(i).isVisible()) {
+                if (i != items.size() - 1) {
+                    if (items.get(i) instanceof SmallEnemy) {
+                        types += 1 + ",";
+                    }
+                    if (items.get(i) instanceof BigEnemy) {
+                        types += 2 + ",";
+                    }
+                    xpos += items.get(i).x + ",";
+                    ypos += items.get(i).y + ",";
+                } else {
+                    if (items.get(i) instanceof SmallEnemy) {
+                        types += 1;
+                    }
+                    if (items.get(i) instanceof BigEnemy) {
+                        types += 1;
+                    }
+                    xpos += items.get(i).x;
+                    ypos += items.get(i).y;
+                }
+            }
+        }
+        str=str+types+"\n"+xpos+"\n"+ypos+"\n";
+        try {
+            BufferedWriter writer = new BufferedWriter(new FileWriter(saveFile));
+            writer.write(str);
+            writer.close();
+        }
+        catch (IOException e)
+        {
+            System.err.println(e.getMessage());
+        }
     }
 
-    public void saveLevelToSQL()
-    {
-
-    }
-
-    public void loadLevelFromSQL()
+    public void loadLevelFromFile()
     {
         FileReader f=null;
-        String buff=" ";
+        String buff="";
         int c;
         try{
-            f=new FileReader("F:\\Work time\\Facultate\\an2-semestrul 2\\Proiectarea aplicatiilor orientate pe obiect\\Game\\PaooGame\\src\\paoo\\Game\\Level\\level");
+            f=new FileReader(saveFile);
             while((c=f.read())!=-1)
             {
                 buff+=(char)c;
             }
         }
-        catch(IOException e)
-        {
+        catch(IOException e) {
             System.out.println(e.toString());
         }
-
-        String[] parse=buff.split("&");
-        System.out.println("Nume:"+parse[0]);
-       // backgorund.changeImage(parse[0]);
-        System.out.println("Nr entitati:"+parse[0]);
-        int nr_entitati=Integer.parseInt(parse[1]);
-        System.out.println("Tipuri:"+parse[2]);
-        String[] tipuri=parse[2].split(" ");
-        System.out.println("Pozitii:"+parse[3]);
-        String[] pozitii=parse[3].split(",");
-        for(int i=0;i<nr_entitati;i++)
+        if(buff.equals(""))
         {
-            int x=Integer.parseInt(pozitii[2*i]);
-            int y=Integer.parseInt(pozitii[2*i+1]);
-            switch (tipuri[i])
+            this.loadLevelFromSQL();
+        }
+        else
+        {
+            String[] parse=buff.split("\n");
+            System.out.println("Level:"+parse[0]);
+            nrLevel=Integer.parseInt(parse[0]);
+            System.out.println("Numar de entitati:"+parse[1]);
+            int nr_entitati=Integer.parseInt(parse[1]);
+            System.out.println("Dificultatea:"+parse[2]);
+            difficulty=Integer.parseInt(parse[2]);
+            String[] tipuri=parse[3].split(",");
+            System.out.println("Tipuri:"+parse[3]);
+            System.out.println("Xpos:"+parse[4]);
+            String[] xpos=parse[4].split(",");
+            System.out.println("Ypos:"+parse[5]);
+            String[] ypos=parse[5].split(",");
+
+            List<Ship> temp=new ArrayList<>();
+            for(int i=0;i<nr_entitati;i++)
             {
-                case "1":
-                    addItem(new SmallEnemy(x,y));
+                switch (tipuri[i])
+                {
+                    case "1":temp.add(new SmallEnemy(Integer.parseInt(xpos[i]),Integer.parseInt(ypos[i])));
+                    break;
+                    case "2":temp.add(new BigEnemy(Integer.parseInt(xpos[i]),Integer.parseInt(ypos[i])));
+                    break;
+                }
+            }
+            items=temp;
+        }
+        setDifficulty();
+    }
+
+
+    public void loadLevelFromSQL()
+    {
+        List<Integer> types=lbase.getTypes();
+        List<Integer> xpos=lbase.getXpos();
+        List<Integer> ypos=lbase.getYpos();
+
+        List<Ship> temp=new ArrayList<>();
+        for(int i=0;i<types.size();i++)
+        {
+            int x=xpos.get(i);
+            int y=ypos.get(i);
+            switch (types.get(i))
+            {
+                case 1:
+                    temp.add(new SmallEnemy(x,y));
+                    break;
+                case 2:
+                    temp.add(new BigEnemy(x,y));
                     break;
             }
+        }
+        items=temp;
+        setDifficulty();
+    }
+
+    private void setDifficulty()
+    {
+        for(Ship m:items)
+        {
+            m.increaseDifficulty(difficulty);
         }
     }
 
     public void setLevel(int nr)
     {
-        nr_level=nr;
+        if(nr>0 && nr<4) {
+            nrLevel = nr;
+        }
+        else
+        {
+            nrLevel=1;
+        }
+        lbase.changeLevel(nrLevel);
     }
 
     public int getLevel()
     {
-        return nr_level;
+        return nrLevel;
     }
 
-    public List<Item> getItems()
+    public List<Ship> getItems()
     {
         return items;
     }
 
-    //asta cu tick e faina, se apeleaza si in game la fiecare tick de fps
 
-    public void tick()
-    {
-        for(Item i:items)
-        {
-            i.tick();
-        }
-    }
+    public LevelBase getLbase(){return lbase;}
+    public BaseValues getBase(){return base;}
+
 }

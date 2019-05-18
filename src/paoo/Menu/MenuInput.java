@@ -6,6 +6,12 @@ import java.awt.event.KeyListener;
 public class MenuInput implements KeyListener {
     private int i=0;
     private boolean[] buttons=new boolean[2];
+    private Menu source;
+
+    public MenuInput(Menu source)
+    {
+        this.source=source;
+    }
     public void keyTyped(KeyEvent e)
     {
 

@@ -11,14 +11,13 @@ import java.util.List;
 public class SpaceShip extends Item {
     private int dx;
     private int dy;
-    private List<Missile> missiles;
+    private List<Shoot> missiles;
     private int nr_shoots;
 
     public SpaceShip(int x, int y)
     {
         super(x, y);
         initSpaceShip();
-
     }
 
     private void initSpaceShip()
@@ -88,7 +87,7 @@ public class SpaceShip extends Item {
             break;
         }
     }
-    public List<Missile> getMissiles()
+    public List<Shoot> getMissiles()
     {
         return missiles;
     }
@@ -131,5 +130,4 @@ public class SpaceShip extends Item {
     }
     public int getNr_shoots(){return nr_shoots;}
     public void setNr_shoots(int n){nr_shoots=n;}
-
 }

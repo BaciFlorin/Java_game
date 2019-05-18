@@ -1,81 +1,67 @@
 package paoo.Menu;
-import paoo.SimpleFrame;
 
+import paoo.Game.BaseValues;
+import paoo.Menu.Buttons.MyButton;
+import paoo.SimpleFrame;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.image.BufferStrategy;
 
 public class Menu implements Runnable{
-    //details about size and others
-    private static final int WIDTH=500;
-    private static final int HEIGHT=650;
-    private static final String name="Menu";
-    private static SimpleFrame frame;
-    private static JButton j;
+    //detalii despre fereastra
+    private final int WIDTH=500;
+    private final int HEIGHT=650;
+    private  final String name="Menu";
+    private  SimpleFrame frame;
 
-    //boolean
-    private static boolean running=false;
-    private static boolean gameOver=false;
-    private static boolean plusLevel;
-    private static boolean minusLevel;
-    private static boolean plusDiff;
-    private static boolean minusDiff;
-    private static boolean reload=false;
-    private static boolean music=true;
-    private static int level=1;
-    private static int dificulty=1;
-    private static boolean optionMenu=false;
+    //butoanele de pe ecranul principal
+    private  MyButton playButton, helpButton, optionButton, quitButton, loadButton;
 
-    public static void setOptionMenu(boolean p)
-    {
-        optionMenu=p;
-    }
+    //butoanele de pe ecranul cu optiuni
+    private  MyButton musicButton, plusButton1, minusButton1, backButton,plusButton2,minusButton2;
 
-    public static void setMusic(boolean p){music=p;}
-    public static boolean isMusic(){return music;}
+    //clasa care imi interactioneaza cu baza de date
+    private BaseValues base=new BaseValues();
 
+    //atributele booleene care imi controleaza felul cum fereastra evolueaza
+    private  boolean running=false;
+    private  boolean gameOver=false;
+    private  boolean optionMenu=false;
 
-    public static void setPlusLevel(boolean p){plusLevel=p;}
-    public static boolean isPlusLevelSel(){return plusLevel;}
-
-    public static void setMinusLevel(boolean p){minusLevel=p;}
-    public static boolean isMinusLevelSel(){return minusLevel;}
-
-    public static void setPlusDiff(boolean p){plusDiff=p;}
-    public static boolean isPlusDiffSel(){return plusDiff;}
-
-    public static void setMinusDiff(boolean p){minusDiff=p;}
-    public static boolean isMinusDiffSel(){return minusDiff;}
-
-    public static int getLevel(){return level;}
-    public static void setLevel(int n){
-        if(n<=3 && n>=1) {
-            level = n;
-        }
-    }
-
-    public static int getDificulty(){return dificulty;}
-    public static void setDificulty(int n){
-        if(n<=3 && n>=1)
-        {
-            dificulty=n;
-        }
-    }
-
-
-    public static boolean isOptionMenu(){return optionMenu;}
+    //setarile jocului
+    private  int level=1;
+    private  int dificulty=1;
+    private  boolean music=true;
+    private String saveFile;
 
     //input
-    private static MouseListener Mouse=new MouseInput();
-    private KeyListener Key=new MenuInput();
+    private MouseListener Mouse=new MouseInput(this);
+    private KeyListener Key=new MenuInput(this);
 
-    public static void play()
+    //functia care imi initializeaza toate atributele
+    public void play()
     {
+        playButton=new MyButton("images/buttons/Menu/play.png",50,100);
+        loadButton=new MyButton("images/buttons/Menu/load.png",50,200);
+        optionButton=new MyButton("images/buttons/Menu/options.png",50,300);
+        helpButton=new MyButton("images/buttons/Menu/help.png",50,400);
+        quitButton=new MyButton("images/buttons/Menu/quit.png",50,500);
+
+        musicButton=new MyButton("images/buttons/Menu/ON.png",250,100);
+        backButton=new MyButton("images/buttons/Menu/back.png",50,400);
+        plusButton1=new MyButton("images/buttons/plus.png",320,220);
+        minusButton1=new MyButton("images/buttons/minus.png",460,220);
+        plusButton2=new MyButton("images/buttons/plus.png",320,320);
+        minusButton2=new MyButton("images/buttons/minus.png",460,320);
         frame = new SimpleFrame(WIDTH, HEIGHT, 1, name);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.requestFocus();
+       // frame.requestFocus();
+        frame.addMouseListener(Mouse);
+        frame.addKeyListener(Key);
         frame.setVisible(true);
+
+        loadSettings();
     }
 
     //Run method
@@ -122,11 +108,8 @@ public class Menu implements Runnable{
         }
     }
 
-    //render functions
+    //render
     private void render() {
-        // frame.getFrame().getContentPane().setBackground(Color.GREEN);
-        frame.addMouseListener(Mouse);
-        frame.addKeyListener(Key);
         BufferStrategy bs = frame.getBufferStrategy();
         if (bs == null) {
             frame.createBufferStrategy(3);                                        // Creates a new bs with triple buffering, which reduces tearing and cross-image pixelation
@@ -135,25 +118,24 @@ public class Menu implements Runnable{
         Graphics g = bs.getDrawGraphics();
         if(!optionMenu) {
             g.drawImage((new ImageIcon("images/backgr.png")).getImage(), 0, 0, null);
-            g.drawImage((new ImageIcon("images/buttons/Menu/play.png")).getImage(), 50, 100, null);
-            g.drawImage((new ImageIcon("images/buttons/Menu/load.png")).getImage(), 50, 200, null);
-            g.drawImage((new ImageIcon("images/buttons/Menu/options.png")).getImage(), 50, 300, null);
-            g.drawImage((new ImageIcon("images/buttons/Menu/help.png")).getImage(), 50, 400, null);
-            g.drawImage((new ImageIcon("images/buttons/Menu/quit.png")).getImage(), 50, 500, null);
+            playButton.render(g);
+            loadButton.render(g);
+            optionButton.render(g);
+            helpButton.render(g);
+            quitButton.render(g);
         }
         else
         {
             g.drawImage((new ImageIcon("images/backgr.png")).getImage(), 0, 0, null);
             g.drawImage((new ImageIcon("images/buttons/Menu/music.png")).getImage(), 50, 100, null);
-            if(Menu.isMusic())
-            {
-                g.drawImage((new ImageIcon("images/buttons/Menu/ON.png")).getImage(), 300, 100, null);
-            }
-            else {
-                g.drawImage((new ImageIcon("images/buttons/Menu/OFF.png")).getImage(), 300, 100, null);
-            }
-            g.drawImage((new ImageIcon("images/buttons/Menu/dificulty.png")).getImage(), 50, 200, null);
-            g.drawImage((new ImageIcon("images/buttons/plus.png")).getImage(), 330, 220, null);
+            g.drawImage((new ImageIcon("images/buttons/Menu/dificulty.png")).getImage(),50,200,null);
+            g.drawImage((new ImageIcon("images/buttons/Menu/level.png")).getImage(),50,300,null);
+            musicButton.render(g);
+            plusButton1.render(g);
+            minusButton1.render(g);
+            plusButton2.render(g);
+            minusButton2.render(g);
+            backButton.render(g);
             String temp="";
             if(dificulty==1)
             {
@@ -170,10 +152,7 @@ public class Menu implements Runnable{
             g.setFont(new Font("Arial", java.awt.Font.BOLD, 27));
             g.setColor(Color.white);
             g.drawString(temp,380,240);
-            g.drawImage((new ImageIcon("images/buttons/minus.png")).getImage(), 450, 220, null);
-
-            g.drawImage((new ImageIcon("images/buttons/Menu/level.png")).getImage(), 50, 300, null);
-            g.drawImage((new ImageIcon("images/buttons/Menu/back.png")).getImage(), 50, 400, null);
+            g.drawString(""+level,380,340);
         }
         g.dispose();
         bs.show();
@@ -185,21 +164,74 @@ public class Menu implements Runnable{
         new Thread(this, "MENU").start();
     }
 
-    public static boolean isGameOver(){return gameOver;}
+    //functii care imi dau acces la atributele clasei
 
-    public static boolean isRunning(){return running;}
+    public  SimpleFrame getFrame(){return frame;}
+    public  void setFrame(SimpleFrame frame){this.frame=frame;}
 
-    public static void setRunning(boolean running){Menu.running=running;}
+    public  int getLevel(){return level;}
+    public  void setLevel(int n){
+        if(n<=3 && n>=1) {
+            level = n;
+        }
+    }
 
-    public static void setGameOver(boolean gameOver){Menu.gameOver=gameOver;}
+    public  int getDificulty(){return dificulty;}
+    public  void setDificulty(int n){
+        if(n<=3 && n>=1)
+        {
+            dificulty=n;
+        }
+    }
 
-    public static SimpleFrame getFrame(){return frame;}
+    public void loadSettings()
+    {
+        base.setDifficulty(dificulty);
+        base.setMusic(music);
+        base.setLevel(level);
+    }
 
-    public static void setFrame(SimpleFrame frame){Menu.frame=frame;}
+    public BaseValues getBase(){return base;}
 
 
-    public static boolean isReloadMenu(){return reload;}
+    //functiile cu ajutorul carora pot accesa butoanele de pe ecranul principal si inafara
+    public  MyButton getPlayButton() {return playButton;}
 
-    public static void  setReloadMenu(boolean reload){Menu.reload=reload;}
+    public  MyButton getHelpButton(){return helpButton;}
+
+    public  MyButton getOptionButton(){return optionButton;}
+
+    public  MyButton getQuitButton(){return quitButton;}
+
+    public  MyButton getLoadButton(){return loadButton;}
+
+    //functiile cu ajutorul corora pot accesa butoanele din optiuni si inafara
+    public  MyButton getBackButton(){return backButton;}
+
+    public  MyButton getMusicButton(){return musicButton;}
+
+    public  MyButton getPlusButton1(){return plusButton1;}
+
+    public MyButton getMinusButton1(){return minusButton1;}
+
+    public  MyButton getPlusButton2(){return plusButton2;}
+
+    public MyButton getMinusButton2(){return minusButton2;}
+
+    //functiile care imi permit accesul si modificarea atributelor booleene
+    public  void setMusic(boolean o){music=o;}
+    public boolean getMusic(){return music;}
+
+    public void setOptionMenu(boolean p)
+    {
+        optionMenu=p;
+    }
+    public boolean isOptionMenu(){return optionMenu;}
+
+    public  boolean isRunning(){return running;}
+    public  void setRunning(boolean running){this.running=running;}
+
+    public  boolean isGameOver(){return gameOver;}
+    public  void setGameOver(boolean gameOver){this.gameOver=gameOver;}
 
 }

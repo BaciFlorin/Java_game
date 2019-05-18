@@ -6,7 +6,7 @@ public class Backgorund extends Item {
     public Backgorund(int x,int y)
     {
         super(x,y);
-        loadImage("images/background.png");
+        loadImage("images/background1-720.png");
         getImageDimensions();
     }
 

@@ -3,7 +3,7 @@ package paoo.Items;
 import javax.swing.*;
 import java.awt.*;
 
-public class Item {
+abstract public class Ship {
     public int x;
     public int y;
     public int width;
@@ -11,7 +11,7 @@ public class Item {
     public boolean vis;
     public Image image;
 
-    public Item(int x, int y) {
+    public Ship(int x, int y) {
 
         this.x = x;
         this.y = y;
@@ -52,11 +52,6 @@ public class Item {
         return new Rectangle(x, y, width, height);
     }
 
-    public void tick()
-    {
-
-    }
-
     public void setX(int x)
     {
         this.x=x;
@@ -66,5 +61,11 @@ public class Item {
     {
         this.y=y;
     }
+
+    abstract public void increaseDifficulty(int n);
+
+    abstract public void fire();
+
+    abstract public java.util.List<Shoot> getShoots();
 
 }
