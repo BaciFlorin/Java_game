@@ -1,5 +1,7 @@
 package paoo.Game.Input;
 
+import paoo.Game.Game;
+
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 
@@ -7,7 +9,6 @@ public class WindowHandle implements WindowListener {
 
     @Override
     public void windowActivated(WindowEvent event) {
-
     }
 
     @Override
@@ -22,7 +23,7 @@ public class WindowHandle implements WindowListener {
 
     @Override
     public void windowDeactivated(WindowEvent event) {
-
+        Game.setPause(true);
     }
 
     @Override

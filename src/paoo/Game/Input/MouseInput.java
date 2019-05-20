@@ -43,9 +43,12 @@ public class MouseInput implements MouseListener {
             //iese din joc
             if(Game.getQuitButton().isPressed(e.getX(),e.getY()))
             {
+                Game.getLevelHandle().getBase().close();
+                Game.getLevelHandle().getLbase().close();
                 System.exit(0);
             }
         }
+
     }
 
     public void mousePressed(MouseEvent e) {

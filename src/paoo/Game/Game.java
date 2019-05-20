@@ -59,7 +59,7 @@ public class Game implements Runnable {
     private static int score;
     private static int enemyesLeft;
     private static int nivel;
-    private int waitTime=300;
+    private int waitTime=200;
 
     //variabila asta imi spune daca jocul va fi incarcat din fisier sau din tabel
     private static boolean load=false;
@@ -147,18 +147,23 @@ public class Game implements Runnable {
         score=0;
         spaceShip.setX(30);
         spaceShip.setY(30);
+        java.util.List<Shoot> missile=spaceShip.getMissiles();
+        for(Shoot i:missile)
+        {
+            i.setVisible(false);
+        }
         enemyesLeft=level.getItems().size();
     }
 
     public static synchronized void nextLvl()
     {
+        level.getSbase().saveScore(score,nivel);
+        nivel++;
         if(nivel>3)
         {
             nivel=1;
         }
-        System.out.println("Numar de inamici inainte de incarcare:"+level.getItems().size());
         level.setLevel(nivel);
-        level.loadLevelFromSQL();
         enemyesLeft=level.getItems().size();
         lives=3;
         for(int i=0;i<hearts.size();i++)
@@ -168,7 +173,11 @@ public class Game implements Runnable {
         score=0;
         spaceShip.setX(30);
         spaceShip.setY(30);
-        System.out.println("Numar de inamici:"+level.getItems().size());
+        java.util.List<Shoot> missile=spaceShip.getMissiles();
+        for(Shoot i:missile)
+        {
+            i.setVisible(false);
+        }
     }
 
     /*
@@ -223,7 +232,7 @@ public class Game implements Runnable {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            if(shouldUpdate && !Game.isPause() && !Game.isOver())
+            if(shouldUpdate && !Game.isPause() && !Game.isOver() && !Game.getWin())
             {
                 updateMissiles();
                 updateSpaceShip();
@@ -264,11 +273,11 @@ public class Game implements Runnable {
             return;
         }
         Graphics g2d = bs.getDrawGraphics();
-        System.out.println(win);
-        if(!Game.getWin()) {
-            if (Game.isOver()) {
+        if(!getWin()) {
+            if (isOver()) {
                 //Daca e gameover va afisa ceva
                 g2d.drawImage((new ImageIcon("images/gameover.jpg")).getImage(), -100, 0, null);
+                reloadButton.changeLocation(200,500);
                 reloadButton.render(g2d);
                 quitButton.changeLocation(650, 500);
                 quitButton.render(g2d);
@@ -323,13 +332,14 @@ public class Game implements Runnable {
             g2d.drawImage((new ImageIcon("images/black.jpg")).getImage(), -100, 0, null);
             g2d.setColor(Color.white);
             g2d.setFont(new java.awt.Font("Arial", java.awt.Font.BOLD, 50));
-            g2d.drawString("Congratulation!",400,300);
+            g2d.drawString("Felicitari!",400,300);
             g2d.setFont(new java.awt.Font("Arial", java.awt.Font.BOLD, 40));
-            g2d.drawString("Scor:"+score,500,400);
-            g2d.drawString("Se incarca urmatorul nivel.....",400,500);
+            g2d.drawString("Scor:"+score,400,400);
+            g2d.drawString("Se incarca urmatorul nivel....",350,500);
             waitTime--;
-            if(waitTime==0) {
-                waitTime=300;
+            if(waitTime==0)
+            {
+                waitTime=200;
                 nextLvl();
                 win=false;
             }

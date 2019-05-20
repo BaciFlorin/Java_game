@@ -1,6 +1,7 @@
 package paoo.Game.Level;
 
 import paoo.Game.BaseValues;
+import paoo.Game.ScoreBase;
 import paoo.Items.*;
 
 import java.awt.*;
@@ -22,6 +23,7 @@ public class LevelHandle {
     //obiectul care comunica cu baza de date
     private BaseValues base;
     private LevelBase lbase;
+    private ScoreBase sbase;
     private List<Ship> items=new ArrayList<>();
     private Backgorund backgorund;
 
@@ -29,6 +31,7 @@ public class LevelHandle {
     {
         //baza de date
         base=new BaseValues();
+        sbase=new ScoreBase();
 
         //Initializarea imaginii din spate
         backgorund=new Backgorund(0,0);
@@ -45,6 +48,18 @@ public class LevelHandle {
 
     public void render(Graphics g)
     {
+        if(nrLevel==2)
+        {
+            backgorund.changeImage("images/background3-720.png");
+        }
+        else if(nrLevel==3)
+        {
+            backgorund.changeImage("images/snow.png");
+        }
+        else
+        {
+            backgorund.changeImage("images/background1-720.png");
+        }
         g.drawImage(backgorund.getImage(),backgorund.getX(),backgorund.getY(),null);
         for(int i=0;i<items.size();i++)
         {
@@ -145,13 +160,7 @@ public class LevelHandle {
             List<Ship> temp=new ArrayList<>();
             for(int i=0;i<nr_entitati;i++)
             {
-                switch (tipuri[i])
-                {
-                    case "1":temp.add(new SmallEnemy(Integer.parseInt(xpos[i]),Integer.parseInt(ypos[i])));
-                    break;
-                    case "2":temp.add(new BigEnemy(Integer.parseInt(xpos[i]),Integer.parseInt(ypos[i])));
-                    break;
-                }
+                temp.add(AbstractShipFactory.createShip(Integer.parseInt(tipuri[i]),Integer.parseInt(xpos[i]),Integer.parseInt(ypos[i])));
             }
             items=temp;
         }
@@ -170,15 +179,7 @@ public class LevelHandle {
         {
             int x=xpos.get(i);
             int y=ypos.get(i);
-            switch (types.get(i))
-            {
-                case 1:
-                    temp.add(new SmallEnemy(x,y));
-                    break;
-                case 2:
-                    temp.add(new BigEnemy(x,y));
-                    break;
-            }
+            temp.add(AbstractShipFactory.createShip(types.get(i),x,y));
         }
         items=temp;
         setDifficulty();
@@ -202,6 +203,7 @@ public class LevelHandle {
             nrLevel=1;
         }
         lbase.changeLevel(nrLevel);
+        loadLevelFromSQL();
     }
 
     public int getLevel()
@@ -217,5 +219,5 @@ public class LevelHandle {
 
     public LevelBase getLbase(){return lbase;}
     public BaseValues getBase(){return base;}
-
+    public ScoreBase getSbase(){return sbase;}
 }
