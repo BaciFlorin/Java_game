@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacepaoo_1_1_game_1_1_level" kind="namespace" language="Java">
+    <compoundname>paoo::Game::Level</compoundname>
+    <innerclass refid="classpaoo_1_1_game_1_1_level_1_1_abstract_ship_factory" prot="public">paoo::Game::Level::AbstractShipFactory</innerclass>
+    <innerclass refid="classpaoo_1_1_game_1_1_level_1_1_level_base" prot="public">paoo::Game::Level::LevelBase</innerclass>
+    <innerclass refid="classpaoo_1_1_game_1_1_level_1_1_level_handle" prot="public">paoo::Game::Level::LevelHandle</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/paoo/Game/Level/AbstractShipFactory.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

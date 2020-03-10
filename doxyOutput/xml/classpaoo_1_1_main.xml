@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classpaoo_1_1_main" kind="class" language="Java" prot="public">
+    <compoundname>paoo::Main</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classpaoo_1_1_main_1aa9a98cd90cc8ddb78629a05d04e9241f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void paoo.Main.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String []</type>
+          <declname>args</declname>
+        </param>
+        <exceptions> throws Exception</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Main.java" line="8" column="1" bodyfile="src/paoo/Main.java" bodystart="8" bodyend="37"/>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1a793c1a928f9055aa32d799d1c1d53f34" compoundref="_menu_8java" startline="159" endline="163">paoo.Menu.Menu.start</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/paoo/Main.java" line="6" column="1" bodyfile="src/paoo/Main.java" bodystart="6" bodyend="38"/>
+    <listofallmembers>
+      <member refid="classpaoo_1_1_main_1aa9a98cd90cc8ddb78629a05d04e9241f" prot="public" virt="non-virtual"><scope>paoo::Main</scope><name>main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

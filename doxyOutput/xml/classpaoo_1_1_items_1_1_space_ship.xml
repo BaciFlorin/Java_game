@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classpaoo_1_1_items_1_1_space_ship" kind="class" language="Java" prot="public">
+    <compoundname>paoo::Items::SpaceShip</compoundname>
+    <basecompoundref refid="classpaoo_1_1_items_1_1_item" prot="public" virt="non-virtual">paoo.Items.Item</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_space_ship_1aca352f6db0710fa86ea728247debcdd3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Items.SpaceShip.dx</definition>
+        <argsstring></argsstring>
+        <name>dx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SpaceShip.java" line="12" column="1" bodyfile="src/paoo/Items/SpaceShip.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_space_ship_1ad7f13196a66c8beec127ba26358561c6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Items.SpaceShip.dy</definition>
+        <argsstring></argsstring>
+        <name>dy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SpaceShip.java" line="13" column="1" bodyfile="src/paoo/Items/SpaceShip.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_space_ship_1acdc8d5f4e57ee8b28f45628cf1007257" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="classpaoo_1_1_items_1_1_shoot" kindref="compound">Shoot</ref> &gt;</type>
+        <definition>List&lt;Shoot&gt; paoo.Items.SpaceShip.missiles</definition>
+        <argsstring></argsstring>
+        <name>missiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SpaceShip.java" line="14" column="1" bodyfile="src/paoo/Items/SpaceShip.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_space_ship_1af402036d913d5e36afa11fbae677fee7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Items.SpaceShip.nr_shoots</definition>
+        <argsstring></argsstring>
+        <name>nr_shoots</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SpaceShip.java" line="15" column="1" bodyfile="src/paoo/Items/SpaceShip.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_space_ship_1a9d9d475fdb8dfdb03e48bddde8171151" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>paoo.Items.SpaceShip.SpaceShip</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>SpaceShip</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SpaceShip.java" line="17" column="1" bodyfile="src/paoo/Items/SpaceShip.java" bodystart="17" bodyend="21"/>
+        <references refid="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" compoundref="_item_8java" startline="7">paoo.Items.Item.x</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1a4e9f4d0ae406e925a75e12a4f0059589" compoundref="_item_8java" startline="8">paoo.Items.Item.y</references>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_space_ship_1a331e159ff1a6ce645ced0936b8b2ef5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Items.SpaceShip.move</definition>
+        <argsstring>()</argsstring>
+        <name>move</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SpaceShip.java" line="31" column="1" bodyfile="src/paoo/Items/SpaceShip.java" bodystart="31" bodyend="70"/>
+        <references refid="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" compoundref="_item_8java" startline="7">paoo.Items.Item.x</references>
+        <references refid="classpaoo_1_1_game_1_1_map_1a974962b31b19b860ca8f07dcb90f295d" compoundref="_map_8java" startline="4">paoo.Game.Map.BOARD_WIDTH</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1a87a31aefbdd060475c082fd0a8bea27e" compoundref="_item_8java" startline="9">paoo.Items.Item.width</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1a4e9f4d0ae406e925a75e12a4f0059589" compoundref="_item_8java" startline="8">paoo.Items.Item.y</references>
+        <references refid="classpaoo_1_1_game_1_1_map_1aa8a25a9edc8a7f86845f6b05c4c607d1" compoundref="_map_8java" startline="5">paoo.Game.Map.BOARD_HEIGHT</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1a8cad22b0f254231b14fe9148fd8ee223" compoundref="_item_8java" startline="10">paoo.Items.Item.height</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1affe12d9d5138d1e304a21af3d1f83952" compoundref="_item_8java" startline="12">paoo.Items.Item.image</references>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_space_ship_1ac04c03ba7193912e7ea4ae64cb1d4901" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Items.SpaceShip.keyPressed</definition>
+        <argsstring>(KeyEvent e)</argsstring>
+        <name>keyPressed</name>
+        <param>
+          <type>KeyEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SpaceShip.java" line="72" column="1" bodyfile="src/paoo/Items/SpaceShip.java" bodystart="72" bodyend="89"/>
+        <references refid="classpaoo_1_1_items_1_1_space_ship_1a12d7356da6039839f943d9fbe4539b36" compoundref="_space_ship_8java" startline="95" endline="101">paoo.Items.SpaceShip.fire</references>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_space_ship_1a762bbe4e27487b5b57f21136ce615a35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classpaoo_1_1_items_1_1_shoot" kindref="compound">Shoot</ref> &gt;</type>
+        <definition>List&lt;Shoot&gt; paoo.Items.SpaceShip.getMissiles</definition>
+        <argsstring>()</argsstring>
+        <name>getMissiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SpaceShip.java" line="90" column="1" bodyfile="src/paoo/Items/SpaceShip.java" bodystart="90" bodyend="93"/>
+        <referencedby refid="classpaoo_1_1_game_1_1_game_1a0a2f9dd2d90e1809d4acab5739ce5152" compoundref="_game_8java" startline="139" endline="156">paoo.Game.Game.restore</referencedby>
+        <referencedby refid="classpaoo_1_1_game_1_1_game_1afac86035f5f348c7a362526d4ce4602f" compoundref="_game_8java" startline="158" endline="181">paoo.Game.Game.nextLvl</referencedby>
+        <referencedby refid="classpaoo_1_1_game_1_1_game_1ad94433dadeb33e87418110324cd8437f" compoundref="_game_8java" startline="268" endline="349">paoo.Game.Game.render</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_space_ship_1a12d7356da6039839f943d9fbe4539b36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void paoo.Items.SpaceShip.fire</definition>
+        <argsstring>()</argsstring>
+        <name>fire</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SpaceShip.java" line="95" column="1" bodyfile="src/paoo/Items/SpaceShip.java" bodystart="95" bodyend="101"/>
+        <references refid="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" compoundref="_item_8java" startline="7">paoo.Items.Item.x</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1a87a31aefbdd060475c082fd0a8bea27e" compoundref="_item_8java" startline="9">paoo.Items.Item.width</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1a4e9f4d0ae406e925a75e12a4f0059589" compoundref="_item_8java" startline="8">paoo.Items.Item.y</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1a8cad22b0f254231b14fe9148fd8ee223" compoundref="_item_8java" startline="10">paoo.Items.Item.height</references>
+        <referencedby refid="classpaoo_1_1_items_1_1_space_ship_1ac04c03ba7193912e7ea4ae64cb1d4901" compoundref="_space_ship_8java" startline="72" endline="89">paoo.Items.SpaceShip.keyPressed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_space_ship_1ae250005cc80d1b59d4ad8a9dfcb5f0e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void paoo.Items.SpaceShip.regenerateAmu</definition>
+        <argsstring>()</argsstring>
+        <name>regenerateAmu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SpaceShip.java" line="103" column="1" bodyfile="src/paoo/Items/SpaceShip.java" bodystart="103" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_space_ship_1a56b5568cb658644bcd7080aec1754ec1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Items.SpaceShip.updateImg</definition>
+        <argsstring>(Image img)</argsstring>
+        <name>updateImg</name>
+        <param>
+          <type>Image</type>
+          <declname>img</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SpaceShip.java" line="110" column="1" bodyfile="src/paoo/Items/SpaceShip.java" bodystart="110" bodyend="113"/>
+        <references refid="classpaoo_1_1_items_1_1_item_1affe12d9d5138d1e304a21af3d1f83952" compoundref="_item_8java" startline="12">paoo.Items.Item.image</references>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_space_ship_1a36d7ecc2c5785244cf125d181fa193a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Items.SpaceShip.keyReleased</definition>
+        <argsstring>(KeyEvent e)</argsstring>
+        <name>keyReleased</name>
+        <param>
+          <type>KeyEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SpaceShip.java" line="115" column="1" bodyfile="src/paoo/Items/SpaceShip.java" bodystart="115" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_space_ship_1af7ea717028d2ed142dd407e124b7b840" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int paoo.Items.SpaceShip.getNr_shoots</definition>
+        <argsstring>()</argsstring>
+        <name>getNr_shoots</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SpaceShip.java" line="131" column="1" bodyfile="src/paoo/Items/SpaceShip.java" bodystart="131" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_space_ship_1a4649ffe82f4e4ce051417491084c8302" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Items.SpaceShip.setNr_shoots</definition>
+        <argsstring>(int n)</argsstring>
+        <name>setNr_shoots</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SpaceShip.java" line="132" column="1" bodyfile="src/paoo/Items/SpaceShip.java" bodystart="132" bodyend="132"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_space_ship_1a59ec553b2d1666efec8c8b2cfaeabe1c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Items.SpaceShip.initSpaceShip</definition>
+        <argsstring>()</argsstring>
+        <name>initSpaceShip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SpaceShip.java" line="23" column="1" bodyfile="src/paoo/Items/SpaceShip.java" bodystart="23" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="110">
+        <label>paoo.Items.Item</label>
+        <link refid="classpaoo_1_1_items_1_1_item"/>
+      </node>
+      <node id="109">
+        <label>paoo.Items.SpaceShip</label>
+        <link refid="classpaoo_1_1_items_1_1_space_ship"/>
+        <childnode refid="110" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="112">
+        <label>paoo.Items.Item</label>
+        <link refid="classpaoo_1_1_items_1_1_item"/>
+      </node>
+      <node id="111">
+        <label>paoo.Items.SpaceShip</label>
+        <link refid="classpaoo_1_1_items_1_1_space_ship"/>
+        <childnode refid="112" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/paoo/Items/SpaceShip.java" line="11" column="1" bodyfile="src/paoo/Items/SpaceShip.java" bodystart="11" bodyend="133"/>
+    <listofallmembers>
+      <member refid="classpaoo_1_1_items_1_1_space_ship_1aca352f6db0710fa86ea728247debcdd3" prot="private" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>dx</name></member>
+      <member refid="classpaoo_1_1_items_1_1_space_ship_1ad7f13196a66c8beec127ba26358561c6" prot="private" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>dy</name></member>
+      <member refid="classpaoo_1_1_items_1_1_space_ship_1a12d7356da6039839f943d9fbe4539b36" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>fire</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a888dd14cc1821e98f21329163c728236" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>getBounds</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1aba2cf2a1a9ce810df283bcff6a187e07" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>getImage</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a3786544c6204b9e3ba2022bfa7803233" prot="protected" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>getImageDimensions</name></member>
+      <member refid="classpaoo_1_1_items_1_1_space_ship_1a762bbe4e27487b5b57f21136ce615a35" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>getMissiles</name></member>
+      <member refid="classpaoo_1_1_items_1_1_space_ship_1af7ea717028d2ed142dd407e124b7b840" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>getNr_shoots</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1aa57c228eb43ddffd7006dcc2f34d06d2" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>getX</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a9fbdcb5d086e8fe52ff17b9006d79bce" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>getY</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a8cad22b0f254231b14fe9148fd8ee223" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>height</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1affe12d9d5138d1e304a21af3d1f83952" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>image</name></member>
+      <member refid="classpaoo_1_1_items_1_1_space_ship_1a59ec553b2d1666efec8c8b2cfaeabe1c" prot="private" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>initSpaceShip</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a9b43e69a9411d6506f63abb20a1a9b70" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>isVisible</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a67ea19aa148b70ac2204f58891e34fd3" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>Item</name></member>
+      <member refid="classpaoo_1_1_items_1_1_space_ship_1ac04c03ba7193912e7ea4ae64cb1d4901" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>keyPressed</name></member>
+      <member refid="classpaoo_1_1_items_1_1_space_ship_1a36d7ecc2c5785244cf125d181fa193a9" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>keyReleased</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a321bec3d90dc1127c3b103edf14922d0" prot="protected" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>loadImage</name></member>
+      <member refid="classpaoo_1_1_items_1_1_space_ship_1acdc8d5f4e57ee8b28f45628cf1007257" prot="private" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>missiles</name></member>
+      <member refid="classpaoo_1_1_items_1_1_space_ship_1a331e159ff1a6ce645ced0936b8b2ef5f" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>move</name></member>
+      <member refid="classpaoo_1_1_items_1_1_space_ship_1af402036d913d5e36afa11fbae677fee7" prot="private" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>nr_shoots</name></member>
+      <member refid="classpaoo_1_1_items_1_1_space_ship_1ae250005cc80d1b59d4ad8a9dfcb5f0e9" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>regenerateAmu</name></member>
+      <member refid="classpaoo_1_1_items_1_1_space_ship_1a4649ffe82f4e4ce051417491084c8302" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>setNr_shoots</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a8e9c3167c76cc0a0b56b8276f429d0a3" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>setVisible</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a61ce25a678554d62ae06f2d46c8ac350" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>setX</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a1117854dca20c8e69bbd1e85f2d68b24" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>setY</name></member>
+      <member refid="classpaoo_1_1_items_1_1_space_ship_1a9d9d475fdb8dfdb03e48bddde8171151" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>SpaceShip</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1aaa33c2ff4971c3f1b52dbcea5f8a9c00" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>tick</name></member>
+      <member refid="classpaoo_1_1_items_1_1_space_ship_1a56b5568cb658644bcd7080aec1754ec1" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>updateImg</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a176df687dcb5ca636f6aaa667b9b43a1" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>vis</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a87a31aefbdd060475c082fd0a8bea27e" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>width</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>x</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a4e9f4d0ae406e925a75e12a4f0059589" prot="public" virt="non-virtual"><scope>paoo::Items::SpaceShip</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

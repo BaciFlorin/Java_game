@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_backgorund_8java" kind="file" language="Java">
+    <compoundname>Backgorund.java</compoundname>
+    <innerclass refid="classpaoo_1_1_items_1_1_backgorund" prot="public">paoo::Items::Backgorund</innerclass>
+    <innernamespace refid="namespacepaoo_1_1_items">paoo::Items</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">paoo.Items;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javax.swing.*;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="classpaoo_1_1_items_1_1_backgorund" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classpaoo_1_1_items_1_1_backgorund" kindref="compound">Backgorund</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="classpaoo_1_1_items_1_1_item" kindref="compound">Item</ref><sp/>{</highlight></codeline>
+<codeline lineno="6" refid="classpaoo_1_1_items_1_1_backgorund_1a0ee50e509313d100b87bbb0f15e5950a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classpaoo_1_1_items_1_1_backgorund_1a0ee50e509313d100b87bbb0f15e5950a" kindref="member">Backgorund</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" kindref="member">x</ref>,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classpaoo_1_1_items_1_1_item_1a4e9f4d0ae406e925a75e12a4f0059589" kindref="member">y</ref>)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super(<ref refid="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" kindref="member">x</ref>,<ref refid="classpaoo_1_1_items_1_1_item_1a4e9f4d0ae406e925a75e12a4f0059589" kindref="member">y</ref>);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classpaoo_1_1_items_1_1_item_1a321bec3d90dc1127c3b103edf14922d0" kindref="member">loadImage</ref>(</highlight><highlight class="stringliteral">&quot;images/background1-720.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classpaoo_1_1_items_1_1_item_1a3786544c6204b9e3ba2022bfa7803233" kindref="member">getImageDimensions</ref>();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="classpaoo_1_1_items_1_1_backgorund_1a0fffcaa11fa7b039ce86ebd8413a21bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpaoo_1_1_items_1_1_backgorund_1a0fffcaa11fa7b039ce86ebd8413a21bb" kindref="member">setXY</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" kindref="member">x</ref>,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classpaoo_1_1_items_1_1_item_1a4e9f4d0ae406e925a75e12a4f0059589" kindref="member">y</ref>)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.x=<ref refid="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" kindref="member">x</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.y=<ref refid="classpaoo_1_1_items_1_1_item_1a4e9f4d0ae406e925a75e12a4f0059589" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="classpaoo_1_1_items_1_1_backgorund_1ab6c2f00b5679effca1b27983424be596" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpaoo_1_1_items_1_1_backgorund_1ab6c2f00b5679effca1b27983424be596" kindref="member">move</ref>()</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" kindref="member">x</ref>-=1;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="classpaoo_1_1_items_1_1_backgorund_1ac158065e5487af0ea2e1845e34081fb6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpaoo_1_1_items_1_1_backgorund_1ac158065e5487af0ea2e1845e34081fb6" kindref="member">changeImage</ref>(String<sp/>simage)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImageIcon<sp/>img=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ImageIcon(simage);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classpaoo_1_1_items_1_1_item_1affe12d9d5138d1e304a21af3d1f83952" kindref="member">image</ref>=img.getImage();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/paoo/Items/Backgorund.java"/>
+  </compounddef>
+</doxygen>

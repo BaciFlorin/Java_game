@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacepaoo" kind="namespace" language="Java">
+    <compoundname>paoo</compoundname>
+    <innerclass refid="classpaoo_1_1_main" prot="public">paoo::Main</innerclass>
+    <innerclass refid="classpaoo_1_1_simple_frame" prot="public">paoo::SimpleFrame</innerclass>
+    <innernamespace refid="namespacepaoo_1_1_game">paoo::Game</innernamespace>
+    <innernamespace refid="namespacepaoo_1_1_items">paoo::Items</innernamespace>
+    <innernamespace refid="namespacepaoo_1_1_menu">paoo::Menu</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

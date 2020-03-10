@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classpaoo_1_1_items_1_1_animated_item" kind="class" language="Java" prot="public">
+    <compoundname>paoo::Items::AnimatedItem</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_animated_item_1ad476e77d537824c6cfdd51638a81ccb4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Items.AnimatedItem.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/AnimatedItem.java" line="7" column="1" bodyfile="src/paoo/Items/AnimatedItem.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_animated_item_1a1114998616041d0f6fe88178149b6475" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Items.AnimatedItem.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/AnimatedItem.java" line="8" column="1" bodyfile="src/paoo/Items/AnimatedItem.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_animated_item_1a2efc7b57ec8255b6a9e5e4cd506bd933" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean paoo.Items.AnimatedItem.vis</definition>
+        <argsstring></argsstring>
+        <name>vis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/AnimatedItem.java" line="9" column="1" bodyfile="src/paoo/Items/AnimatedItem.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_animated_item_1ae740ac2a5d4f57ba36bb0a5dd517124d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Items.AnimatedItem.nr_animatii</definition>
+        <argsstring></argsstring>
+        <name>nr_animatii</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/AnimatedItem.java" line="10" column="1" bodyfile="src/paoo/Items/AnimatedItem.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_animated_item_1aba4329c6800354076767433f609c15b4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Items.AnimatedItem.width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/AnimatedItem.java" line="11" column="1" bodyfile="src/paoo/Items/AnimatedItem.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_animated_item_1a586ae6eed035eaee3a7c1fd5dd30cbfb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Items.AnimatedItem.height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/AnimatedItem.java" line="12" column="1" bodyfile="src/paoo/Items/AnimatedItem.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_animated_item_1af282f373f504aec31a3f12ba722edb2b" prot="private" static="no" mutable="no">
+        <type>Image []</type>
+        <definition>Image [] paoo.Items.AnimatedItem.images</definition>
+        <argsstring></argsstring>
+        <name>images</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/AnimatedItem.java" line="13" column="1" bodyfile="src/paoo/Items/AnimatedItem.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_animated_item_1a27647d02493073cad9d0b5cf7e36ffb6" prot="private" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image paoo.Items.AnimatedItem.image</definition>
+        <argsstring></argsstring>
+        <name>image</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/AnimatedItem.java" line="14" column="1" bodyfile="src/paoo/Items/AnimatedItem.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_animated_item_1a1948b6c1f4704d1318ff0f26b8660efd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>paoo.Items.AnimatedItem.AnimatedItem</definition>
+        <argsstring>(int x, int y, int nr)</argsstring>
+        <name>AnimatedItem</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/AnimatedItem.java" line="16" column="1" bodyfile="src/paoo/Items/AnimatedItem.java" bodystart="16" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_animated_item_1a1a9738baa1a0c44ede791393ae8e6ef8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Items.AnimatedItem.render</definition>
+        <argsstring>(Graphics g)</argsstring>
+        <name>render</name>
+        <param>
+          <type>Graphics</type>
+          <declname>g</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/AnimatedItem.java" line="25" column="1" bodyfile="src/paoo/Items/AnimatedItem.java" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_animated_item_1aa6f29e6699eb3a7161128019580a26dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Items.AnimatedItem.tick</definition>
+        <argsstring>()</argsstring>
+        <name>tick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/AnimatedItem.java" line="30" column="1" bodyfile="src/paoo/Items/AnimatedItem.java" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_animated_item_1a4bf887781ecd81132d77eae2ad0feac7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Items.AnimatedItem.loadImages</definition>
+        <argsstring>(String[] imagini)</argsstring>
+        <name>loadImages</name>
+        <param>
+          <type>String []</type>
+          <declname>imagini</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/AnimatedItem.java" line="35" column="1" bodyfile="src/paoo/Items/AnimatedItem.java" bodystart="35" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_animated_item_1a0c083c4fd0f79846e79cc3eae07dab78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Items.AnimatedItem.loadDimensions</definition>
+        <argsstring>()</argsstring>
+        <name>loadDimensions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/AnimatedItem.java" line="44" column="1" bodyfile="src/paoo/Items/AnimatedItem.java" bodystart="44" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_animated_item_1a1ad92415a2b72b88806a6bdd3e473421" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Image</type>
+        <definition>Image paoo.Items.AnimatedItem.getImage</definition>
+        <argsstring>()</argsstring>
+        <name>getImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/AnimatedItem.java" line="50" column="1" bodyfile="src/paoo/Items/AnimatedItem.java" bodystart="50" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/paoo/Items/AnimatedItem.java" line="6" column="1" bodyfile="src/paoo/Items/AnimatedItem.java" bodystart="6" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classpaoo_1_1_items_1_1_animated_item_1a1948b6c1f4704d1318ff0f26b8660efd" prot="public" virt="non-virtual"><scope>paoo::Items::AnimatedItem</scope><name>AnimatedItem</name></member>
+      <member refid="classpaoo_1_1_items_1_1_animated_item_1a1ad92415a2b72b88806a6bdd3e473421" prot="public" virt="non-virtual"><scope>paoo::Items::AnimatedItem</scope><name>getImage</name></member>
+      <member refid="classpaoo_1_1_items_1_1_animated_item_1a586ae6eed035eaee3a7c1fd5dd30cbfb" prot="private" virt="non-virtual"><scope>paoo::Items::AnimatedItem</scope><name>height</name></member>
+      <member refid="classpaoo_1_1_items_1_1_animated_item_1a27647d02493073cad9d0b5cf7e36ffb6" prot="private" virt="non-virtual"><scope>paoo::Items::AnimatedItem</scope><name>image</name></member>
+      <member refid="classpaoo_1_1_items_1_1_animated_item_1af282f373f504aec31a3f12ba722edb2b" prot="private" virt="non-virtual"><scope>paoo::Items::AnimatedItem</scope><name>images</name></member>
+      <member refid="classpaoo_1_1_items_1_1_animated_item_1a0c083c4fd0f79846e79cc3eae07dab78" prot="public" virt="non-virtual"><scope>paoo::Items::AnimatedItem</scope><name>loadDimensions</name></member>
+      <member refid="classpaoo_1_1_items_1_1_animated_item_1a4bf887781ecd81132d77eae2ad0feac7" prot="public" virt="non-virtual"><scope>paoo::Items::AnimatedItem</scope><name>loadImages</name></member>
+      <member refid="classpaoo_1_1_items_1_1_animated_item_1ae740ac2a5d4f57ba36bb0a5dd517124d" prot="private" virt="non-virtual"><scope>paoo::Items::AnimatedItem</scope><name>nr_animatii</name></member>
+      <member refid="classpaoo_1_1_items_1_1_animated_item_1a1a9738baa1a0c44ede791393ae8e6ef8" prot="public" virt="non-virtual"><scope>paoo::Items::AnimatedItem</scope><name>render</name></member>
+      <member refid="classpaoo_1_1_items_1_1_animated_item_1aa6f29e6699eb3a7161128019580a26dd" prot="public" virt="non-virtual"><scope>paoo::Items::AnimatedItem</scope><name>tick</name></member>
+      <member refid="classpaoo_1_1_items_1_1_animated_item_1a2efc7b57ec8255b6a9e5e4cd506bd933" prot="private" virt="non-virtual"><scope>paoo::Items::AnimatedItem</scope><name>vis</name></member>
+      <member refid="classpaoo_1_1_items_1_1_animated_item_1aba4329c6800354076767433f609c15b4" prot="private" virt="non-virtual"><scope>paoo::Items::AnimatedItem</scope><name>width</name></member>
+      <member refid="classpaoo_1_1_items_1_1_animated_item_1ad476e77d537824c6cfdd51638a81ccb4" prot="private" virt="non-virtual"><scope>paoo::Items::AnimatedItem</scope><name>x</name></member>
+      <member refid="classpaoo_1_1_items_1_1_animated_item_1a1114998616041d0f6fe88178149b6475" prot="private" virt="non-virtual"><scope>paoo::Items::AnimatedItem</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

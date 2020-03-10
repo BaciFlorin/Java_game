@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classpaoo_1_1_items_1_1_backgorund" kind="class" language="Java" prot="public">
+    <compoundname>paoo::Items::Backgorund</compoundname>
+    <basecompoundref refid="classpaoo_1_1_items_1_1_item" prot="public" virt="non-virtual">paoo.Items.Item</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_backgorund_1a0ee50e509313d100b87bbb0f15e5950a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>paoo.Items.Backgorund.Backgorund</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>Backgorund</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Backgorund.java" line="6" column="1" bodyfile="src/paoo/Items/Backgorund.java" bodystart="6" bodyend="11"/>
+        <references refid="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" compoundref="_item_8java" startline="7">paoo.Items.Item.x</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1a4e9f4d0ae406e925a75e12a4f0059589" compoundref="_item_8java" startline="8">paoo.Items.Item.y</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1a321bec3d90dc1127c3b103edf14922d0" compoundref="_item_8java" startline="26" endline="29">paoo.Items.Item.loadImage</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1a3786544c6204b9e3ba2022bfa7803233" compoundref="_item_8java" startline="21" endline="24">paoo.Items.Item.getImageDimensions</references>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_backgorund_1a0fffcaa11fa7b039ce86ebd8413a21bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Items.Backgorund.setXY</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>setXY</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Backgorund.java" line="13" column="1" bodyfile="src/paoo/Items/Backgorund.java" bodystart="13" bodyend="17"/>
+        <references refid="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" compoundref="_item_8java" startline="7">paoo.Items.Item.x</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1a4e9f4d0ae406e925a75e12a4f0059589" compoundref="_item_8java" startline="8">paoo.Items.Item.y</references>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_backgorund_1ab6c2f00b5679effca1b27983424be596" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Items.Backgorund.move</definition>
+        <argsstring>()</argsstring>
+        <name>move</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Backgorund.java" line="19" column="1" bodyfile="src/paoo/Items/Backgorund.java" bodystart="19" bodyend="22"/>
+        <references refid="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" compoundref="_item_8java" startline="7">paoo.Items.Item.x</references>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_backgorund_1ac158065e5487af0ea2e1845e34081fb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Items.Backgorund.changeImage</definition>
+        <argsstring>(String simage)</argsstring>
+        <name>changeImage</name>
+        <param>
+          <type>String</type>
+          <declname>simage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Backgorund.java" line="24" column="1" bodyfile="src/paoo/Items/Backgorund.java" bodystart="24" bodyend="28"/>
+        <references refid="classpaoo_1_1_items_1_1_item_1affe12d9d5138d1e304a21af3d1f83952" compoundref="_item_8java" startline="12">paoo.Items.Item.image</references>
+        <referencedby refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a43ce92f954bc00e37e498f59479a3387" compoundref="_level_handle_8java" startline="49" endline="80">paoo.Game.Level.LevelHandle.render</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>paoo.Items.Item</label>
+        <link refid="classpaoo_1_1_items_1_1_item"/>
+      </node>
+      <node id="4">
+        <label>paoo.Items.Backgorund</label>
+        <link refid="classpaoo_1_1_items_1_1_backgorund"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>paoo.Items.Item</label>
+        <link refid="classpaoo_1_1_items_1_1_item"/>
+      </node>
+      <node id="6">
+        <label>paoo.Items.Backgorund</label>
+        <link refid="classpaoo_1_1_items_1_1_backgorund"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/paoo/Items/Backgorund.java" line="5" column="1" bodyfile="src/paoo/Items/Backgorund.java" bodystart="5" bodyend="29"/>
+    <listofallmembers>
+      <member refid="classpaoo_1_1_items_1_1_backgorund_1a0ee50e509313d100b87bbb0f15e5950a" prot="public" virt="non-virtual"><scope>paoo::Items::Backgorund</scope><name>Backgorund</name></member>
+      <member refid="classpaoo_1_1_items_1_1_backgorund_1ac158065e5487af0ea2e1845e34081fb6" prot="public" virt="non-virtual"><scope>paoo::Items::Backgorund</scope><name>changeImage</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a888dd14cc1821e98f21329163c728236" prot="public" virt="non-virtual"><scope>paoo::Items::Backgorund</scope><name>getBounds</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1aba2cf2a1a9ce810df283bcff6a187e07" prot="public" virt="non-virtual"><scope>paoo::Items::Backgorund</scope><name>getImage</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a3786544c6204b9e3ba2022bfa7803233" prot="protected" virt="non-virtual"><scope>paoo::Items::Backgorund</scope><name>getImageDimensions</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1aa57c228eb43ddffd7006dcc2f34d06d2" prot="public" virt="non-virtual"><scope>paoo::Items::Backgorund</scope><name>getX</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a9fbdcb5d086e8fe52ff17b9006d79bce" prot="public" virt="non-virtual"><scope>paoo::Items::Backgorund</scope><name>getY</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a8cad22b0f254231b14fe9148fd8ee223" prot="public" virt="non-virtual"><scope>paoo::Items::Backgorund</scope><name>height</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1affe12d9d5138d1e304a21af3d1f83952" prot="public" virt="non-virtual"><scope>paoo::Items::Backgorund</scope><name>image</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a9b43e69a9411d6506f63abb20a1a9b70" prot="public" virt="non-virtual"><scope>paoo::Items::Backgorund</scope><name>isVisible</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a67ea19aa148b70ac2204f58891e34fd3" prot="public" virt="non-virtual"><scope>paoo::Items::Backgorund</scope><name>Item</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a321bec3d90dc1127c3b103edf14922d0" prot="protected" virt="non-virtual"><scope>paoo::Items::Backgorund</scope><name>loadImage</name></member>
+      <member refid="classpaoo_1_1_items_1_1_backgorund_1ab6c2f00b5679effca1b27983424be596" prot="public" virt="non-virtual"><scope>paoo::Items::Backgorund</scope><name>move</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a8e9c3167c76cc0a0b56b8276f429d0a3" prot="public" virt="non-virtual"><scope>paoo::Items::Backgorund</scope><name>setVisible</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a61ce25a678554d62ae06f2d46c8ac350" prot="public" virt="non-virtual"><scope>paoo::Items::Backgorund</scope><name>setX</name></member>
+      <member refid="classpaoo_1_1_items_1_1_backgorund_1a0fffcaa11fa7b039ce86ebd8413a21bb" prot="public" virt="non-virtual"><scope>paoo::Items::Backgorund</scope><name>setXY</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a1117854dca20c8e69bbd1e85f2d68b24" prot="public" virt="non-virtual"><scope>paoo::Items::Backgorund</scope><name>setY</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1aaa33c2ff4971c3f1b52dbcea5f8a9c00" prot="public" virt="non-virtual"><scope>paoo::Items::Backgorund</scope><name>tick</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a176df687dcb5ca636f6aaa667b9b43a1" prot="public" virt="non-virtual"><scope>paoo::Items::Backgorund</scope><name>vis</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a87a31aefbdd060475c082fd0a8bea27e" prot="public" virt="non-virtual"><scope>paoo::Items::Backgorund</scope><name>width</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" prot="public" virt="non-virtual"><scope>paoo::Items::Backgorund</scope><name>x</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a4e9f4d0ae406e925a75e12a4f0059589" prot="public" virt="non-virtual"><scope>paoo::Items::Backgorund</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

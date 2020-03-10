@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_shoot_8java" kind="file" language="Java">
+    <compoundname>Shoot.java</compoundname>
+    <innerclass refid="classpaoo_1_1_items_1_1_shoot" prot="public">paoo::Items::Shoot</innerclass>
+    <innernamespace refid="namespacepaoo_1_1_items">paoo::Items</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">paoo.Items;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="classpaoo_1_1_items_1_1_shoot" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classpaoo_1_1_items_1_1_shoot" kindref="compound">Shoot</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="classpaoo_1_1_items_1_1_item" kindref="compound">Item</ref><sp/>{</highlight></codeline>
+<codeline lineno="4" refid="classpaoo_1_1_items_1_1_shoot_1ad0a2027ae7ca741af66dbc9130ef8276" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classpaoo_1_1_items_1_1_shoot_1ad0a2027ae7ca741af66dbc9130ef8276" kindref="member">BOARD_WIDTH</ref><sp/>=<sp/>1160;</highlight></codeline>
+<codeline lineno="5" refid="classpaoo_1_1_items_1_1_shoot_1a038860419db49c18d4ace73db96e28db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classpaoo_1_1_items_1_1_shoot_1a038860419db49c18d4ace73db96e28db" kindref="member">MISSILE_SPEED</ref><sp/>=<sp/>3;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classpaoo_1_1_items_1_1_shoot_1aefdbe2d087fa5044ab6f46d78041656b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classpaoo_1_1_items_1_1_shoot_1aefdbe2d087fa5044ab6f46d78041656b" kindref="member">Shoot</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" kindref="member">x</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classpaoo_1_1_items_1_1_item_1a4e9f4d0ae406e925a75e12a4f0059589" kindref="member">y</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super(<ref refid="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" kindref="member">x</ref>,<ref refid="classpaoo_1_1_items_1_1_item_1a4e9f4d0ae406e925a75e12a4f0059589" kindref="member">y</ref>);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpaoo_1_1_items_1_1_shoot_1a4842af7195b4b21c7f43f0bfdf3add73" kindref="member">move</ref>();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/paoo/Items/Shoot.java"/>
+  </compounddef>
+</doxygen>

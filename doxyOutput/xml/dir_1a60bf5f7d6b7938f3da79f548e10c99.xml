@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_1a60bf5f7d6b7938f3da79f548e10c99" kind="dir">
+    <compoundname>src/paoo/Game/Level</compoundname>
+    <innerfile refid="_abstract_ship_factory_8java">AbstractShipFactory.java</innerfile>
+    <innerfile refid="_level_base_8java">LevelBase.java</innerfile>
+    <innerfile refid="_level_handle_8java">LevelHandle.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/paoo/Game/Level/"/>
+  </compounddef>
+</doxygen>

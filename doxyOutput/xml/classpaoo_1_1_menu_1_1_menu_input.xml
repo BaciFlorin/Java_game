@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classpaoo_1_1_menu_1_1_menu_input" kind="class" language="Java" prot="public">
+    <compoundname>paoo::Menu::MenuInput</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">KeyListener</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_input_1a7f6b71e7ce73800d0859c4073b27be36" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Menu.MenuInput.i</definition>
+        <argsstring></argsstring>
+        <name>i</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/MenuInput.java" line="7" column="1" bodyfile="src/paoo/Menu/MenuInput.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_input_1a342857b545f94cbd57c34163d65b0581" prot="private" static="no" mutable="no">
+        <type>boolean []</type>
+        <definition>boolean [] paoo.Menu.MenuInput.buttons</definition>
+        <argsstring></argsstring>
+        <name>buttons</name>
+        <initializer>=new boolean[2]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/MenuInput.java" line="8" column="1" bodyfile="src/paoo/Menu/MenuInput.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_input_1a7514f79ede08b45b3b2ce9247f350825" prot="private" static="no" mutable="no">
+        <type><ref refid="classpaoo_1_1_menu_1_1_menu" kindref="compound">Menu</ref></type>
+        <definition>Menu paoo.Menu.MenuInput.source</definition>
+        <argsstring></argsstring>
+        <name>source</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/MenuInput.java" line="9" column="1" bodyfile="src/paoo/Menu/MenuInput.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_input_1a32356df18f530a4523f77e5c2491fd4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>paoo.Menu.MenuInput.MenuInput</definition>
+        <argsstring>(Menu source)</argsstring>
+        <name>MenuInput</name>
+        <param>
+          <type><ref refid="classpaoo_1_1_menu_1_1_menu" kindref="compound">Menu</ref></type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/MenuInput.java" line="11" column="1" bodyfile="src/paoo/Menu/MenuInput.java" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_input_1a05d9332cd4a69ffac777b10b15823857" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Menu.MenuInput.keyTyped</definition>
+        <argsstring>(KeyEvent e)</argsstring>
+        <name>keyTyped</name>
+        <param>
+          <type>KeyEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/MenuInput.java" line="15" column="1" bodyfile="src/paoo/Menu/MenuInput.java" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_input_1aaea2b108f8855fc345692d4aaf192ffc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Menu.MenuInput.keyPressed</definition>
+        <argsstring>(KeyEvent e)</argsstring>
+        <name>keyPressed</name>
+        <param>
+          <type>KeyEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/MenuInput.java" line="20" column="1" bodyfile="src/paoo/Menu/MenuInput.java" bodystart="20" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_input_1a981b9a0ddcf5e8d204a784ca4db51555" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Menu.MenuInput.keyReleased</definition>
+        <argsstring>(KeyEvent e)</argsstring>
+        <name>keyReleased</name>
+        <param>
+          <type>KeyEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/MenuInput.java" line="57" column="1" bodyfile="src/paoo/Menu/MenuInput.java" bodystart="57" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_input_1a87c36622a370784b4bc93e09c2857c28" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Menu.MenuInput.setValues</definition>
+        <argsstring>()</argsstring>
+        <name>setValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/MenuInput.java" line="62" column="1" bodyfile="src/paoo/Menu/MenuInput.java" bodystart="62" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="65">
+        <label>KeyListener</label>
+      </node>
+      <node id="64">
+        <label>paoo.Menu.MenuInput</label>
+        <link refid="classpaoo_1_1_menu_1_1_menu_input"/>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="67">
+        <label>KeyListener</label>
+      </node>
+      <node id="66">
+        <label>paoo.Menu.MenuInput</label>
+        <link refid="classpaoo_1_1_menu_1_1_menu_input"/>
+        <childnode refid="67" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/paoo/Menu/MenuInput.java" line="6" column="1" bodyfile="src/paoo/Menu/MenuInput.java" bodystart="6" bodyend="66"/>
+    <listofallmembers>
+      <member refid="classpaoo_1_1_menu_1_1_menu_input_1a342857b545f94cbd57c34163d65b0581" prot="private" virt="non-virtual"><scope>paoo::Menu::MenuInput</scope><name>buttons</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_input_1a7f6b71e7ce73800d0859c4073b27be36" prot="private" virt="non-virtual"><scope>paoo::Menu::MenuInput</scope><name>i</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_input_1aaea2b108f8855fc345692d4aaf192ffc" prot="public" virt="non-virtual"><scope>paoo::Menu::MenuInput</scope><name>keyPressed</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_input_1a981b9a0ddcf5e8d204a784ca4db51555" prot="public" virt="non-virtual"><scope>paoo::Menu::MenuInput</scope><name>keyReleased</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_input_1a05d9332cd4a69ffac777b10b15823857" prot="public" virt="non-virtual"><scope>paoo::Menu::MenuInput</scope><name>keyTyped</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_input_1a32356df18f530a4523f77e5c2491fd4a" prot="public" virt="non-virtual"><scope>paoo::Menu::MenuInput</scope><name>MenuInput</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_input_1a87c36622a370784b4bc93e09c2857c28" prot="private" virt="non-virtual"><scope>paoo::Menu::MenuInput</scope><name>setValues</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_input_1a7514f79ede08b45b3b2ce9247f350825" prot="private" virt="non-virtual"><scope>paoo::Menu::MenuInput</scope><name>source</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_888095fcae4b45471bb3dccfdc01d195" kind="dir">
+    <compoundname>src/paoo/Menu</compoundname>
+    <innerdir refid="dir_7e9ea3a38dde395c4f4991c4e98722c9">src/paoo/Menu/Buttons</innerdir>
+    <innerfile refid="_menu_8java">Menu.java</innerfile>
+    <innerfile refid="_menu_input_8java">MenuInput.java</innerfile>
+    <innerfile refid="_menu_2_mouse_input_8java">MouseInput.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/paoo/Menu/"/>
+  </compounddef>
+</doxygen>

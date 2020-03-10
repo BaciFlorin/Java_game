@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classpaoo_1_1_game_1_1_map" kind="class" language="Java" prot="public">
+    <compoundname>paoo::Game::Map</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_map_1a974962b31b19b860ca8f07dcb90f295d" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int paoo.Game.Map.BOARD_WIDTH</definition>
+        <argsstring></argsstring>
+        <name>BOARD_WIDTH</name>
+        <initializer>= 1100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Map.java" line="4" column="1" bodyfile="src/paoo/Game/Map.java" bodystart="4" bodyend="-1"/>
+        <referencedby refid="classpaoo_1_1_items_1_1_space_ship_1a331e159ff1a6ce645ced0936b8b2ef5f" compoundref="_space_ship_8java" startline="31" endline="70">paoo.Items.SpaceShip.move</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_map_1aa8a25a9edc8a7f86845f6b05c4c607d1" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int paoo.Game.Map.BOARD_HEIGHT</definition>
+        <argsstring></argsstring>
+        <name>BOARD_HEIGHT</name>
+        <initializer>=700</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Map.java" line="5" column="1" bodyfile="src/paoo/Game/Map.java" bodystart="5" bodyend="-1"/>
+        <referencedby refid="classpaoo_1_1_items_1_1_space_ship_1a331e159ff1a6ce645ced0936b8b2ef5f" compoundref="_space_ship_8java" startline="31" endline="70">paoo.Items.SpaceShip.move</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/paoo/Game/Map.java" line="3" column="1" bodyfile="src/paoo/Game/Map.java" bodystart="3" bodyend="6"/>
+    <listofallmembers>
+      <member refid="classpaoo_1_1_game_1_1_map_1aa8a25a9edc8a7f86845f6b05c4c607d1" prot="public" virt="non-virtual"><scope>paoo::Game::Map</scope><name>BOARD_HEIGHT</name></member>
+      <member refid="classpaoo_1_1_game_1_1_map_1a974962b31b19b860ca8f07dcb90f295d" prot="public" virt="non-virtual"><scope>paoo::Game::Map</scope><name>BOARD_WIDTH</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

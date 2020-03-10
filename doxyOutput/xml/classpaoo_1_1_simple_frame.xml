@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classpaoo_1_1_simple_frame" kind="class" language="Java" prot="public">
+    <compoundname>paoo::SimpleFrame</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JFrame</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpaoo_1_1_simple_frame_1a80932aad381cff97c9f21a135bc57a99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>paoo.SimpleFrame.SimpleFrame</definition>
+        <argsstring>(int WIDTH, int HEIGHT, int SCALE, String NAME)</argsstring>
+        <name>SimpleFrame</name>
+        <param>
+          <type>int</type>
+          <declname>WIDTH</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>HEIGHT</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>SCALE</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>NAME</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/SimpleFrame.java" line="8" column="1" bodyfile="src/paoo/SimpleFrame.java" bodystart="8" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_simple_frame_1a7451a5a060f0408e49a53a42c180b7bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.SimpleFrame.stopFrame</definition>
+        <argsstring>()</argsstring>
+        <name>stopFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/SimpleFrame.java" line="20" column="1" bodyfile="src/paoo/SimpleFrame.java" bodystart="20" bodyend="22"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="101">
+        <label>paoo.SimpleFrame</label>
+        <link refid="classpaoo_1_1_simple_frame"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>JFrame</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="103">
+        <label>paoo.SimpleFrame</label>
+        <link refid="classpaoo_1_1_simple_frame"/>
+        <childnode refid="104" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>JFrame</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/paoo/SimpleFrame.java" line="6" column="1" bodyfile="src/paoo/SimpleFrame.java" bodystart="6" bodyend="24"/>
+    <listofallmembers>
+      <member refid="classpaoo_1_1_simple_frame_1a80932aad381cff97c9f21a135bc57a99" prot="public" virt="non-virtual"><scope>paoo::SimpleFrame</scope><name>SimpleFrame</name></member>
+      <member refid="classpaoo_1_1_simple_frame_1a7451a5a060f0408e49a53a42c180b7bf" prot="public" virt="non-virtual"><scope>paoo::SimpleFrame</scope><name>stopFrame</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

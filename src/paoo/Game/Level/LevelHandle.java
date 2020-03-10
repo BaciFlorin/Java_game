@@ -76,7 +76,7 @@ public class LevelHandle {
         }
         g.setColor(Color.BLACK);
         g.setFont(new Font("Arial", java.awt.Font.BOLD, 27));
-        g.drawString("Nivelul:"+nrLevel,500,60);
+        g.drawString("Level:"+nrLevel,500,60);
     }
 
     public void saveLevelToFile()

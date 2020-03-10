@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classpaoo_1_1_items_1_1_small_enemy" kind="class" language="Java" prot="public">
+    <compoundname>paoo::Items::SmallEnemy</compoundname>
+    <basecompoundref refid="classpaoo_1_1_items_1_1_ship" prot="public" virt="non-virtual">paoo.Items.Ship</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_small_enemy_1a35244c923f8364c8b5cab23c27af6076" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="classpaoo_1_1_items_1_1_shoot" kindref="compound">Shoot</ref> &gt;</type>
+        <definition>List&lt;Shoot&gt; paoo.Items.SmallEnemy.missiles</definition>
+        <argsstring></argsstring>
+        <name>missiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SmallEnemy.java" line="7" column="1" bodyfile="src/paoo/Items/SmallEnemy.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_small_enemy_1a7bb4704effa2394f46d21318ec0b95f5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Items.SmallEnemy.initial</definition>
+        <argsstring></argsstring>
+        <name>initial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SmallEnemy.java" line="8" column="1" bodyfile="src/paoo/Items/SmallEnemy.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_small_enemy_1a265bfe0c287741336cdd98d7d7c3e104" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Items.SmallEnemy.time</definition>
+        <argsstring></argsstring>
+        <name>time</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SmallEnemy.java" line="9" column="1" bodyfile="src/paoo/Items/SmallEnemy.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_small_enemy_1a74243a482b53ab9dc9ed8c9e490e68fc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Items.SmallEnemy.dy</definition>
+        <argsstring></argsstring>
+        <name>dy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SmallEnemy.java" line="10" column="1" bodyfile="src/paoo/Items/SmallEnemy.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_small_enemy_1a655a84b883c1645b2295c99710fe849e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Items.SmallEnemy.waitTime</definition>
+        <argsstring></argsstring>
+        <name>waitTime</name>
+        <initializer>=200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SmallEnemy.java" line="11" column="1" bodyfile="src/paoo/Items/SmallEnemy.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_small_enemy_1ae469e250c2acd243c22f7a7b4d088365" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Items.SmallEnemy.speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SmallEnemy.java" line="12" column="1" bodyfile="src/paoo/Items/SmallEnemy.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_small_enemy_1af3d3b82ae17586f90695d7ba17827a0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>paoo.Items.SmallEnemy.SmallEnemy</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>SmallEnemy</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SmallEnemy.java" line="13" column="1" bodyfile="src/paoo/Items/SmallEnemy.java" bodystart="13" bodyend="21"/>
+        <references refid="classpaoo_1_1_items_1_1_ship_1ae2b8f46c221f4ea0da3b65505d3bdc17" compoundref="_ship_8java" startline="7">paoo.Items.Ship.x</references>
+        <references refid="classpaoo_1_1_items_1_1_ship_1a5aef1d0d56af2ae436cba36c794b1081" compoundref="_ship_8java" startline="8">paoo.Items.Ship.y</references>
+        <references refid="classpaoo_1_1_items_1_1_ship_1acc4f8c0351c9dcdca559605b955d5143" compoundref="_ship_8java" startline="26" endline="29">paoo.Items.Ship.loadImage</references>
+        <references refid="classpaoo_1_1_items_1_1_ship_1ab817d0df9c868274152f08704284d1b6" compoundref="_ship_8java" startline="21" endline="24">paoo.Items.Ship.getImageDimensions</references>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_small_enemy_1aa73deddb0318a3e95db80a32cf00561b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Items.SmallEnemy.fire</definition>
+        <argsstring>()</argsstring>
+        <name>fire</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SmallEnemy.java" line="24" column="1" bodyfile="src/paoo/Items/SmallEnemy.java" bodystart="24" bodyend="40"/>
+        <references refid="classpaoo_1_1_items_1_1_ship_1a5aef1d0d56af2ae436cba36c794b1081" compoundref="_ship_8java" startline="8">paoo.Items.Ship.y</references>
+        <references refid="classpaoo_1_1_items_1_1_ship_1a590c5d0512ad2ee37d4bea8561cf9bb1" compoundref="_ship_8java" startline="10">paoo.Items.Ship.height</references>
+        <references refid="classpaoo_1_1_items_1_1_ship_1ae2b8f46c221f4ea0da3b65505d3bdc17" compoundref="_ship_8java" startline="7">paoo.Items.Ship.x</references>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_small_enemy_1aa8b1f1f61ad3645e33b01c70486c4248" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classpaoo_1_1_items_1_1_shoot" kindref="compound">Shoot</ref> &gt;</type>
+        <definition>List&lt;Shoot&gt; paoo.Items.SmallEnemy.getShoots</definition>
+        <argsstring>()</argsstring>
+        <name>getShoots</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SmallEnemy.java" line="42" column="1" bodyfile="src/paoo/Items/SmallEnemy.java" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_small_enemy_1afb7a05343dae785c5ef9463a8b2ea25d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Items.SmallEnemy.increaseDifficulty</definition>
+        <argsstring>(int n)</argsstring>
+        <name>increaseDifficulty</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/SmallEnemy.java" line="48" column="1" bodyfile="src/paoo/Items/SmallEnemy.java" bodystart="48" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="106">
+        <label>paoo.Items.Ship</label>
+        <link refid="classpaoo_1_1_items_1_1_ship"/>
+      </node>
+      <node id="105">
+        <label>paoo.Items.SmallEnemy</label>
+        <link refid="classpaoo_1_1_items_1_1_small_enemy"/>
+        <childnode refid="106" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="108">
+        <label>paoo.Items.Ship</label>
+        <link refid="classpaoo_1_1_items_1_1_ship"/>
+      </node>
+      <node id="107">
+        <label>paoo.Items.SmallEnemy</label>
+        <link refid="classpaoo_1_1_items_1_1_small_enemy"/>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/paoo/Items/SmallEnemy.java" line="5" column="1" bodyfile="src/paoo/Items/SmallEnemy.java" bodystart="5" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classpaoo_1_1_items_1_1_small_enemy_1a74243a482b53ab9dc9ed8c9e490e68fc" prot="private" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>dy</name></member>
+      <member refid="classpaoo_1_1_items_1_1_small_enemy_1aa73deddb0318a3e95db80a32cf00561b" prot="public" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>fire</name></member>
+      <member refid="classpaoo_1_1_items_1_1_ship_1a540f6064272d5b9f73c3e5661d4cfc6b" prot="public" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>getBounds</name></member>
+      <member refid="classpaoo_1_1_items_1_1_ship_1a9042f4deac7bc7c2b224f877c8636d46" prot="public" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>getImage</name></member>
+      <member refid="classpaoo_1_1_items_1_1_ship_1ab817d0df9c868274152f08704284d1b6" prot="protected" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>getImageDimensions</name></member>
+      <member refid="classpaoo_1_1_items_1_1_small_enemy_1aa8b1f1f61ad3645e33b01c70486c4248" prot="public" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>getShoots</name></member>
+      <member refid="classpaoo_1_1_items_1_1_ship_1a038e58f70fce9e412d7f8b069e4cfe4e" prot="public" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>getX</name></member>
+      <member refid="classpaoo_1_1_items_1_1_ship_1a02e256416b61c36c4375d67cdd6c7373" prot="public" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>getY</name></member>
+      <member refid="classpaoo_1_1_items_1_1_ship_1a590c5d0512ad2ee37d4bea8561cf9bb1" prot="public" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>height</name></member>
+      <member refid="classpaoo_1_1_items_1_1_ship_1a82dbe83c5499357bece99a8dd1de5fdb" prot="public" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>image</name></member>
+      <member refid="classpaoo_1_1_items_1_1_small_enemy_1afb7a05343dae785c5ef9463a8b2ea25d" prot="public" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>increaseDifficulty</name></member>
+      <member refid="classpaoo_1_1_items_1_1_small_enemy_1a7bb4704effa2394f46d21318ec0b95f5" prot="private" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>initial</name></member>
+      <member refid="classpaoo_1_1_items_1_1_ship_1a0cb18800e4db4b287c1cb793aab85c47" prot="public" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>isVisible</name></member>
+      <member refid="classpaoo_1_1_items_1_1_ship_1acc4f8c0351c9dcdca559605b955d5143" prot="protected" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>loadImage</name></member>
+      <member refid="classpaoo_1_1_items_1_1_small_enemy_1a35244c923f8364c8b5cab23c27af6076" prot="private" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>missiles</name></member>
+      <member refid="classpaoo_1_1_items_1_1_ship_1a0a4409f779411275bb10362efcf4e17e" prot="public" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>setVisible</name></member>
+      <member refid="classpaoo_1_1_items_1_1_ship_1a60b6aced2ae8143135d905f641b7b1fd" prot="public" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>setX</name></member>
+      <member refid="classpaoo_1_1_items_1_1_ship_1a94ea4419de2ea2828a7e2a76fc0c6342" prot="public" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>setY</name></member>
+      <member refid="classpaoo_1_1_items_1_1_ship_1ac739f8177ccac2a0e7be62d577a45c67" prot="public" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>Ship</name></member>
+      <member refid="classpaoo_1_1_items_1_1_small_enemy_1af3d3b82ae17586f90695d7ba17827a0f" prot="public" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>SmallEnemy</name></member>
+      <member refid="classpaoo_1_1_items_1_1_small_enemy_1ae469e250c2acd243c22f7a7b4d088365" prot="private" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>speed</name></member>
+      <member refid="classpaoo_1_1_items_1_1_small_enemy_1a265bfe0c287741336cdd98d7d7c3e104" prot="private" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>time</name></member>
+      <member refid="classpaoo_1_1_items_1_1_ship_1a9b743569cfef8ae8a877e383bbf9c191" prot="public" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>vis</name></member>
+      <member refid="classpaoo_1_1_items_1_1_small_enemy_1a655a84b883c1645b2295c99710fe849e" prot="private" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>waitTime</name></member>
+      <member refid="classpaoo_1_1_items_1_1_ship_1a79ba23aac86e5457ee6301c46cd507af" prot="public" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>width</name></member>
+      <member refid="classpaoo_1_1_items_1_1_ship_1ae2b8f46c221f4ea0da3b65505d3bdc17" prot="public" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>x</name></member>
+      <member refid="classpaoo_1_1_items_1_1_ship_1a5aef1d0d56af2ae436cba36c794b1081" prot="public" virt="non-virtual"><scope>paoo::Items::SmallEnemy</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

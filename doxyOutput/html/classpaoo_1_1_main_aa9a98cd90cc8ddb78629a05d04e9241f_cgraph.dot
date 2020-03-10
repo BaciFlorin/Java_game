@@ -1,0 +1,20 @@
+digraph "paoo.Main.main"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="paoo.Main.main",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="paoo.Menu.Menu.start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_menu_1_1_menu.html#a793c1a928f9055aa32d799d1c1d53f34",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="paoo.Menu.Menu.play",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_menu_1_1_menu.html#aeb6108bfbf42e81c0b125444723ba059",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="paoo.Menu.Menu.loadSettings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_menu_1_1_menu.html#ad21722ef009d8e17b0f6c93852a5d100",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="paoo.Game.BaseValues.set\lDifficulty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_game_1_1_base_values.html#a38e3eef7dd9da249d9f444ca78b2c864",tooltip=" "];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="paoo.Game.BaseValues.set\lMusic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_game_1_1_base_values.html#a99f6a5f192eadd6fb3ae55e63bc5d24e",tooltip=" "];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="paoo.Game.BaseValues.set\lLevel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_game_1_1_base_values.html#abc4edc9cb65266af9d297b35b4f8ecfa",tooltip=" "];
+}

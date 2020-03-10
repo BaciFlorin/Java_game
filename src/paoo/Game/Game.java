@@ -313,8 +313,8 @@ public class Game implements Runnable {
                     }
                     g2d.setColor(Color.BLACK);
                     g2d.setFont(new java.awt.Font("Arial", java.awt.Font.BOLD, 27));
-                    g2d.drawString("Scor:"+score,700,60);
-                    g2d.drawString("Inamici ramasi:"+level.getItems().size(),200,60);
+                    g2d.drawString("Score:"+score,700,60);
+                    g2d.drawString("Enemies left:"+level.getItems().size(),200,60);
                 } else {
                     //daca e pauza va afisa meniul specific
                     g2d.drawImage((new ImageIcon("images/backgr.png")).getImage(), 0, 0, null);
@@ -332,10 +332,10 @@ public class Game implements Runnable {
             g2d.drawImage((new ImageIcon("images/black.jpg")).getImage(), -100, 0, null);
             g2d.setColor(Color.white);
             g2d.setFont(new java.awt.Font("Arial", java.awt.Font.BOLD, 50));
-            g2d.drawString("Felicitari!",400,300);
+            g2d.drawString("Congratulations!",350,300);
             g2d.setFont(new java.awt.Font("Arial", java.awt.Font.BOLD, 40));
-            g2d.drawString("Scor:"+score,400,400);
-            g2d.drawString("Se incarca urmatorul nivel....",350,500);
+            g2d.drawString("Score:"+score,350,400);
+            g2d.drawString("Loading next level....",350,500);
             waitTime--;
             if(waitTime==0)
             {

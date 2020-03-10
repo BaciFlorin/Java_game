@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classpaoo_1_1_items_1_1_bombs" kind="class" language="Java" prot="public">
+    <compoundname>paoo::Items::Bombs</compoundname>
+    <basecompoundref refid="classpaoo_1_1_items_1_1_shoot" prot="public" virt="non-virtual">paoo.Items.Shoot</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_bombs_1ae90d89e10a2f730a37b9e26da7123e1f" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean paoo.Items.Bombs.explosion</definition>
+        <argsstring></argsstring>
+        <name>explosion</name>
+        <initializer>=false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Bombs.java" line="4" column="1" bodyfile="src/paoo/Items/Bombs.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_bombs_1a6ba0ff62ab9f681cbd972a47b79085bc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Items.Bombs.waitTime</definition>
+        <argsstring></argsstring>
+        <name>waitTime</name>
+        <initializer>=100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Bombs.java" line="5" column="1" bodyfile="src/paoo/Items/Bombs.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_bombs_1a640e7fc967eaa79fe13e50bd6c6934d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>paoo.Items.Bombs.Bombs</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>Bombs</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Bombs.java" line="7" column="1" bodyfile="src/paoo/Items/Bombs.java" bodystart="7" bodyend="10"/>
+        <references refid="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" compoundref="_item_8java" startline="7">paoo.Items.Item.x</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1a4e9f4d0ae406e925a75e12a4f0059589" compoundref="_item_8java" startline="8">paoo.Items.Item.y</references>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_bombs_1a5cb654243a73aba4de1dfc1f0db183be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Items.Bombs.move</definition>
+        <argsstring>()</argsstring>
+        <name>move</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Bombs.java" line="19" column="1" bodyfile="src/paoo/Items/Bombs.java" bodystart="19" bodyend="35"/>
+        <references refid="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" compoundref="_item_8java" startline="7">paoo.Items.Item.x</references>
+        <references refid="classpaoo_1_1_items_1_1_shoot_1a038860419db49c18d4ace73db96e28db" compoundref="_shoot_8java" startline="5">paoo.Items.Shoot.MISSILE_SPEED</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1a321bec3d90dc1127c3b103edf14922d0" compoundref="_item_8java" startline="26" endline="29">paoo.Items.Item.loadImage</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1a176df687dcb5ca636f6aaa667b9b43a1" compoundref="_item_8java" startline="11">paoo.Items.Item.vis</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_bombs_1a60a60455df8748923fabaf4d61597bd3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Items.Bombs.initMissile</definition>
+        <argsstring>()</argsstring>
+        <name>initMissile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Bombs.java" line="12" column="1" bodyfile="src/paoo/Items/Bombs.java" bodystart="12" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="16">
+        <label>paoo.Items.Item</label>
+        <link refid="classpaoo_1_1_items_1_1_item"/>
+      </node>
+      <node id="14">
+        <label>paoo.Items.Bombs</label>
+        <link refid="classpaoo_1_1_items_1_1_bombs"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>paoo.Items.Shoot</label>
+        <link refid="classpaoo_1_1_items_1_1_shoot"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="19">
+        <label>paoo.Items.Item</label>
+        <link refid="classpaoo_1_1_items_1_1_item"/>
+      </node>
+      <node id="17">
+        <label>paoo.Items.Bombs</label>
+        <link refid="classpaoo_1_1_items_1_1_bombs"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>paoo.Items.Shoot</label>
+        <link refid="classpaoo_1_1_items_1_1_shoot"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/paoo/Items/Bombs.java" line="3" column="1" bodyfile="src/paoo/Items/Bombs.java" bodystart="3" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classpaoo_1_1_items_1_1_shoot_1ad0a2027ae7ca741af66dbc9130ef8276" prot="public" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>BOARD_WIDTH</name></member>
+      <member refid="classpaoo_1_1_items_1_1_bombs_1a640e7fc967eaa79fe13e50bd6c6934d1" prot="public" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>Bombs</name></member>
+      <member refid="classpaoo_1_1_items_1_1_bombs_1ae90d89e10a2f730a37b9e26da7123e1f" prot="private" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>explosion</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a888dd14cc1821e98f21329163c728236" prot="public" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>getBounds</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1aba2cf2a1a9ce810df283bcff6a187e07" prot="public" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>getImage</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a3786544c6204b9e3ba2022bfa7803233" prot="protected" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>getImageDimensions</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1aa57c228eb43ddffd7006dcc2f34d06d2" prot="public" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>getX</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a9fbdcb5d086e8fe52ff17b9006d79bce" prot="public" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>getY</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a8cad22b0f254231b14fe9148fd8ee223" prot="public" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>height</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1affe12d9d5138d1e304a21af3d1f83952" prot="public" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>image</name></member>
+      <member refid="classpaoo_1_1_items_1_1_bombs_1a60a60455df8748923fabaf4d61597bd3" prot="private" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>initMissile</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a9b43e69a9411d6506f63abb20a1a9b70" prot="public" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>isVisible</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a67ea19aa148b70ac2204f58891e34fd3" prot="public" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>Item</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a321bec3d90dc1127c3b103edf14922d0" prot="protected" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>loadImage</name></member>
+      <member refid="classpaoo_1_1_items_1_1_shoot_1a038860419db49c18d4ace73db96e28db" prot="public" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>MISSILE_SPEED</name></member>
+      <member refid="classpaoo_1_1_items_1_1_bombs_1a5cb654243a73aba4de1dfc1f0db183be" prot="public" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>move</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a8e9c3167c76cc0a0b56b8276f429d0a3" prot="public" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>setVisible</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a61ce25a678554d62ae06f2d46c8ac350" prot="public" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>setX</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a1117854dca20c8e69bbd1e85f2d68b24" prot="public" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>setY</name></member>
+      <member refid="classpaoo_1_1_items_1_1_shoot_1aefdbe2d087fa5044ab6f46d78041656b" prot="public" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>Shoot</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1aaa33c2ff4971c3f1b52dbcea5f8a9c00" prot="public" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>tick</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a176df687dcb5ca636f6aaa667b9b43a1" prot="public" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>vis</name></member>
+      <member refid="classpaoo_1_1_items_1_1_bombs_1a6ba0ff62ab9f681cbd972a47b79085bc" prot="private" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>waitTime</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a87a31aefbdd060475c082fd0a8bea27e" prot="public" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>width</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" prot="public" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>x</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a4e9f4d0ae406e925a75e12a4f0059589" prot="public" virt="non-virtual"><scope>paoo::Items::Bombs</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

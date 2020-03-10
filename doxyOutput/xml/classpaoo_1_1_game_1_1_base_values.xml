@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classpaoo_1_1_game_1_1_base_values" kind="class" language="Java" prot="public">
+    <compoundname>paoo::Game::BaseValues</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_base_values_1a8535733e9347f2534b1559b06a281c74" prot="private" static="no" mutable="no">
+        <type>Connection</type>
+        <definition>Connection paoo.Game.BaseValues.c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <initializer>=null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/BaseValues.java" line="4" column="1" bodyfile="src/paoo/Game/BaseValues.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_base_values_1a4e99d77ed782437aa2ce8e64382655ae" prot="private" static="no" mutable="no">
+        <type>Statement</type>
+        <definition>Statement paoo.Game.BaseValues.str</definition>
+        <argsstring></argsstring>
+        <name>str</name>
+        <initializer>=null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/BaseValues.java" line="5" column="1" bodyfile="src/paoo/Game/BaseValues.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_base_values_1adab3a9fc09f476c50e61f72f893b524b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Game.BaseValues.level</definition>
+        <argsstring></argsstring>
+        <name>level</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/BaseValues.java" line="6" column="1" bodyfile="src/paoo/Game/BaseValues.java" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_base_values_1ac7a109c0322c4ce1722e6efdb344be59" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Game.BaseValues.difficulty</definition>
+        <argsstring></argsstring>
+        <name>difficulty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/BaseValues.java" line="7" column="1" bodyfile="src/paoo/Game/BaseValues.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_base_values_1ae6fa1e9569bdda40a019166e90a40ef6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Game.BaseValues.music</definition>
+        <argsstring></argsstring>
+        <name>music</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/BaseValues.java" line="8" column="1" bodyfile="src/paoo/Game/BaseValues.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_base_values_1a5c9fb32d55d2de0d6fab048d1663a20b" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String paoo.Game.BaseValues.text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/BaseValues.java" line="9" column="1" bodyfile="src/paoo/Game/BaseValues.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_base_values_1a737c09dc173458220afdb11132410139" prot="private" static="no" mutable="no">
+        <type>ResultSet</type>
+        <definition>ResultSet paoo.Game.BaseValues.resultSet</definition>
+        <argsstring></argsstring>
+        <name>resultSet</name>
+        <initializer>=null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/BaseValues.java" line="10" column="1" bodyfile="src/paoo/Game/BaseValues.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_base_values_1a1603f724dca57c0daca772492f4d931b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>paoo.Game.BaseValues.BaseValues</definition>
+        <argsstring>()</argsstring>
+        <name>BaseValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/BaseValues.java" line="12" column="1" bodyfile="src/paoo/Game/BaseValues.java" bodystart="12" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_base_values_1a8e1fb0b50932e7232ae1d484d3035d75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.BaseValues.close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/BaseValues.java" line="26" column="1" bodyfile="src/paoo/Game/BaseValues.java" bodystart="26" bodyend="36"/>
+        <referencedby refid="classpaoo_1_1_game_1_1_input_1_1_mouse_input_1a9973ec5b7f55270bb91c60924219c3a0" compoundref="_game_2_input_2_mouse_input_8java" startline="11" endline="52">paoo.Game.Input.MouseInput.mouseClicked</referencedby>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_base_values_1a7a6d60aa070134a04524e11954af2ccb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.BaseValues.update</definition>
+        <argsstring>()</argsstring>
+        <name>update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/BaseValues.java" line="38" column="1" bodyfile="src/paoo/Game/BaseValues.java" bodystart="38" bodyend="54"/>
+        <referencedby refid="classpaoo_1_1_game_1_1_base_values_1a258ae1a37e7219a66f668fcccc1244b2" compoundref="_base_values_8java" startline="55" endline="59">paoo.Game.BaseValues.getLevel</referencedby>
+        <referencedby refid="classpaoo_1_1_game_1_1_base_values_1a37a29c701ed8b25551aa776be9385340" compoundref="_base_values_8java" startline="61" endline="65">paoo.Game.BaseValues.getDifficulty</referencedby>
+        <referencedby refid="classpaoo_1_1_game_1_1_base_values_1a43dd006d008e62eae221ec833ef27d2d" compoundref="_base_values_8java" startline="67" endline="71">paoo.Game.BaseValues.getMusic</referencedby>
+        <referencedby refid="classpaoo_1_1_game_1_1_base_values_1a017fdb7c3e1db1f2f197fc11f4825efe" compoundref="_base_values_8java" startline="73" endline="77">paoo.Game.BaseValues.getFile</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_base_values_1a258ae1a37e7219a66f668fcccc1244b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int paoo.Game.BaseValues.getLevel</definition>
+        <argsstring>()</argsstring>
+        <name>getLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/BaseValues.java" line="55" column="1" bodyfile="src/paoo/Game/BaseValues.java" bodystart="55" bodyend="59"/>
+        <references refid="classpaoo_1_1_game_1_1_base_values_1a7a6d60aa070134a04524e11954af2ccb" compoundref="_base_values_8java" startline="38" endline="54">paoo.Game.BaseValues.update</references>
+        <referencedby refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a7815c545813c40692463c45e52df0014" compoundref="_level_handle_8java" startline="30" endline="47">paoo.Game.Level.LevelHandle.LevelHandle</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_base_values_1a37a29c701ed8b25551aa776be9385340" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int paoo.Game.BaseValues.getDifficulty</definition>
+        <argsstring>()</argsstring>
+        <name>getDifficulty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/BaseValues.java" line="61" column="1" bodyfile="src/paoo/Game/BaseValues.java" bodystart="61" bodyend="65"/>
+        <references refid="classpaoo_1_1_game_1_1_base_values_1a7a6d60aa070134a04524e11954af2ccb" compoundref="_base_values_8java" startline="38" endline="54">paoo.Game.BaseValues.update</references>
+        <referencedby refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a7815c545813c40692463c45e52df0014" compoundref="_level_handle_8java" startline="30" endline="47">paoo.Game.Level.LevelHandle.LevelHandle</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_base_values_1a43dd006d008e62eae221ec833ef27d2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int paoo.Game.BaseValues.getMusic</definition>
+        <argsstring>()</argsstring>
+        <name>getMusic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/BaseValues.java" line="67" column="1" bodyfile="src/paoo/Game/BaseValues.java" bodystart="67" bodyend="71"/>
+        <references refid="classpaoo_1_1_game_1_1_base_values_1a7a6d60aa070134a04524e11954af2ccb" compoundref="_base_values_8java" startline="38" endline="54">paoo.Game.BaseValues.update</references>
+        <referencedby refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a7815c545813c40692463c45e52df0014" compoundref="_level_handle_8java" startline="30" endline="47">paoo.Game.Level.LevelHandle.LevelHandle</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_base_values_1a017fdb7c3e1db1f2f197fc11f4825efe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String paoo.Game.BaseValues.getFile</definition>
+        <argsstring>()</argsstring>
+        <name>getFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/BaseValues.java" line="73" column="1" bodyfile="src/paoo/Game/BaseValues.java" bodystart="73" bodyend="77"/>
+        <references refid="classpaoo_1_1_game_1_1_base_values_1a7a6d60aa070134a04524e11954af2ccb" compoundref="_base_values_8java" startline="38" endline="54">paoo.Game.BaseValues.update</references>
+        <referencedby refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a7815c545813c40692463c45e52df0014" compoundref="_level_handle_8java" startline="30" endline="47">paoo.Game.Level.LevelHandle.LevelHandle</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_base_values_1abc4edc9cb65266af9d297b35b4f8ecfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.BaseValues.setLevel</definition>
+        <argsstring>(int n)</argsstring>
+        <name>setLevel</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/BaseValues.java" line="79" column="1" bodyfile="src/paoo/Game/BaseValues.java" bodystart="79" bodyend="91"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_menu_1ad21722ef009d8e17b0f6c93852a5d100" compoundref="_menu_8java" startline="185" endline="190">paoo.Menu.Menu.loadSettings</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_base_values_1a99f6a5f192eadd6fb3ae55e63bc5d24e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.BaseValues.setMusic</definition>
+        <argsstring>(boolean n)</argsstring>
+        <name>setMusic</name>
+        <param>
+          <type>boolean</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/BaseValues.java" line="93" column="1" bodyfile="src/paoo/Game/BaseValues.java" bodystart="93" bodyend="106"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_menu_1ad21722ef009d8e17b0f6c93852a5d100" compoundref="_menu_8java" startline="185" endline="190">paoo.Menu.Menu.loadSettings</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_base_values_1a38e3eef7dd9da249d9f444ca78b2c864" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.BaseValues.setDifficulty</definition>
+        <argsstring>(int n)</argsstring>
+        <name>setDifficulty</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/BaseValues.java" line="108" column="1" bodyfile="src/paoo/Game/BaseValues.java" bodystart="108" bodyend="120"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_menu_1ad21722ef009d8e17b0f6c93852a5d100" compoundref="_menu_8java" startline="185" endline="190">paoo.Menu.Menu.loadSettings</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/paoo/Game/BaseValues.java" line="3" column="1" bodyfile="src/paoo/Game/BaseValues.java" bodystart="3" bodyend="122"/>
+    <listofallmembers>
+      <member refid="classpaoo_1_1_game_1_1_base_values_1a1603f724dca57c0daca772492f4d931b" prot="public" virt="non-virtual"><scope>paoo::Game::BaseValues</scope><name>BaseValues</name></member>
+      <member refid="classpaoo_1_1_game_1_1_base_values_1a8535733e9347f2534b1559b06a281c74" prot="private" virt="non-virtual"><scope>paoo::Game::BaseValues</scope><name>c</name></member>
+      <member refid="classpaoo_1_1_game_1_1_base_values_1a8e1fb0b50932e7232ae1d484d3035d75" prot="public" virt="non-virtual"><scope>paoo::Game::BaseValues</scope><name>close</name></member>
+      <member refid="classpaoo_1_1_game_1_1_base_values_1ac7a109c0322c4ce1722e6efdb344be59" prot="private" virt="non-virtual"><scope>paoo::Game::BaseValues</scope><name>difficulty</name></member>
+      <member refid="classpaoo_1_1_game_1_1_base_values_1a37a29c701ed8b25551aa776be9385340" prot="public" virt="non-virtual"><scope>paoo::Game::BaseValues</scope><name>getDifficulty</name></member>
+      <member refid="classpaoo_1_1_game_1_1_base_values_1a017fdb7c3e1db1f2f197fc11f4825efe" prot="public" virt="non-virtual"><scope>paoo::Game::BaseValues</scope><name>getFile</name></member>
+      <member refid="classpaoo_1_1_game_1_1_base_values_1a258ae1a37e7219a66f668fcccc1244b2" prot="public" virt="non-virtual"><scope>paoo::Game::BaseValues</scope><name>getLevel</name></member>
+      <member refid="classpaoo_1_1_game_1_1_base_values_1a43dd006d008e62eae221ec833ef27d2d" prot="public" virt="non-virtual"><scope>paoo::Game::BaseValues</scope><name>getMusic</name></member>
+      <member refid="classpaoo_1_1_game_1_1_base_values_1adab3a9fc09f476c50e61f72f893b524b" prot="private" virt="non-virtual"><scope>paoo::Game::BaseValues</scope><name>level</name></member>
+      <member refid="classpaoo_1_1_game_1_1_base_values_1ae6fa1e9569bdda40a019166e90a40ef6" prot="private" virt="non-virtual"><scope>paoo::Game::BaseValues</scope><name>music</name></member>
+      <member refid="classpaoo_1_1_game_1_1_base_values_1a737c09dc173458220afdb11132410139" prot="private" virt="non-virtual"><scope>paoo::Game::BaseValues</scope><name>resultSet</name></member>
+      <member refid="classpaoo_1_1_game_1_1_base_values_1a38e3eef7dd9da249d9f444ca78b2c864" prot="public" virt="non-virtual"><scope>paoo::Game::BaseValues</scope><name>setDifficulty</name></member>
+      <member refid="classpaoo_1_1_game_1_1_base_values_1abc4edc9cb65266af9d297b35b4f8ecfa" prot="public" virt="non-virtual"><scope>paoo::Game::BaseValues</scope><name>setLevel</name></member>
+      <member refid="classpaoo_1_1_game_1_1_base_values_1a99f6a5f192eadd6fb3ae55e63bc5d24e" prot="public" virt="non-virtual"><scope>paoo::Game::BaseValues</scope><name>setMusic</name></member>
+      <member refid="classpaoo_1_1_game_1_1_base_values_1a4e99d77ed782437aa2ce8e64382655ae" prot="private" virt="non-virtual"><scope>paoo::Game::BaseValues</scope><name>str</name></member>
+      <member refid="classpaoo_1_1_game_1_1_base_values_1a5c9fb32d55d2de0d6fab048d1663a20b" prot="private" virt="non-virtual"><scope>paoo::Game::BaseValues</scope><name>text</name></member>
+      <member refid="classpaoo_1_1_game_1_1_base_values_1a7a6d60aa070134a04524e11954af2ccb" prot="public" virt="non-virtual"><scope>paoo::Game::BaseValues</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

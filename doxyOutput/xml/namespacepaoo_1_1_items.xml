@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacepaoo_1_1_items" kind="namespace" language="Java">
+    <compoundname>paoo::Items</compoundname>
+    <innerclass refid="classpaoo_1_1_items_1_1_animated_item" prot="public">paoo::Items::AnimatedItem</innerclass>
+    <innerclass refid="classpaoo_1_1_items_1_1_backgorund" prot="public">paoo::Items::Backgorund</innerclass>
+    <innerclass refid="classpaoo_1_1_items_1_1_big_enemy" prot="public">paoo::Items::BigEnemy</innerclass>
+    <innerclass refid="classpaoo_1_1_items_1_1_bombs" prot="public">paoo::Items::Bombs</innerclass>
+    <innerclass refid="classpaoo_1_1_items_1_1_enemy_missile" prot="public">paoo::Items::EnemyMissile</innerclass>
+    <innerclass refid="classpaoo_1_1_items_1_1_heart" prot="public">paoo::Items::Heart</innerclass>
+    <innerclass refid="classpaoo_1_1_items_1_1_item" prot="public">paoo::Items::Item</innerclass>
+    <innerclass refid="classpaoo_1_1_items_1_1_missile" prot="public">paoo::Items::Missile</innerclass>
+    <innerclass refid="classpaoo_1_1_items_1_1_ship" prot="public">paoo::Items::Ship</innerclass>
+    <innerclass refid="classpaoo_1_1_items_1_1_shoot" prot="public">paoo::Items::Shoot</innerclass>
+    <innerclass refid="classpaoo_1_1_items_1_1_shoots" prot="public">paoo::Items::Shoots</innerclass>
+    <innerclass refid="classpaoo_1_1_items_1_1_small_enemy" prot="public">paoo::Items::SmallEnemy</innerclass>
+    <innerclass refid="classpaoo_1_1_items_1_1_space_ship" prot="public">paoo::Items::SpaceShip</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/paoo/Items/AnimatedItem.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

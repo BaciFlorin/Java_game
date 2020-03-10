@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classpaoo_1_1_game_1_1_level_1_1_abstract_ship_factory" kind="class" language="Java" prot="public">
+    <compoundname>paoo::Game::Level::AbstractShipFactory</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_level_1_1_abstract_ship_factory_1a8cb1e38327a9ce0deb2e53cad78d9082" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classpaoo_1_1_items_1_1_ship" kindref="compound">Ship</ref></type>
+        <definition>static Ship paoo.Game.Level.AbstractShipFactory.createShip</definition>
+        <argsstring>(int type, int x, int y)</argsstring>
+        <name>createShip</name>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Level/AbstractShipFactory.java" line="8" column="1" bodyfile="src/paoo/Game/Level/AbstractShipFactory.java" bodystart="8" bodyend="19"/>
+        <referencedby refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a4f4aa2be75606c12db4e19f4816cb7e9" compoundref="_level_handle_8java" startline="125" endline="168">paoo.Game.Level.LevelHandle.loadLevelFromFile</referencedby>
+        <referencedby refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a367bfdd068cf3baa5ab0632de3a03401" compoundref="_level_handle_8java" startline="171" endline="186">paoo.Game.Level.LevelHandle.loadLevelFromSQL</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/paoo/Game/Level/AbstractShipFactory.java" line="7" column="1" bodyfile="src/paoo/Game/Level/AbstractShipFactory.java" bodystart="7" bodyend="20"/>
+    <listofallmembers>
+      <member refid="classpaoo_1_1_game_1_1_level_1_1_abstract_ship_factory_1a8cb1e38327a9ce0deb2e53cad78d9082" prot="public" virt="non-virtual"><scope>paoo::Game::Level::AbstractShipFactory</scope><name>createShip</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

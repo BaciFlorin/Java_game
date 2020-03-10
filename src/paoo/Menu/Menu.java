@@ -45,8 +45,7 @@ public class Menu implements Runnable{
         playButton=new MyButton("images/buttons/Menu/play.png",50,100);
         loadButton=new MyButton("images/buttons/Menu/load.png",50,200);
         optionButton=new MyButton("images/buttons/Menu/options.png",50,300);
-        helpButton=new MyButton("images/buttons/Menu/help.png",50,400);
-        quitButton=new MyButton("images/buttons/Menu/quit.png",50,500);
+        quitButton=new MyButton("images/buttons/Menu/quit.png",50,400);
 
         musicButton=new MyButton("images/buttons/Menu/ON.png",250,100);
         backButton=new MyButton("images/buttons/Menu/back.png",50,400);
@@ -121,7 +120,6 @@ public class Menu implements Runnable{
             playButton.render(g);
             loadButton.render(g);
             optionButton.render(g);
-            helpButton.render(g);
             quitButton.render(g);
         }
         else

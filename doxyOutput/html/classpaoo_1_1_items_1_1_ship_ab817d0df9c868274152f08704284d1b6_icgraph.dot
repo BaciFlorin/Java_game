@@ -1,0 +1,12 @@
+digraph "paoo.Items.Ship.getImageDimensions"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node12 [label="paoo.Items.Ship.getImage\lDimensions",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="paoo.Items.BigEnemy.BigEnemy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_items_1_1_big_enemy.html#a2d9affb8fd7a2754a1ba345ff5e995a0",tooltip=" "];
+  Node12 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="paoo.Items.SmallEnemy.Small\lEnemy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_items_1_1_small_enemy.html#af3d3b82ae17586f90695d7ba17827a0f",tooltip=" "];
+}

@@ -1,0 +1,914 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classpaoo_1_1_menu_1_1_menu" kind="class" language="Java" prot="public">
+    <compoundname>paoo::Menu::Menu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Runnable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1a330d0c6372138e890651bb89dc725d83" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int paoo.Menu.Menu.WIDTH</definition>
+        <argsstring></argsstring>
+        <name>WIDTH</name>
+        <initializer>=500</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="13" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1a2f4cdd603014a2a5dfcf22c7e6443034" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int paoo.Menu.Menu.HEIGHT</definition>
+        <argsstring></argsstring>
+        <name>HEIGHT</name>
+        <initializer>=650</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="14" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1a85f5d17ac007a6044090d2f09624a2cd" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String paoo.Menu.Menu.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <initializer>=&quot;Menu&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="15" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1a2f1cee9696c3b23e35444c2e23f9cfa5" prot="private" static="no" mutable="no">
+        <type><ref refid="classpaoo_1_1_simple_frame" kindref="compound">SimpleFrame</ref></type>
+        <definition>SimpleFrame paoo.Menu.Menu.frame</definition>
+        <argsstring></argsstring>
+        <name>frame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="16" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1a82a59827e03672e81cfd06aab09648a5" prot="private" static="no" mutable="no">
+        <type><ref refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" kindref="compound">MyButton</ref></type>
+        <definition>MyButton paoo.Menu.Menu.playButton</definition>
+        <argsstring></argsstring>
+        <name>playButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="19" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1aca0ee989ab6e1583f2c9fd6f233cf74f" prot="private" static="no" mutable="no">
+        <type><ref refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" kindref="compound">MyButton</ref></type>
+        <definition>MyButton paoo.Menu.Menu.musicButton</definition>
+        <argsstring></argsstring>
+        <name>musicButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="22" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1a4f3bbae9c1abebee400fe1424196f40a" prot="private" static="no" mutable="no">
+        <type><ref refid="classpaoo_1_1_game_1_1_base_values" kindref="compound">BaseValues</ref></type>
+        <definition>BaseValues paoo.Menu.Menu.base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <initializer>=new <ref refid="classpaoo_1_1_game_1_1_base_values" kindref="compound">BaseValues</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="25" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1a7a66ca318549ac9ae28b1d531baa841c" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean paoo.Menu.Menu.running</definition>
+        <argsstring></argsstring>
+        <name>running</name>
+        <initializer>=false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="28" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1ad638ace034be097c56c1c06245677ad6" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean paoo.Menu.Menu.gameOver</definition>
+        <argsstring></argsstring>
+        <name>gameOver</name>
+        <initializer>=false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="29" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1a833895a07534f364394e1174d169f643" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean paoo.Menu.Menu.optionMenu</definition>
+        <argsstring></argsstring>
+        <name>optionMenu</name>
+        <initializer>=false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="30" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1a342bb5b89ce9ce29c7efd65c4854cf9c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Menu.Menu.level</definition>
+        <argsstring></argsstring>
+        <name>level</name>
+        <initializer>=1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="33" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1a230302469f94acba59fb83eba3b86d0f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Menu.Menu.dificulty</definition>
+        <argsstring></argsstring>
+        <name>dificulty</name>
+        <initializer>=1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="34" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1ae47277275e6d8e292c0ec9fdfd9a85e4" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean paoo.Menu.Menu.music</definition>
+        <argsstring></argsstring>
+        <name>music</name>
+        <initializer>=true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="35" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1af79e308fe8a0c9f7a4a38b2a8a8d104d" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String paoo.Menu.Menu.saveFile</definition>
+        <argsstring></argsstring>
+        <name>saveFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="36" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1ab2abc3156c49bc4c4e45deccf7002273" prot="private" static="no" mutable="no">
+        <type>MouseListener</type>
+        <definition>MouseListener paoo.Menu.Menu.Mouse</definition>
+        <argsstring></argsstring>
+        <name>Mouse</name>
+        <initializer>=new <ref refid="classpaoo_1_1_menu_1_1_mouse_input" kindref="compound">MouseInput</ref>(this)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="39" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1a7fcbc87353d0ac85276d14d900e6a3bf" prot="private" static="no" mutable="no">
+        <type>KeyListener</type>
+        <definition>KeyListener paoo.Menu.Menu.Key</definition>
+        <argsstring></argsstring>
+        <name>Key</name>
+        <initializer>=new <ref refid="classpaoo_1_1_menu_1_1_menu_input" kindref="compound">MenuInput</ref>(this)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="40" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1afeb66c7a7230bccc5744a573713d02ac" prot="package" static="no" mutable="no">
+        <type><ref refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" kindref="compound">MyButton</ref></type>
+        <definition>MyButton paoo.Menu.Menu.helpButton</definition>
+        <argsstring></argsstring>
+        <name>helpButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="19" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1a520279544cdc7459b518111dd5d4e686" prot="package" static="no" mutable="no">
+        <type><ref refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" kindref="compound">MyButton</ref></type>
+        <definition>MyButton paoo.Menu.Menu.optionButton</definition>
+        <argsstring></argsstring>
+        <name>optionButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="19" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1a54083f789d159bdc1cc13df341636de0" prot="package" static="no" mutable="no">
+        <type><ref refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" kindref="compound">MyButton</ref></type>
+        <definition>MyButton paoo.Menu.Menu.quitButton</definition>
+        <argsstring></argsstring>
+        <name>quitButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="19" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1aebfa1f639f1545067f874bfe63cc6823" prot="package" static="no" mutable="no">
+        <type><ref refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" kindref="compound">MyButton</ref></type>
+        <definition>MyButton paoo.Menu.Menu.loadButton</definition>
+        <argsstring></argsstring>
+        <name>loadButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="19" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1a7105beaaefac6b442d6d859d26fd4046" prot="package" static="no" mutable="no">
+        <type><ref refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" kindref="compound">MyButton</ref></type>
+        <definition>MyButton paoo.Menu.Menu.plusButton1</definition>
+        <argsstring></argsstring>
+        <name>plusButton1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="22" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1aab29ab42f62f7168fe739327cfbc6048" prot="package" static="no" mutable="no">
+        <type><ref refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" kindref="compound">MyButton</ref></type>
+        <definition>MyButton paoo.Menu.Menu.minusButton1</definition>
+        <argsstring></argsstring>
+        <name>minusButton1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="22" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1a721cdccb46dfb9a068d1aa6409882f75" prot="package" static="no" mutable="no">
+        <type><ref refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" kindref="compound">MyButton</ref></type>
+        <definition>MyButton paoo.Menu.Menu.backButton</definition>
+        <argsstring></argsstring>
+        <name>backButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="22" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1a98b6ff9a29abf2d4fd9693c248b3ccbc" prot="package" static="no" mutable="no">
+        <type><ref refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" kindref="compound">MyButton</ref></type>
+        <definition>MyButton paoo.Menu.Menu.plusButton2</definition>
+        <argsstring></argsstring>
+        <name>plusButton2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="22" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_menu_1a4865622f8c20bf1871d8a2cd72a5e663" prot="package" static="no" mutable="no">
+        <type><ref refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" kindref="compound">MyButton</ref></type>
+        <definition>MyButton paoo.Menu.Menu.minusButton2</definition>
+        <argsstring></argsstring>
+        <name>minusButton2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="22" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1aeb6108bfbf42e81c0b125444723ba059" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Menu.Menu.play</definition>
+        <argsstring>()</argsstring>
+        <name>play</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="43" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="43" bodyend="64"/>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1ad21722ef009d8e17b0f6c93852a5d100" compoundref="_menu_8java" startline="185" endline="190">paoo.Menu.Menu.loadSettings</references>
+        <referencedby refid="classpaoo_1_1_menu_1_1_menu_1a793c1a928f9055aa32d799d1c1d53f34" compoundref="_menu_8java" startline="159" endline="163">paoo.Menu.Menu.start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1a052c3e8a46285ff0e1e24284e59dde6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Menu.Menu.run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="67" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="67" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1a793c1a928f9055aa32d799d1c1d53f34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void paoo.Menu.Menu.start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="159" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="159" bodyend="163"/>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1aeb6108bfbf42e81c0b125444723ba059" compoundref="_menu_8java" startline="43" endline="64">paoo.Menu.Menu.play</references>
+        <referencedby refid="classpaoo_1_1_main_1aa9a98cd90cc8ddb78629a05d04e9241f" compoundref="_main_8java" startline="8" endline="37">paoo.Main.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1a58d490b2e341339524c01508a05394dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classpaoo_1_1_simple_frame" kindref="compound">SimpleFrame</ref></type>
+        <definition>SimpleFrame paoo.Menu.Menu.getFrame</definition>
+        <argsstring>()</argsstring>
+        <name>getFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="167" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="167" bodyend="167"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1a7263dfd308e4e843643fa29ebdd39b65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Menu.Menu.setFrame</definition>
+        <argsstring>(SimpleFrame frame)</argsstring>
+        <name>setFrame</name>
+        <param>
+          <type><ref refid="classpaoo_1_1_simple_frame" kindref="compound">SimpleFrame</ref></type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="168" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="168" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1ac210ddebc72b956f6d62913b45ce16c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int paoo.Menu.Menu.getLevel</definition>
+        <argsstring>()</argsstring>
+        <name>getLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="170" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="170" bodyend="170"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1a84ff02e1acf22a414cb82d5023c2be1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Menu.Menu.setLevel</definition>
+        <argsstring>(int n)</argsstring>
+        <name>setLevel</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="171" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="171" bodyend="175"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1a9413cb674c1e989a1ea2dd56776a7b4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int paoo.Menu.Menu.getDificulty</definition>
+        <argsstring>()</argsstring>
+        <name>getDificulty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="177" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="177" bodyend="177"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1a31e65113ada51c0adb14fe91b734cfe0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Menu.Menu.setDificulty</definition>
+        <argsstring>(int n)</argsstring>
+        <name>setDificulty</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="178" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="178" bodyend="183"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1ad21722ef009d8e17b0f6c93852a5d100" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Menu.Menu.loadSettings</definition>
+        <argsstring>()</argsstring>
+        <name>loadSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="185" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="185" bodyend="190"/>
+        <references refid="classpaoo_1_1_game_1_1_base_values_1a38e3eef7dd9da249d9f444ca78b2c864" compoundref="_base_values_8java" startline="108" endline="120">paoo.Game.BaseValues.setDifficulty</references>
+        <references refid="classpaoo_1_1_game_1_1_base_values_1a99f6a5f192eadd6fb3ae55e63bc5d24e" compoundref="_base_values_8java" startline="93" endline="106">paoo.Game.BaseValues.setMusic</references>
+        <references refid="classpaoo_1_1_game_1_1_base_values_1abc4edc9cb65266af9d297b35b4f8ecfa" compoundref="_base_values_8java" startline="79" endline="91">paoo.Game.BaseValues.setLevel</references>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+        <referencedby refid="classpaoo_1_1_menu_1_1_menu_1aeb6108bfbf42e81c0b125444723ba059" compoundref="_menu_8java" startline="43" endline="64">paoo.Menu.Menu.play</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1aa5a289a2d1ed03c526a34e0275fb2fed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classpaoo_1_1_game_1_1_base_values" kindref="compound">BaseValues</ref></type>
+        <definition>BaseValues paoo.Menu.Menu.getBase</definition>
+        <argsstring>()</argsstring>
+        <name>getBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="192" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="192" bodyend="192"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1a3d858ce61580b2fe11e36cf1d560dc1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" kindref="compound">MyButton</ref></type>
+        <definition>MyButton paoo.Menu.Menu.getPlayButton</definition>
+        <argsstring>()</argsstring>
+        <name>getPlayButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="196" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="196" bodyend="196"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1a7ce0d94acfef7a30cc929cf9140a5ccf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" kindref="compound">MyButton</ref></type>
+        <definition>MyButton paoo.Menu.Menu.getHelpButton</definition>
+        <argsstring>()</argsstring>
+        <name>getHelpButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="198" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="198" bodyend="198"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1a8d1fd4990b0a0f77506d5f8e101b6071" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" kindref="compound">MyButton</ref></type>
+        <definition>MyButton paoo.Menu.Menu.getOptionButton</definition>
+        <argsstring>()</argsstring>
+        <name>getOptionButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="200" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="200" bodyend="200"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1a2b04f36ec7d4f310fd5f0af327a0f5d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" kindref="compound">MyButton</ref></type>
+        <definition>MyButton paoo.Menu.Menu.getQuitButton</definition>
+        <argsstring>()</argsstring>
+        <name>getQuitButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="202" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="202" bodyend="202"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1a62fb9d80d77a925ce41b65b1eb6d47f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" kindref="compound">MyButton</ref></type>
+        <definition>MyButton paoo.Menu.Menu.getLoadButton</definition>
+        <argsstring>()</argsstring>
+        <name>getLoadButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="204" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="204" bodyend="204"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1aa4c7b1c938abbcb691c59051903ed29b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" kindref="compound">MyButton</ref></type>
+        <definition>MyButton paoo.Menu.Menu.getBackButton</definition>
+        <argsstring>()</argsstring>
+        <name>getBackButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="207" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="207" bodyend="207"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1a79503facfa57859b05c82489698ce1bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" kindref="compound">MyButton</ref></type>
+        <definition>MyButton paoo.Menu.Menu.getMusicButton</definition>
+        <argsstring>()</argsstring>
+        <name>getMusicButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="209" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="209" bodyend="209"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1a25b27014ba047c1fa06fbe0553017ee2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" kindref="compound">MyButton</ref></type>
+        <definition>MyButton paoo.Menu.Menu.getPlusButton1</definition>
+        <argsstring>()</argsstring>
+        <name>getPlusButton1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="211" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="211" bodyend="211"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1ac70a1b7231e13a84c9230090fed1f559" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" kindref="compound">MyButton</ref></type>
+        <definition>MyButton paoo.Menu.Menu.getMinusButton1</definition>
+        <argsstring>()</argsstring>
+        <name>getMinusButton1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="213" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="213" bodyend="213"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1a0bd3fc33b238a00af533599badcc0a4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" kindref="compound">MyButton</ref></type>
+        <definition>MyButton paoo.Menu.Menu.getPlusButton2</definition>
+        <argsstring>()</argsstring>
+        <name>getPlusButton2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="215" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="215" bodyend="215"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1a961ea44584c0d8a34112626d40b2ee8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" kindref="compound">MyButton</ref></type>
+        <definition>MyButton paoo.Menu.Menu.getMinusButton2</definition>
+        <argsstring>()</argsstring>
+        <name>getMinusButton2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="217" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="217" bodyend="217"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1aaa65838a64c67dd9d50aba0bae57c7c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Menu.Menu.setMusic</definition>
+        <argsstring>(boolean o)</argsstring>
+        <name>setMusic</name>
+        <param>
+          <type>boolean</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="220" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="220" bodyend="220"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1a4acecfc5391037206eeb46c9cb05e86a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean paoo.Menu.Menu.getMusic</definition>
+        <argsstring>()</argsstring>
+        <name>getMusic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="221" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="221" bodyend="221"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1a96ed9dca35e440282ec1e9a08f2c89dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Menu.Menu.setOptionMenu</definition>
+        <argsstring>(boolean p)</argsstring>
+        <name>setOptionMenu</name>
+        <param>
+          <type>boolean</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="223" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="223" bodyend="226"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1a04506669b0ca15ef77d1a138c1ac023a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean paoo.Menu.Menu.isOptionMenu</definition>
+        <argsstring>()</argsstring>
+        <name>isOptionMenu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="227" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="227" bodyend="227"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1a6f0c14ab3f944d501ee49996d8b229ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean paoo.Menu.Menu.isRunning</definition>
+        <argsstring>()</argsstring>
+        <name>isRunning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="229" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="229" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1a09254d68209d6697c76560a14c084cfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Menu.Menu.setRunning</definition>
+        <argsstring>(boolean running)</argsstring>
+        <name>setRunning</name>
+        <param>
+          <type>boolean</type>
+          <declname>running</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="230" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="230" bodyend="230"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1a9635d9e642b84b9040d8cc7d8b0da125" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean paoo.Menu.Menu.isGameOver</definition>
+        <argsstring>()</argsstring>
+        <name>isGameOver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="232" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="232" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1a4eb6542c1011bc52692de4366f40a28f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Menu.Menu.setGameOver</definition>
+        <argsstring>(boolean gameOver)</argsstring>
+        <name>setGameOver</name>
+        <param>
+          <type>boolean</type>
+          <declname>gameOver</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="233" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="233" bodyend="233"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_menu_1a88c376abd54d081af91605bbae6c940b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Menu.Menu.render</definition>
+        <argsstring>()</argsstring>
+        <name>render</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Menu.java" line="111" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="111" bodyend="157"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="59">
+        <label>paoo.Menu.Menu</label>
+        <link refid="classpaoo_1_1_menu_1_1_menu"/>
+        <childnode refid="60" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>Runnable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="61">
+        <label>paoo.Menu.Menu</label>
+        <link refid="classpaoo_1_1_menu_1_1_menu"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+        <childnode refid="63" relation="usage">
+          <edgelabel>plusButton1</edgelabel>
+          <edgelabel>plusButton2</edgelabel>
+          <edgelabel>minusButton1</edgelabel>
+          <edgelabel>quitButton</edgelabel>
+          <edgelabel>optionButton</edgelabel>
+          <edgelabel>minusButton2</edgelabel>
+          <edgelabel>backButton</edgelabel>
+          <edgelabel>loadButton</edgelabel>
+          <edgelabel>helpButton</edgelabel>
+        </childnode>
+      </node>
+      <node id="63">
+        <label>paoo.Menu.Buttons.MyButton</label>
+        <link refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button"/>
+      </node>
+      <node id="62">
+        <label>Runnable</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/paoo/Menu/Menu.java" line="11" column="1" bodyfile="src/paoo/Menu/Menu.java" bodystart="11" bodyend="235"/>
+    <listofallmembers>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a721cdccb46dfb9a068d1aa6409882f75" prot="package" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>backButton</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a4f3bbae9c1abebee400fe1424196f40a" prot="private" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>base</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a230302469f94acba59fb83eba3b86d0f" prot="private" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>dificulty</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a2f1cee9696c3b23e35444c2e23f9cfa5" prot="private" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>frame</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1ad638ace034be097c56c1c06245677ad6" prot="private" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>gameOver</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1aa4c7b1c938abbcb691c59051903ed29b" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>getBackButton</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1aa5a289a2d1ed03c526a34e0275fb2fed" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>getBase</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a9413cb674c1e989a1ea2dd56776a7b4f" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>getDificulty</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a58d490b2e341339524c01508a05394dd" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>getFrame</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a7ce0d94acfef7a30cc929cf9140a5ccf" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>getHelpButton</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1ac210ddebc72b956f6d62913b45ce16c7" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>getLevel</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a62fb9d80d77a925ce41b65b1eb6d47f8" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>getLoadButton</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1ac70a1b7231e13a84c9230090fed1f559" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>getMinusButton1</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a961ea44584c0d8a34112626d40b2ee8b" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>getMinusButton2</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a4acecfc5391037206eeb46c9cb05e86a" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>getMusic</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a79503facfa57859b05c82489698ce1bb" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>getMusicButton</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a8d1fd4990b0a0f77506d5f8e101b6071" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>getOptionButton</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a3d858ce61580b2fe11e36cf1d560dc1d" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>getPlayButton</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a25b27014ba047c1fa06fbe0553017ee2" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>getPlusButton1</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a0bd3fc33b238a00af533599badcc0a4b" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>getPlusButton2</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a2b04f36ec7d4f310fd5f0af327a0f5d4" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>getQuitButton</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a2f4cdd603014a2a5dfcf22c7e6443034" prot="private" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>HEIGHT</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1afeb66c7a7230bccc5744a573713d02ac" prot="package" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>helpButton</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a9635d9e642b84b9040d8cc7d8b0da125" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>isGameOver</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a04506669b0ca15ef77d1a138c1ac023a" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>isOptionMenu</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a6f0c14ab3f944d501ee49996d8b229ba" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>isRunning</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a7fcbc87353d0ac85276d14d900e6a3bf" prot="private" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>Key</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a342bb5b89ce9ce29c7efd65c4854cf9c" prot="private" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>level</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1aebfa1f639f1545067f874bfe63cc6823" prot="package" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>loadButton</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1ad21722ef009d8e17b0f6c93852a5d100" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>loadSettings</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1aab29ab42f62f7168fe739327cfbc6048" prot="package" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>minusButton1</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a4865622f8c20bf1871d8a2cd72a5e663" prot="package" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>minusButton2</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1ab2abc3156c49bc4c4e45deccf7002273" prot="private" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>Mouse</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1ae47277275e6d8e292c0ec9fdfd9a85e4" prot="private" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>music</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1aca0ee989ab6e1583f2c9fd6f233cf74f" prot="private" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>musicButton</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a85f5d17ac007a6044090d2f09624a2cd" prot="private" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>name</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a520279544cdc7459b518111dd5d4e686" prot="package" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>optionButton</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a833895a07534f364394e1174d169f643" prot="private" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>optionMenu</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1aeb6108bfbf42e81c0b125444723ba059" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>play</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a82a59827e03672e81cfd06aab09648a5" prot="private" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>playButton</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a7105beaaefac6b442d6d859d26fd4046" prot="package" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>plusButton1</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a98b6ff9a29abf2d4fd9693c248b3ccbc" prot="package" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>plusButton2</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a54083f789d159bdc1cc13df341636de0" prot="package" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>quitButton</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a88c376abd54d081af91605bbae6c940b" prot="private" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>render</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a052c3e8a46285ff0e1e24284e59dde6e" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>run</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a7a66ca318549ac9ae28b1d531baa841c" prot="private" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>running</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1af79e308fe8a0c9f7a4a38b2a8a8d104d" prot="private" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>saveFile</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a31e65113ada51c0adb14fe91b734cfe0" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>setDificulty</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a7263dfd308e4e843643fa29ebdd39b65" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>setFrame</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a4eb6542c1011bc52692de4366f40a28f" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>setGameOver</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a84ff02e1acf22a414cb82d5023c2be1a" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>setLevel</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1aaa65838a64c67dd9d50aba0bae57c7c2" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>setMusic</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a96ed9dca35e440282ec1e9a08f2c89dc" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>setOptionMenu</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a09254d68209d6697c76560a14c084cfc" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>setRunning</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a793c1a928f9055aa32d799d1c1d53f34" prot="public" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>start</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_menu_1a330d0c6372138e890651bb89dc725d83" prot="private" virt="non-virtual"><scope>paoo::Menu::Menu</scope><name>WIDTH</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

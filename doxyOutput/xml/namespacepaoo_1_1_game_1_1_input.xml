@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacepaoo_1_1_game_1_1_input" kind="namespace" language="Java">
+    <compoundname>paoo::Game::Input</compoundname>
+    <innerclass refid="classpaoo_1_1_game_1_1_input_1_1_input_handle" prot="public">paoo::Game::Input::InputHandle</innerclass>
+    <innerclass refid="classpaoo_1_1_game_1_1_input_1_1_mouse_input" prot="public">paoo::Game::Input::MouseInput</innerclass>
+    <innerclass refid="classpaoo_1_1_game_1_1_input_1_1_window_handle" prot="public">paoo::Game::Input::WindowHandle</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/paoo/Game/Input/InputHandle.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_a4af21cdb5a287f618b2b60bfc2cb0e6" kind="dir">
+    <compoundname>src/paoo/Items</compoundname>
+    <innerfile refid="_animated_item_8java">AnimatedItem.java</innerfile>
+    <innerfile refid="_backgorund_8java">Backgorund.java</innerfile>
+    <innerfile refid="_big_enemy_8java">BigEnemy.java</innerfile>
+    <innerfile refid="_bombs_8java">Bombs.java</innerfile>
+    <innerfile refid="_enemy_missile_8java">EnemyMissile.java</innerfile>
+    <innerfile refid="_heart_8java">Heart.java</innerfile>
+    <innerfile refid="_item_8java">Item.java</innerfile>
+    <innerfile refid="_missile_8java">Missile.java</innerfile>
+    <innerfile refid="_ship_8java">Ship.java</innerfile>
+    <innerfile refid="_shoot_8java">Shoot.java</innerfile>
+    <innerfile refid="_shoots_8java">Shoots.java</innerfile>
+    <innerfile refid="_small_enemy_8java">SmallEnemy.java</innerfile>
+    <innerfile refid="_space_ship_8java">SpaceShip.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/paoo/Items/"/>
+  </compounddef>
+</doxygen>

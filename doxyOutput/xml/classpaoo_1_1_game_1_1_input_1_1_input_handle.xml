@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classpaoo_1_1_game_1_1_input_1_1_input_handle" kind="class" language="Java" prot="public">
+    <compoundname>paoo::Game::Input::InputHandle</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">KeyListener</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_input_1_1_input_handle_1aafc3ee195889f2dca907c3c69fe8273b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.Input.InputHandle.keyPressed</definition>
+        <argsstring>(KeyEvent e)</argsstring>
+        <name>keyPressed</name>
+        <param>
+          <type>KeyEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Input/InputHandle.java" line="9" column="1" bodyfile="src/paoo/Game/Input/InputHandle.java" bodystart="9" bodyend="34"/>
+        <references refid="classpaoo_1_1_game_1_1_game_1a317b3587b3e3b9afd6aa731edd992c24" compoundref="_game_8java" startline="530" endline="530">paoo.Game.Game.getSpaceShip</references>
+        <references refid="classpaoo_1_1_game_1_1_game_1a830054934e26ea735ff78cfba3d800b2" compoundref="_game_8java" startline="510" endline="510">paoo.Game.Game.isPause</references>
+        <references refid="classpaoo_1_1_game_1_1_game_1a965237e054132599526675bb31204b8f" compoundref="_game_8java" startline="511" endline="511">paoo.Game.Game.setPause</references>
+        <references refid="classpaoo_1_1_game_1_1_game_1a54e7da19895f99dff929df98bbc83a39" compoundref="_game_8java" startline="514" endline="514">paoo.Game.Game.isOver</references>
+        <references refid="classpaoo_1_1_game_1_1_game_1ab508f895867ae45f43d31ebbc6bcf9d5" compoundref="_game_8java" startline="513" endline="513">paoo.Game.Game.setGameOver</references>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_input_1_1_input_handle_1a14c9ec2acaae2e925c3475385e9f4541" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.Input.InputHandle.keyReleased</definition>
+        <argsstring>(KeyEvent e)</argsstring>
+        <name>keyReleased</name>
+        <param>
+          <type>KeyEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Input/InputHandle.java" line="36" column="1" bodyfile="src/paoo/Game/Input/InputHandle.java" bodystart="36" bodyend="38"/>
+        <references refid="classpaoo_1_1_game_1_1_game_1a317b3587b3e3b9afd6aa731edd992c24" compoundref="_game_8java" startline="530" endline="530">paoo.Game.Game.getSpaceShip</references>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_input_1_1_input_handle_1aef1a869fd0b27bd31009e1f2706b634d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.Input.InputHandle.keyTyped</definition>
+        <argsstring>(KeyEvent e)</argsstring>
+        <name>keyTyped</name>
+        <param>
+          <type>KeyEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Input/InputHandle.java" line="40" column="1" bodyfile="src/paoo/Game/Input/InputHandle.java" bodystart="40" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="37">
+        <label>paoo.Game.Input.InputHandle</label>
+        <link refid="classpaoo_1_1_game_1_1_input_1_1_input_handle"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>KeyListener</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="39">
+        <label>paoo.Game.Input.InputHandle</label>
+        <link refid="classpaoo_1_1_game_1_1_input_1_1_input_handle"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>KeyListener</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/paoo/Game/Input/InputHandle.java" line="8" column="1" bodyfile="src/paoo/Game/Input/InputHandle.java" bodystart="8" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classpaoo_1_1_game_1_1_input_1_1_input_handle_1aafc3ee195889f2dca907c3c69fe8273b" prot="public" virt="non-virtual"><scope>paoo::Game::Input::InputHandle</scope><name>keyPressed</name></member>
+      <member refid="classpaoo_1_1_game_1_1_input_1_1_input_handle_1a14c9ec2acaae2e925c3475385e9f4541" prot="public" virt="non-virtual"><scope>paoo::Game::Input::InputHandle</scope><name>keyReleased</name></member>
+      <member refid="classpaoo_1_1_game_1_1_input_1_1_input_handle_1aef1a869fd0b27bd31009e1f2706b634d" prot="public" virt="non-virtual"><scope>paoo::Game::Input::InputHandle</scope><name>keyTyped</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

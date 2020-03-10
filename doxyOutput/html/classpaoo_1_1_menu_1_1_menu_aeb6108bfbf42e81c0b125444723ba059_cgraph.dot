@@ -1,0 +1,16 @@
+digraph "paoo.Menu.Menu.play"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node64 [label="paoo.Menu.Menu.play",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node64 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node65 [label="paoo.Menu.Menu.loadSettings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_menu_1_1_menu.html#ad21722ef009d8e17b0f6c93852a5d100",tooltip=" "];
+  Node65 -> Node66 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node66 [label="paoo.Game.BaseValues.set\lDifficulty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_game_1_1_base_values.html#a38e3eef7dd9da249d9f444ca78b2c864",tooltip=" "];
+  Node65 -> Node67 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node67 [label="paoo.Game.BaseValues.set\lMusic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_game_1_1_base_values.html#a99f6a5f192eadd6fb3ae55e63bc5d24e",tooltip=" "];
+  Node65 -> Node68 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node68 [label="paoo.Game.BaseValues.set\lLevel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_game_1_1_base_values.html#abc4edc9cb65266af9d297b35b4f8ecfa",tooltip=" "];
+}

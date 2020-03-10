@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_map_8java" kind="file" language="Java">
+    <compoundname>Map.java</compoundname>
+    <innerclass refid="classpaoo_1_1_game_1_1_map" prot="public">paoo::Game::Map</innerclass>
+    <innernamespace refid="namespacepaoo_1_1_game">paoo::Game</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">paoo.Game;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="classpaoo_1_1_game_1_1_map" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classpaoo_1_1_game_1_1_map" kindref="compound">Map</ref><sp/>{</highlight></codeline>
+<codeline lineno="4" refid="classpaoo_1_1_game_1_1_map_1a974962b31b19b860ca8f07dcb90f295d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classpaoo_1_1_game_1_1_map_1a974962b31b19b860ca8f07dcb90f295d" kindref="member">BOARD_WIDTH</ref><sp/>=<sp/>1100;</highlight></codeline>
+<codeline lineno="5" refid="classpaoo_1_1_game_1_1_map_1aa8a25a9edc8a7f86845f6b05c4c607d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classpaoo_1_1_game_1_1_map_1aa8a25a9edc8a7f86845f6b05c4c607d1" kindref="member">BOARD_HEIGHT</ref><sp/>=700<sp/>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/paoo/Game/Map.java"/>
+  </compounddef>
+</doxygen>

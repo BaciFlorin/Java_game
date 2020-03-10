@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_d975c76423d91c756903ebaad3e65fdd" kind="dir">
+    <compoundname>src/paoo/Game/Input</compoundname>
+    <innerfile refid="_input_handle_8java">InputHandle.java</innerfile>
+    <innerfile refid="_game_2_input_2_mouse_input_8java">MouseInput.java</innerfile>
+    <innerfile refid="_window_handle_8java">WindowHandle.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/paoo/Game/Input/"/>
+  </compounddef>
+</doxygen>

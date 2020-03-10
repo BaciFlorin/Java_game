@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classpaoo_1_1_game_1_1_input_1_1_mouse_input" kind="class" language="Java" prot="public">
+    <compoundname>paoo::Game::Input::MouseInput</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MouseListener</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_input_1_1_mouse_input_1a9973ec5b7f55270bb91c60924219c3a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.Input.MouseInput.mouseClicked</definition>
+        <argsstring>(MouseEvent e)</argsstring>
+        <name>mouseClicked</name>
+        <param>
+          <type>MouseEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Input/MouseInput.java" line="11" column="1" bodyfile="src/paoo/Game/Input/MouseInput.java" bodystart="11" bodyend="52"/>
+        <references refid="classpaoo_1_1_game_1_1_game_1a830054934e26ea735ff78cfba3d800b2" compoundref="_game_8java" startline="510" endline="510">paoo.Game.Game.isPause</references>
+        <references refid="classpaoo_1_1_game_1_1_game_1a99ba4b8ecb83dfa39ae0721af513d374" compoundref="_game_8java" startline="538" endline="538">paoo.Game.Game.getResumeButton</references>
+        <references refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1aab8724dc0be5ead5bee8751b58f48916" compoundref="_my_button_8java" startline="29" endline="32">paoo.Menu.Buttons.MyButton.isPressed</references>
+        <references refid="classpaoo_1_1_game_1_1_game_1a965237e054132599526675bb31204b8f" compoundref="_game_8java" startline="511" endline="511">paoo.Game.Game.setPause</references>
+        <references refid="classpaoo_1_1_game_1_1_game_1aa9b33b4dbfe3160eec3b560958af8449" compoundref="_game_8java" startline="540" endline="540">paoo.Game.Game.getSaveButton</references>
+        <references refid="classpaoo_1_1_game_1_1_game_1a39ae206533ef777588e0d4dd3d283e11" compoundref="_game_8java" startline="542" endline="542">paoo.Game.Game.getLevelHandle</references>
+        <references refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1ae72c561b61aae891be491d8290b92dad" compoundref="_level_handle_8java" startline="82" endline="123">paoo.Game.Level.LevelHandle.saveLevelToFile</references>
+        <references refid="classpaoo_1_1_game_1_1_game_1a5f0d2f8823a9d1c3694957acc8acfd2c" compoundref="_game_8java" startline="534" endline="534">paoo.Game.Game.getQuitButton</references>
+        <references refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a6961baa71d071dcd54ddd5badd9e90f7" compoundref="_level_handle_8java" startline="221" endline="221">paoo.Game.Level.LevelHandle.getBase</references>
+        <references refid="classpaoo_1_1_game_1_1_base_values_1a8e1fb0b50932e7232ae1d484d3035d75" compoundref="_base_values_8java" startline="26" endline="36">paoo.Game.BaseValues.close</references>
+        <references refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a5d13b64c89582e70cfdfebb2b3b9d534" compoundref="_level_handle_8java" startline="220" endline="220">paoo.Game.Level.LevelHandle.getLbase</references>
+        <references refid="classpaoo_1_1_game_1_1_level_1_1_level_base_1ac37fe20e6f183f3f3c07d170b6dd62de" compoundref="_level_base_8java" startline="40" endline="50">paoo.Game.Level.LevelBase.close</references>
+        <references refid="classpaoo_1_1_game_1_1_game_1a54e7da19895f99dff929df98bbc83a39" compoundref="_game_8java" startline="514" endline="514">paoo.Game.Game.isOver</references>
+        <references refid="classpaoo_1_1_game_1_1_game_1ac78012f57516ec693919888496dfa4bf" compoundref="_game_8java" startline="536" endline="536">paoo.Game.Game.getReloadButton</references>
+        <references refid="classpaoo_1_1_game_1_1_game_1a0a2f9dd2d90e1809d4acab5739ce5152" compoundref="_game_8java" startline="139" endline="156">paoo.Game.Game.restore</references>
+        <references refid="classpaoo_1_1_game_1_1_game_1ab508f895867ae45f43d31ebbc6bcf9d5" compoundref="_game_8java" startline="513" endline="513">paoo.Game.Game.setGameOver</references>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_input_1_1_mouse_input_1ab73a5a5d5a784256e7e6f1c90ec784e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.Input.MouseInput.mousePressed</definition>
+        <argsstring>(MouseEvent e)</argsstring>
+        <name>mousePressed</name>
+        <param>
+          <type>MouseEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Input/MouseInput.java" line="54" column="1" bodyfile="src/paoo/Game/Input/MouseInput.java" bodystart="54" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_input_1_1_mouse_input_1a3357ff0f00935c74f66d4953b8f2809e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.Input.MouseInput.mouseReleased</definition>
+        <argsstring>(MouseEvent e)</argsstring>
+        <name>mouseReleased</name>
+        <param>
+          <type>MouseEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Input/MouseInput.java" line="58" column="1" bodyfile="src/paoo/Game/Input/MouseInput.java" bodystart="58" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_input_1_1_mouse_input_1af300007fdac0746930f3baf8c760a60e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.Input.MouseInput.mouseEntered</definition>
+        <argsstring>(MouseEvent e)</argsstring>
+        <name>mouseEntered</name>
+        <param>
+          <type>MouseEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Input/MouseInput.java" line="62" column="1" bodyfile="src/paoo/Game/Input/MouseInput.java" bodystart="62" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_input_1_1_mouse_input_1acc3f2c44520e1348a4b6dc716a44704b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.Input.MouseInput.mouseExited</definition>
+        <argsstring>(MouseEvent e)</argsstring>
+        <name>mouseExited</name>
+        <param>
+          <type>MouseEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Input/MouseInput.java" line="66" column="1" bodyfile="src/paoo/Game/Input/MouseInput.java" bodystart="66" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="74">
+        <label>paoo.Game.Input.MouseInput</label>
+        <link refid="classpaoo_1_1_game_1_1_input_1_1_mouse_input"/>
+        <childnode refid="75" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>MouseListener</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="76">
+        <label>paoo.Game.Input.MouseInput</label>
+        <link refid="classpaoo_1_1_game_1_1_input_1_1_mouse_input"/>
+        <childnode refid="77" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>MouseListener</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/paoo/Game/Input/MouseInput.java" line="9" column="1" bodyfile="src/paoo/Game/Input/MouseInput.java" bodystart="9" bodyend="69"/>
+    <listofallmembers>
+      <member refid="classpaoo_1_1_game_1_1_input_1_1_mouse_input_1a9973ec5b7f55270bb91c60924219c3a0" prot="public" virt="non-virtual"><scope>paoo::Game::Input::MouseInput</scope><name>mouseClicked</name></member>
+      <member refid="classpaoo_1_1_game_1_1_input_1_1_mouse_input_1af300007fdac0746930f3baf8c760a60e" prot="public" virt="non-virtual"><scope>paoo::Game::Input::MouseInput</scope><name>mouseEntered</name></member>
+      <member refid="classpaoo_1_1_game_1_1_input_1_1_mouse_input_1acc3f2c44520e1348a4b6dc716a44704b" prot="public" virt="non-virtual"><scope>paoo::Game::Input::MouseInput</scope><name>mouseExited</name></member>
+      <member refid="classpaoo_1_1_game_1_1_input_1_1_mouse_input_1ab73a5a5d5a784256e7e6f1c90ec784e6" prot="public" virt="non-virtual"><scope>paoo::Game::Input::MouseInput</scope><name>mousePressed</name></member>
+      <member refid="classpaoo_1_1_game_1_1_input_1_1_mouse_input_1a3357ff0f00935c74f66d4953b8f2809e" prot="public" virt="non-virtual"><scope>paoo::Game::Input::MouseInput</scope><name>mouseReleased</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,18 @@
+digraph "paoo.Game.BaseValues.setMusic"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node37 [label="paoo.Game.BaseValues.set\lMusic",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node37 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node38 [label="paoo.Menu.Menu.loadSettings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_menu_1_1_menu.html#ad21722ef009d8e17b0f6c93852a5d100",tooltip=" "];
+  Node38 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node39 [label="paoo.Menu.MouseInput.mouse\lClicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_menu_1_1_mouse_input.html#a451095ef489f36aaf1ea7c3c9df44627",tooltip=" "];
+  Node38 -> Node40 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node40 [label="paoo.Menu.Menu.play",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_menu_1_1_menu.html#aeb6108bfbf42e81c0b125444723ba059",tooltip=" "];
+  Node40 -> Node41 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="paoo.Menu.Menu.start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_menu_1_1_menu.html#a793c1a928f9055aa32d799d1c1d53f34",tooltip=" "];
+  Node41 -> Node42 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="paoo.Main.main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_main.html#aa9a98cd90cc8ddb78629a05d04e9241f",tooltip=" "];
+}

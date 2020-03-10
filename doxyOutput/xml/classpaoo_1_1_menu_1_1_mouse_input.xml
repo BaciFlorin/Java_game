@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classpaoo_1_1_menu_1_1_mouse_input" kind="class" language="Java" prot="public">
+    <compoundname>paoo::Menu::MouseInput</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MouseListener</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_mouse_input_1af2e1b8a2b94ca435e9a0ccdc8e829bee" prot="private" static="no" mutable="no">
+        <type><ref refid="classpaoo_1_1_menu_1_1_menu" kindref="compound">Menu</ref></type>
+        <definition>Menu paoo.Menu.MouseInput.source</definition>
+        <argsstring></argsstring>
+        <name>source</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/MouseInput.java" line="8" column="1" bodyfile="src/paoo/Menu/MouseInput.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_mouse_input_1a03d5efe9b495f4c0364231df581b33d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>paoo.Menu.MouseInput.MouseInput</definition>
+        <argsstring>(Menu source)</argsstring>
+        <name>MouseInput</name>
+        <param>
+          <type><ref refid="classpaoo_1_1_menu_1_1_menu" kindref="compound">Menu</ref></type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/MouseInput.java" line="10" column="1" bodyfile="src/paoo/Menu/MouseInput.java" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Menu.MouseInput.mouseClicked</definition>
+        <argsstring>(MouseEvent e)</argsstring>
+        <name>mouseClicked</name>
+        <param>
+          <type>MouseEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/MouseInput.java" line="14" column="1" bodyfile="src/paoo/Menu/MouseInput.java" bodystart="14" bodyend="90"/>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1a04506669b0ca15ef77d1a138c1ac023a" compoundref="_menu_8java" startline="227" endline="227">paoo.Menu.Menu.isOptionMenu</references>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1a3d858ce61580b2fe11e36cf1d560dc1d" compoundref="_menu_8java" startline="196" endline="196">paoo.Menu.Menu.getPlayButton</references>
+        <references refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1aab8724dc0be5ead5bee8751b58f48916" compoundref="_my_button_8java" startline="29" endline="32">paoo.Menu.Buttons.MyButton.isPressed</references>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1a09254d68209d6697c76560a14c084cfc" compoundref="_menu_8java" startline="230" endline="230">paoo.Menu.Menu.setRunning</references>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1a58d490b2e341339524c01508a05394dd" compoundref="_menu_8java" startline="167" endline="167">paoo.Menu.Menu.getFrame</references>
+        <references refid="classpaoo_1_1_game_1_1_game_1afb71f5476d24bb01f909c89ba733dbef" compoundref="_game_8java" startline="504" endline="504">paoo.Game.Game.isRunning</references>
+        <references refid="classpaoo_1_1_game_1_1_game_1a14e181d8b940b0c7e29a8f4b9415168a" compoundref="_game_8java" startline="187" endline="191">paoo.Game.Game.start</references>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1a2b04f36ec7d4f310fd5f0af327a0f5d4" compoundref="_menu_8java" startline="202" endline="202">paoo.Menu.Menu.getQuitButton</references>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1aa5a289a2d1ed03c526a34e0275fb2fed" compoundref="_menu_8java" startline="192" endline="192">paoo.Menu.Menu.getBase</references>
+        <references refid="classpaoo_1_1_game_1_1_base_values_1a8e1fb0b50932e7232ae1d484d3035d75" compoundref="_base_values_8java" startline="26" endline="36">paoo.Game.BaseValues.close</references>
+        <references refid="classpaoo_1_1_simple_frame_1a7451a5a060f0408e49a53a42c180b7bf" compoundref="_simple_frame_8java" startline="20" endline="22">paoo.SimpleFrame.stopFrame</references>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1a62fb9d80d77a925ce41b65b1eb6d47f8" compoundref="_menu_8java" startline="204" endline="204">paoo.Menu.Menu.getLoadButton</references>
+        <references refid="classpaoo_1_1_game_1_1_game_1ade71a6aaec4dd1c885a29d28e02ff4a6" compoundref="_game_8java" startline="66" endline="66">paoo.Game.Game.setLoad</references>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1a8d1fd4990b0a0f77506d5f8e101b6071" compoundref="_menu_8java" startline="200" endline="200">paoo.Menu.Menu.getOptionButton</references>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1a96ed9dca35e440282ec1e9a08f2c89dc" compoundref="_menu_8java" startline="223" endline="226">paoo.Menu.Menu.setOptionMenu</references>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1a7ce0d94acfef7a30cc929cf9140a5ccf" compoundref="_menu_8java" startline="198" endline="198">paoo.Menu.Menu.getHelpButton</references>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1a79503facfa57859b05c82489698ce1bb" compoundref="_menu_8java" startline="209" endline="209">paoo.Menu.Menu.getMusicButton</references>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1aaa65838a64c67dd9d50aba0bae57c7c2" compoundref="_menu_8java" startline="220" endline="220">paoo.Menu.Menu.setMusic</references>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1a4acecfc5391037206eeb46c9cb05e86a" compoundref="_menu_8java" startline="221" endline="221">paoo.Menu.Menu.getMusic</references>
+        <references refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1a48e1df2c75e27a3f498cca76b6cdda00" compoundref="_my_button_8java" startline="34" endline="37">paoo.Menu.Buttons.MyButton.changeImage</references>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1ac70a1b7231e13a84c9230090fed1f559" compoundref="_menu_8java" startline="213" endline="213">paoo.Menu.Menu.getMinusButton1</references>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1a31e65113ada51c0adb14fe91b734cfe0" compoundref="_menu_8java" startline="178" endline="183">paoo.Menu.Menu.setDificulty</references>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1a9413cb674c1e989a1ea2dd56776a7b4f" compoundref="_menu_8java" startline="177" endline="177">paoo.Menu.Menu.getDificulty</references>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1a25b27014ba047c1fa06fbe0553017ee2" compoundref="_menu_8java" startline="211" endline="211">paoo.Menu.Menu.getPlusButton1</references>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1a961ea44584c0d8a34112626d40b2ee8b" compoundref="_menu_8java" startline="217" endline="217">paoo.Menu.Menu.getMinusButton2</references>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1a84ff02e1acf22a414cb82d5023c2be1a" compoundref="_menu_8java" startline="171" endline="175">paoo.Menu.Menu.setLevel</references>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1ac210ddebc72b956f6d62913b45ce16c7" compoundref="_menu_8java" startline="170" endline="170">paoo.Menu.Menu.getLevel</references>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1a0bd3fc33b238a00af533599badcc0a4b" compoundref="_menu_8java" startline="215" endline="215">paoo.Menu.Menu.getPlusButton2</references>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1aa4c7b1c938abbcb691c59051903ed29b" compoundref="_menu_8java" startline="207" endline="207">paoo.Menu.Menu.getBackButton</references>
+        <references refid="classpaoo_1_1_menu_1_1_menu_1ad21722ef009d8e17b0f6c93852a5d100" compoundref="_menu_8java" startline="185" endline="190">paoo.Menu.Menu.loadSettings</references>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_mouse_input_1a957bdc6878ccef494455ec53ab12192c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Menu.MouseInput.mousePressed</definition>
+        <argsstring>(MouseEvent e)</argsstring>
+        <name>mousePressed</name>
+        <param>
+          <type>MouseEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/MouseInput.java" line="92" column="1" bodyfile="src/paoo/Menu/MouseInput.java" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_mouse_input_1a0be52d23a06eb4bbf46d28211eebfe91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Menu.MouseInput.mouseReleased</definition>
+        <argsstring>(MouseEvent e)</argsstring>
+        <name>mouseReleased</name>
+        <param>
+          <type>MouseEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/MouseInput.java" line="97" column="1" bodyfile="src/paoo/Menu/MouseInput.java" bodystart="97" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_mouse_input_1a6306fb25a685f985e7a4386f9583e368" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Menu.MouseInput.mouseEntered</definition>
+        <argsstring>(MouseEvent e)</argsstring>
+        <name>mouseEntered</name>
+        <param>
+          <type>MouseEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/MouseInput.java" line="101" column="1" bodyfile="src/paoo/Menu/MouseInput.java" bodystart="101" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_mouse_input_1aaefa08ddd3ac1118722ce484b3471fee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Menu.MouseInput.mouseExited</definition>
+        <argsstring>(MouseEvent e)</argsstring>
+        <name>mouseExited</name>
+        <param>
+          <type>MouseEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/MouseInput.java" line="106" column="1" bodyfile="src/paoo/Menu/MouseInput.java" bodystart="106" bodyend="109"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="79">
+        <label>MouseListener</label>
+      </node>
+      <node id="78">
+        <label>paoo.Menu.MouseInput</label>
+        <link refid="classpaoo_1_1_menu_1_1_mouse_input"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="81">
+        <label>MouseListener</label>
+      </node>
+      <node id="80">
+        <label>paoo.Menu.MouseInput</label>
+        <link refid="classpaoo_1_1_menu_1_1_mouse_input"/>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/paoo/Menu/MouseInput.java" line="7" column="1" bodyfile="src/paoo/Menu/MouseInput.java" bodystart="7" bodyend="110"/>
+    <listofallmembers>
+      <member refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" prot="public" virt="non-virtual"><scope>paoo::Menu::MouseInput</scope><name>mouseClicked</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_mouse_input_1a6306fb25a685f985e7a4386f9583e368" prot="public" virt="non-virtual"><scope>paoo::Menu::MouseInput</scope><name>mouseEntered</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_mouse_input_1aaefa08ddd3ac1118722ce484b3471fee" prot="public" virt="non-virtual"><scope>paoo::Menu::MouseInput</scope><name>mouseExited</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_mouse_input_1a03d5efe9b495f4c0364231df581b33d7" prot="public" virt="non-virtual"><scope>paoo::Menu::MouseInput</scope><name>MouseInput</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_mouse_input_1a957bdc6878ccef494455ec53ab12192c" prot="public" virt="non-virtual"><scope>paoo::Menu::MouseInput</scope><name>mousePressed</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_mouse_input_1a0be52d23a06eb4bbf46d28211eebfe91" prot="public" virt="non-virtual"><scope>paoo::Menu::MouseInput</scope><name>mouseReleased</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_mouse_input_1af2e1b8a2b94ca435e9a0ccdc8e829bee" prot="private" virt="non-virtual"><scope>paoo::Menu::MouseInput</scope><name>source</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

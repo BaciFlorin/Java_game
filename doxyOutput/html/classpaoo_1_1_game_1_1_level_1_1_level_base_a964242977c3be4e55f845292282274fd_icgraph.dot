@@ -1,0 +1,16 @@
+digraph "paoo.Game.Level.LevelBase.changeLevel"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node3 [label="paoo.Game.Level.LevelBase.change\lLevel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="paoo.Game.Level.LevelHandle.set\lLevel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_game_1_1_level_1_1_level_handle.html#ab17c592082044180fc0de803310ab895",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="paoo.Game.Game.nextLvl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_game_1_1_game.html#afac86035f5f348c7a362526d4ce4602f",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="paoo.Game.Game.render",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_game_1_1_game.html#ad94433dadeb33e87418110324cd8437f",tooltip=" "];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="paoo.Game.Game.run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_game_1_1_game.html#aefa2a8d1aa068d409a925d122b99b1c8",tooltip=" "];
+}

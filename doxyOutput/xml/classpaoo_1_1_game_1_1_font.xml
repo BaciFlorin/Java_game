@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classpaoo_1_1_game_1_1_font" kind="class" language="Java" prot="public">
+    <compoundname>paoo::Game::Font</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_font_1a4fdb108c29f58a24cd43304b9f9844de" prot="private" static="no" mutable="no">
+        <type>java.awt.Font</type>
+        <definition>java.awt.Font paoo.Game.Font.arial</definition>
+        <argsstring></argsstring>
+        <name>arial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Font.java" line="7" column="1" bodyfile="src/paoo/Game/Font.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_font_1a524c29da41dfe0b16c09d97002f39259" prot="private" static="no" mutable="no">
+        <type>java.awt.Font</type>
+        <definition>java.awt.Font paoo.Game.Font.segoe</definition>
+        <argsstring></argsstring>
+        <name>segoe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Font.java" line="8" column="1" bodyfile="src/paoo/Game/Font.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_font_1a4fc1480403b6b9cd037cc0586ad551ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>paoo.Game.Font.Font</definition>
+        <argsstring>()</argsstring>
+        <name>Font</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Font.java" line="10" column="1" bodyfile="src/paoo/Game/Font.java" bodystart="10" bodyend="13"/>
+        <references refid="classpaoo_1_1_game_1_1_font_1aae3b9b89f12179c9efa9f60bb4509837" compoundref="_font_8java" startline="24" endline="26">paoo.Game.Font.setArial</references>
+        <references refid="classpaoo_1_1_game_1_1_font_1aee81f1e012fce841c930a4da1d720ab1" compoundref="_font_8java" startline="32" endline="34">paoo.Game.Font.setSegoe</references>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_font_1a7c2a4407b29c3a90dc109ae242745d37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.Font.render</definition>
+        <argsstring>(String msg, Graphics g, int x, int y)</argsstring>
+        <name>render</name>
+        <param>
+          <type>String</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>Graphics</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Font.java" line="15" column="1" bodyfile="src/paoo/Game/Font.java" bodystart="15" bodyend="18"/>
+        <references refid="classpaoo_1_1_game_1_1_font_1a464e341f2d94a8e2f46e01ad5110e68a" compoundref="_font_8java" startline="20" endline="22">paoo.Game.Font.getArial</references>
+        <referencedby refid="classpaoo_1_1_game_1_1_game_1ad94433dadeb33e87418110324cd8437f" compoundref="_game_8java" startline="268" endline="349">paoo.Game.Game.render</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_font_1a464e341f2d94a8e2f46e01ad5110e68a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>java.awt.Font</type>
+        <definition>java.awt.Font paoo.Game.Font.getArial</definition>
+        <argsstring>()</argsstring>
+        <name>getArial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Font.java" line="20" column="1" bodyfile="src/paoo/Game/Font.java" bodystart="20" bodyend="22"/>
+        <referencedby refid="classpaoo_1_1_game_1_1_font_1a7c2a4407b29c3a90dc109ae242745d37" compoundref="_font_8java" startline="15" endline="18">paoo.Game.Font.render</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_font_1aae3b9b89f12179c9efa9f60bb4509837" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.Font.setArial</definition>
+        <argsstring>(java.awt.Font arial)</argsstring>
+        <name>setArial</name>
+        <param>
+          <type>java.awt.Font</type>
+          <declname>arial</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Font.java" line="24" column="1" bodyfile="src/paoo/Game/Font.java" bodystart="24" bodyend="26"/>
+        <referencedby refid="classpaoo_1_1_game_1_1_font_1a4fc1480403b6b9cd037cc0586ad551ec" compoundref="_font_8java" startline="10" endline="13">paoo.Game.Font.Font</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_font_1ade9c45ba0d4be4121001cfdde399f799" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>java.awt.Font</type>
+        <definition>java.awt.Font paoo.Game.Font.getSegoe</definition>
+        <argsstring>()</argsstring>
+        <name>getSegoe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Font.java" line="28" column="1" bodyfile="src/paoo/Game/Font.java" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_font_1aee81f1e012fce841c930a4da1d720ab1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.Font.setSegoe</definition>
+        <argsstring>(java.awt.Font segoe)</argsstring>
+        <name>setSegoe</name>
+        <param>
+          <type>java.awt.Font</type>
+          <declname>segoe</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Font.java" line="32" column="1" bodyfile="src/paoo/Game/Font.java" bodystart="32" bodyend="34"/>
+        <referencedby refid="classpaoo_1_1_game_1_1_font_1a4fc1480403b6b9cd037cc0586ad551ec" compoundref="_font_8java" startline="10" endline="13">paoo.Game.Font.Font</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/paoo/Game/Font.java" line="5" column="1" bodyfile="src/paoo/Game/Font.java" bodystart="5" bodyend="35"/>
+    <listofallmembers>
+      <member refid="classpaoo_1_1_game_1_1_font_1a4fdb108c29f58a24cd43304b9f9844de" prot="private" virt="non-virtual"><scope>paoo::Game::Font</scope><name>arial</name></member>
+      <member refid="classpaoo_1_1_game_1_1_font_1a4fc1480403b6b9cd037cc0586ad551ec" prot="public" virt="non-virtual"><scope>paoo::Game::Font</scope><name>Font</name></member>
+      <member refid="classpaoo_1_1_game_1_1_font_1a464e341f2d94a8e2f46e01ad5110e68a" prot="public" virt="non-virtual"><scope>paoo::Game::Font</scope><name>getArial</name></member>
+      <member refid="classpaoo_1_1_game_1_1_font_1ade9c45ba0d4be4121001cfdde399f799" prot="public" virt="non-virtual"><scope>paoo::Game::Font</scope><name>getSegoe</name></member>
+      <member refid="classpaoo_1_1_game_1_1_font_1a7c2a4407b29c3a90dc109ae242745d37" prot="public" virt="non-virtual"><scope>paoo::Game::Font</scope><name>render</name></member>
+      <member refid="classpaoo_1_1_game_1_1_font_1a524c29da41dfe0b16c09d97002f39259" prot="private" virt="non-virtual"><scope>paoo::Game::Font</scope><name>segoe</name></member>
+      <member refid="classpaoo_1_1_game_1_1_font_1aae3b9b89f12179c9efa9f60bb4509837" prot="public" virt="non-virtual"><scope>paoo::Game::Font</scope><name>setArial</name></member>
+      <member refid="classpaoo_1_1_game_1_1_font_1aee81f1e012fce841c930a4da1d720ab1" prot="public" virt="non-virtual"><scope>paoo::Game::Font</scope><name>setSegoe</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

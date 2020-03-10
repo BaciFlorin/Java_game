@@ -1,0 +1,513 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.15">
+  <compound refid="classpaoo_1_1_game_1_1_level_1_1_abstract_ship_factory" kind="class"><name>paoo::Game::Level::AbstractShipFactory</name>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_abstract_ship_factory_1a8cb1e38327a9ce0deb2e53cad78d9082" kind="function"><name>createShip</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_items_1_1_animated_item" kind="class"><name>paoo::Items::AnimatedItem</name>
+    <member refid="classpaoo_1_1_items_1_1_animated_item_1ad476e77d537824c6cfdd51638a81ccb4" kind="variable"><name>x</name></member>
+    <member refid="classpaoo_1_1_items_1_1_animated_item_1a1114998616041d0f6fe88178149b6475" kind="variable"><name>y</name></member>
+    <member refid="classpaoo_1_1_items_1_1_animated_item_1a2efc7b57ec8255b6a9e5e4cd506bd933" kind="variable"><name>vis</name></member>
+    <member refid="classpaoo_1_1_items_1_1_animated_item_1ae740ac2a5d4f57ba36bb0a5dd517124d" kind="variable"><name>nr_animatii</name></member>
+    <member refid="classpaoo_1_1_items_1_1_animated_item_1aba4329c6800354076767433f609c15b4" kind="variable"><name>width</name></member>
+    <member refid="classpaoo_1_1_items_1_1_animated_item_1a586ae6eed035eaee3a7c1fd5dd30cbfb" kind="variable"><name>height</name></member>
+    <member refid="classpaoo_1_1_items_1_1_animated_item_1af282f373f504aec31a3f12ba722edb2b" kind="variable"><name>images</name></member>
+    <member refid="classpaoo_1_1_items_1_1_animated_item_1a27647d02493073cad9d0b5cf7e36ffb6" kind="variable"><name>image</name></member>
+    <member refid="classpaoo_1_1_items_1_1_animated_item_1a1948b6c1f4704d1318ff0f26b8660efd" kind="function"><name>AnimatedItem</name></member>
+    <member refid="classpaoo_1_1_items_1_1_animated_item_1a1a9738baa1a0c44ede791393ae8e6ef8" kind="function"><name>render</name></member>
+    <member refid="classpaoo_1_1_items_1_1_animated_item_1aa6f29e6699eb3a7161128019580a26dd" kind="function"><name>tick</name></member>
+    <member refid="classpaoo_1_1_items_1_1_animated_item_1a4bf887781ecd81132d77eae2ad0feac7" kind="function"><name>loadImages</name></member>
+    <member refid="classpaoo_1_1_items_1_1_animated_item_1a0c083c4fd0f79846e79cc3eae07dab78" kind="function"><name>loadDimensions</name></member>
+    <member refid="classpaoo_1_1_items_1_1_animated_item_1a1ad92415a2b72b88806a6bdd3e473421" kind="function"><name>getImage</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_items_1_1_backgorund" kind="class"><name>paoo::Items::Backgorund</name>
+    <member refid="classpaoo_1_1_items_1_1_backgorund_1a0ee50e509313d100b87bbb0f15e5950a" kind="function"><name>Backgorund</name></member>
+    <member refid="classpaoo_1_1_items_1_1_backgorund_1a0fffcaa11fa7b039ce86ebd8413a21bb" kind="function"><name>setXY</name></member>
+    <member refid="classpaoo_1_1_items_1_1_backgorund_1ab6c2f00b5679effca1b27983424be596" kind="function"><name>move</name></member>
+    <member refid="classpaoo_1_1_items_1_1_backgorund_1ac158065e5487af0ea2e1845e34081fb6" kind="function"><name>changeImage</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_game_1_1_base_values" kind="class"><name>paoo::Game::BaseValues</name>
+    <member refid="classpaoo_1_1_game_1_1_base_values_1a8535733e9347f2534b1559b06a281c74" kind="variable"><name>c</name></member>
+    <member refid="classpaoo_1_1_game_1_1_base_values_1a4e99d77ed782437aa2ce8e64382655ae" kind="variable"><name>str</name></member>
+    <member refid="classpaoo_1_1_game_1_1_base_values_1adab3a9fc09f476c50e61f72f893b524b" kind="variable"><name>level</name></member>
+    <member refid="classpaoo_1_1_game_1_1_base_values_1ac7a109c0322c4ce1722e6efdb344be59" kind="variable"><name>difficulty</name></member>
+    <member refid="classpaoo_1_1_game_1_1_base_values_1ae6fa1e9569bdda40a019166e90a40ef6" kind="variable"><name>music</name></member>
+    <member refid="classpaoo_1_1_game_1_1_base_values_1a5c9fb32d55d2de0d6fab048d1663a20b" kind="variable"><name>text</name></member>
+    <member refid="classpaoo_1_1_game_1_1_base_values_1a737c09dc173458220afdb11132410139" kind="variable"><name>resultSet</name></member>
+    <member refid="classpaoo_1_1_game_1_1_base_values_1a1603f724dca57c0daca772492f4d931b" kind="function"><name>BaseValues</name></member>
+    <member refid="classpaoo_1_1_game_1_1_base_values_1a8e1fb0b50932e7232ae1d484d3035d75" kind="function"><name>close</name></member>
+    <member refid="classpaoo_1_1_game_1_1_base_values_1a7a6d60aa070134a04524e11954af2ccb" kind="function"><name>update</name></member>
+    <member refid="classpaoo_1_1_game_1_1_base_values_1a258ae1a37e7219a66f668fcccc1244b2" kind="function"><name>getLevel</name></member>
+    <member refid="classpaoo_1_1_game_1_1_base_values_1a37a29c701ed8b25551aa776be9385340" kind="function"><name>getDifficulty</name></member>
+    <member refid="classpaoo_1_1_game_1_1_base_values_1a43dd006d008e62eae221ec833ef27d2d" kind="function"><name>getMusic</name></member>
+    <member refid="classpaoo_1_1_game_1_1_base_values_1a017fdb7c3e1db1f2f197fc11f4825efe" kind="function"><name>getFile</name></member>
+    <member refid="classpaoo_1_1_game_1_1_base_values_1abc4edc9cb65266af9d297b35b4f8ecfa" kind="function"><name>setLevel</name></member>
+    <member refid="classpaoo_1_1_game_1_1_base_values_1a99f6a5f192eadd6fb3ae55e63bc5d24e" kind="function"><name>setMusic</name></member>
+    <member refid="classpaoo_1_1_game_1_1_base_values_1a38e3eef7dd9da249d9f444ca78b2c864" kind="function"><name>setDifficulty</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_items_1_1_big_enemy" kind="class"><name>paoo::Items::BigEnemy</name>
+    <member refid="classpaoo_1_1_items_1_1_big_enemy_1a4e5a56da8cf47e8522b1395c5310629e" kind="variable"><name>bombs</name></member>
+    <member refid="classpaoo_1_1_items_1_1_big_enemy_1ae94aa7ff0aeeccc1b7c34b42cb41e58c" kind="variable"><name>time</name></member>
+    <member refid="classpaoo_1_1_items_1_1_big_enemy_1ad45a438320aa8572fcffcc3e1d4579ae" kind="variable"><name>waitTime</name></member>
+    <member refid="classpaoo_1_1_items_1_1_big_enemy_1ac6d8ba950fb581dd608e5880373e1e65" kind="variable"><name>speed</name></member>
+    <member refid="classpaoo_1_1_items_1_1_big_enemy_1a2d9affb8fd7a2754a1ba345ff5e995a0" kind="function"><name>BigEnemy</name></member>
+    <member refid="classpaoo_1_1_items_1_1_big_enemy_1a562b9c701e73a5a054d6b2cc131b16e8" kind="function"><name>fire</name></member>
+    <member refid="classpaoo_1_1_items_1_1_big_enemy_1a49279d4bd40280ac2832f10ee15d7063" kind="function"><name>increaseDifficulty</name></member>
+    <member refid="classpaoo_1_1_items_1_1_big_enemy_1a7d8e341f5f04c6d969d9f76c547e9d3f" kind="function"><name>getShoots</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_items_1_1_bombs" kind="class"><name>paoo::Items::Bombs</name>
+    <member refid="classpaoo_1_1_items_1_1_bombs_1ae90d89e10a2f730a37b9e26da7123e1f" kind="variable"><name>explosion</name></member>
+    <member refid="classpaoo_1_1_items_1_1_bombs_1a6ba0ff62ab9f681cbd972a47b79085bc" kind="variable"><name>waitTime</name></member>
+    <member refid="classpaoo_1_1_items_1_1_bombs_1a640e7fc967eaa79fe13e50bd6c6934d1" kind="function"><name>Bombs</name></member>
+    <member refid="classpaoo_1_1_items_1_1_bombs_1a5cb654243a73aba4de1dfc1f0db183be" kind="function"><name>move</name></member>
+    <member refid="classpaoo_1_1_items_1_1_bombs_1a60a60455df8748923fabaf4d61597bd3" kind="function"><name>initMissile</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_items_1_1_enemy_missile" kind="class"><name>paoo::Items::EnemyMissile</name>
+    <member refid="classpaoo_1_1_items_1_1_enemy_missile_1ae7b8a002f6e2892934e35ca43e83fd16" kind="function"><name>EnemyMissile</name></member>
+    <member refid="classpaoo_1_1_items_1_1_enemy_missile_1a0d0883b7da57417135b6803866153184" kind="function"><name>move</name></member>
+    <member refid="classpaoo_1_1_items_1_1_enemy_missile_1a6e6f772064f2edaac78c2a3195d2dd82" kind="function"><name>initMissile</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_game_1_1_font" kind="class"><name>paoo::Game::Font</name>
+    <member refid="classpaoo_1_1_game_1_1_font_1a4fdb108c29f58a24cd43304b9f9844de" kind="variable"><name>arial</name></member>
+    <member refid="classpaoo_1_1_game_1_1_font_1a524c29da41dfe0b16c09d97002f39259" kind="variable"><name>segoe</name></member>
+    <member refid="classpaoo_1_1_game_1_1_font_1a4fc1480403b6b9cd037cc0586ad551ec" kind="function"><name>Font</name></member>
+    <member refid="classpaoo_1_1_game_1_1_font_1a7c2a4407b29c3a90dc109ae242745d37" kind="function"><name>render</name></member>
+    <member refid="classpaoo_1_1_game_1_1_font_1a464e341f2d94a8e2f46e01ad5110e68a" kind="function"><name>getArial</name></member>
+    <member refid="classpaoo_1_1_game_1_1_font_1aae3b9b89f12179c9efa9f60bb4509837" kind="function"><name>setArial</name></member>
+    <member refid="classpaoo_1_1_game_1_1_font_1ade9c45ba0d4be4121001cfdde399f799" kind="function"><name>getSegoe</name></member>
+    <member refid="classpaoo_1_1_game_1_1_font_1aee81f1e012fce841c930a4da1d720ab1" kind="function"><name>setSegoe</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_game_1_1_game" kind="class"><name>paoo::Game::Game</name>
+    <member refid="classpaoo_1_1_game_1_1_game_1a27c1f69dcc3ac5575bcf7d9970d706b7" kind="variable"><name>WIDTH</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a6dc8bbb426caa2dfc9fac9055b58e21a" kind="variable"><name>HEIGHT</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a011a821af554bbc45c64b366d709e696" kind="variable"><name>SCALE</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1abb792e55e32edf75624859091653cb6b" kind="variable"><name>NAME</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a581b4d246ee8a9d19c2a0ead1abe51d7" kind="variable"><name>frame</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a60af0b8f100850d5b5ef5f0cf9461395" kind="variable"><name>quitButton</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a0b637068e3c89ff3998f905115c1bb31" kind="variable"><name>changeLevel</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1ac83f784c5db617d8e263e3a03f9636cd" kind="variable"><name>pause</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a749c6073e926f3735059c78527952452" kind="variable"><name>gameOver</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1aa01740b22caf540f8dad31e15b3bc36e" kind="variable"><name>running</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1ae609ab24cf60cafe4f98771eb2abd5c1" kind="variable"><name>win</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1aa1c071217346b36052c6566d82c485af" kind="variable"><name>fps</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a6d6697c3ee6d873e473b069c7f575f9c" kind="variable"><name>tps</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a3bc133ac0019a697abdb9f32f9097db2" kind="variable"><name>steps</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a097f098e7efbd4d5afe694c4aac935c9" kind="variable"><name>input</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a421de0a1f1740b589adec5aba49ab384" kind="variable"><name>mouse</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a4313f79554160e1de0f76a425eaec113" kind="variable"><name>window</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a57cb4c76f12f2bde223bf4f496362b85" kind="variable"><name>lives</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1ac473768af976df318f2d6ac768763948" kind="variable"><name>incercari</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1ae642f7a11a0b9c730f0faa8989615031" kind="variable"><name>hearts</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a8069f4342862efbf749793819caf2c58" kind="variable"><name>spaceShip</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1ad904246c5528d743dc54a75f0d438f24" kind="variable"><name>level</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1add01e39a79e8528d373f2314488b363c" kind="variable"><name>score</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a43a25bc18520b08e835bf226730389db" kind="variable"><name>enemyesLeft</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a9f054e597bab09a15c86d41ec7493de4" kind="variable"><name>nivel</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a45975000c05b6a9b55afbede468bc27a" kind="variable"><name>load</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a29fddd9b4b25d72efd92e75915d52aeb" kind="variable"><name>reloadButton</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a45330fb6e9cf6d43aeb2c906d9fdf15d" kind="variable"><name>resumeButton</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a5e258ed515b56e953d7d8ec78867f065" kind="variable"><name>saveButton</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a159a5805bf28af3a18747693c00ba96f" kind="variable"><name>tickCount</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1ab4936fbe21131cef2387debb646d1613" kind="variable"><name>font</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a700cde53e23c6ba98d521d4c41c1ea4e" kind="variable"><name>timer</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1ae52b23b9d575618ac8f2af4028b36a1a" kind="variable"><name>waitTime</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1ade71a6aaec4dd1c885a29d28e02ff4a6" kind="function"><name>setLoad</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a17b3e3c4481d47bcfec74c39735d9001" kind="function"><name>getLoad</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a24fe88bd26a708c464f5afb3e22d921a" kind="function"><name>setLives</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a0031445c70f9f92602295d92ab184061" kind="function"><name>getLives</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a0a2f9dd2d90e1809d4acab5739ce5152" kind="function"><name>restore</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1afac86035f5f348c7a362526d4ce4602f" kind="function"><name>nextLvl</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1afb71f5476d24bb01f909c89ba733dbef" kind="function"><name>isRunning</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a1098af0e917ead3abf3cbcf20fd71f29" kind="function"><name>setRunning</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a2b26f13352c6f3e8f71f7833b31698ed" kind="function"><name>isChangeLevel</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a429bad2d151867f567cc3402e74ed1e6" kind="function"><name>setChangeLevel</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a830054934e26ea735ff78cfba3d800b2" kind="function"><name>isPause</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a965237e054132599526675bb31204b8f" kind="function"><name>setPause</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1ab508f895867ae45f43d31ebbc6bcf9d5" kind="function"><name>setGameOver</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a54e7da19895f99dff929df98bbc83a39" kind="function"><name>isOver</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a48c8afbd7fb81be66a9cbc583cf8efbd" kind="function"><name>setWin</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1ac27918beea92b2f5d873f3f994cb1657" kind="function"><name>getWin</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1ae8982e7b2b29a019dc945e68fb7cf159" kind="function"><name>getInput</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a4aa6a197c12bad74e19383c0eb64d81b" kind="function"><name>setInput</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a40fa859490b6692449c31cc47adcc3e6" kind="function"><name>getMouse</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1af3573f672876da0fc7441fa4f35578d3" kind="function"><name>setMouse</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a317b3587b3e3b9afd6aa731edd992c24" kind="function"><name>getSpaceShip</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1aa1ffe6fae611dd29ae198f7c6508ca5e" kind="function"><name>getFrame</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a5f0d2f8823a9d1c3694957acc8acfd2c" kind="function"><name>getQuitButton</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1ac78012f57516ec693919888496dfa4bf" kind="function"><name>getReloadButton</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a99ba4b8ecb83dfa39ae0721af513d374" kind="function"><name>getResumeButton</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1aa9b33b4dbfe3160eec3b560958af8449" kind="function"><name>getSaveButton</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a39ae206533ef777588e0d4dd3d283e11" kind="function"><name>getLevelHandle</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1abfc6653a4846f42af294ebcf59ab1bd7" kind="function"><name>Game</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a14e181d8b940b0c7e29a8f4b9415168a" kind="function"><name>start</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a807acbc67f366aed84e5df5fc0f51e14" kind="function"><name>stop</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1aefa2a8d1aa068d409a925d122b99b1c8" kind="function"><name>run</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1ad94433dadeb33e87418110324cd8437f" kind="function"><name>render</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a9752d717da974137ffd5e3628cb2000e" kind="function"><name>getTickCount</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1aed2f31d7a3dc1e510dc5af97f12b05aa" kind="function"><name>setTickCount</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1aef8a40541715271a899eca9f391de17c" kind="function"><name>init</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1ad0b6423b701782226381a1eb4acbfe98" kind="function"><name>updateSpaceShip</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1af28a9178fd8a06755628339d859fb186" kind="function"><name>updateMissiles</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a54e671acf88c8da3805e9308e42d7395" kind="function"><name>updateEnemyes</name></member>
+    <member refid="classpaoo_1_1_game_1_1_game_1a2cbe1534f0a20167768ca951a2048363" kind="function"><name>checkCollisions</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_items_1_1_heart" kind="class"><name>paoo::Items::Heart</name>
+    <member refid="classpaoo_1_1_items_1_1_heart_1a767806bbe5d7a4bb677124a1d8fd0c4c" kind="function"><name>Heart</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_game_1_1_input_1_1_input_handle" kind="class"><name>paoo::Game::Input::InputHandle</name>
+    <member refid="classpaoo_1_1_game_1_1_input_1_1_input_handle_1aafc3ee195889f2dca907c3c69fe8273b" kind="function"><name>keyPressed</name></member>
+    <member refid="classpaoo_1_1_game_1_1_input_1_1_input_handle_1a14c9ec2acaae2e925c3475385e9f4541" kind="function"><name>keyReleased</name></member>
+    <member refid="classpaoo_1_1_game_1_1_input_1_1_input_handle_1aef1a869fd0b27bd31009e1f2706b634d" kind="function"><name>keyTyped</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_items_1_1_item" kind="class"><name>paoo::Items::Item</name>
+    <member refid="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" kind="variable"><name>x</name></member>
+    <member refid="classpaoo_1_1_items_1_1_item_1a4e9f4d0ae406e925a75e12a4f0059589" kind="variable"><name>y</name></member>
+    <member refid="classpaoo_1_1_items_1_1_item_1a87a31aefbdd060475c082fd0a8bea27e" kind="variable"><name>width</name></member>
+    <member refid="classpaoo_1_1_items_1_1_item_1a8cad22b0f254231b14fe9148fd8ee223" kind="variable"><name>height</name></member>
+    <member refid="classpaoo_1_1_items_1_1_item_1a176df687dcb5ca636f6aaa667b9b43a1" kind="variable"><name>vis</name></member>
+    <member refid="classpaoo_1_1_items_1_1_item_1affe12d9d5138d1e304a21af3d1f83952" kind="variable"><name>image</name></member>
+    <member refid="classpaoo_1_1_items_1_1_item_1a67ea19aa148b70ac2204f58891e34fd3" kind="function"><name>Item</name></member>
+    <member refid="classpaoo_1_1_items_1_1_item_1aba2cf2a1a9ce810df283bcff6a187e07" kind="function"><name>getImage</name></member>
+    <member refid="classpaoo_1_1_items_1_1_item_1aa57c228eb43ddffd7006dcc2f34d06d2" kind="function"><name>getX</name></member>
+    <member refid="classpaoo_1_1_items_1_1_item_1a9fbdcb5d086e8fe52ff17b9006d79bce" kind="function"><name>getY</name></member>
+    <member refid="classpaoo_1_1_items_1_1_item_1a9b43e69a9411d6506f63abb20a1a9b70" kind="function"><name>isVisible</name></member>
+    <member refid="classpaoo_1_1_items_1_1_item_1a8e9c3167c76cc0a0b56b8276f429d0a3" kind="function"><name>setVisible</name></member>
+    <member refid="classpaoo_1_1_items_1_1_item_1a888dd14cc1821e98f21329163c728236" kind="function"><name>getBounds</name></member>
+    <member refid="classpaoo_1_1_items_1_1_item_1aaa33c2ff4971c3f1b52dbcea5f8a9c00" kind="function"><name>tick</name></member>
+    <member refid="classpaoo_1_1_items_1_1_item_1a61ce25a678554d62ae06f2d46c8ac350" kind="function"><name>setX</name></member>
+    <member refid="classpaoo_1_1_items_1_1_item_1a1117854dca20c8e69bbd1e85f2d68b24" kind="function"><name>setY</name></member>
+    <member refid="classpaoo_1_1_items_1_1_item_1a3786544c6204b9e3ba2022bfa7803233" kind="function"><name>getImageDimensions</name></member>
+    <member refid="classpaoo_1_1_items_1_1_item_1a321bec3d90dc1127c3b103edf14922d0" kind="function"><name>loadImage</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_game_1_1_level_1_1_level_base" kind="class"><name>paoo::Game::Level::LevelBase</name>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_base_1a9d5378297d9b28894107c1beebc76e28" kind="variable"><name>c</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_base_1a76b15bbcf2e8cea2a867a5de71fd9398" kind="variable"><name>str</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_base_1aa0f140fe5dfab214be557c72a1425472" kind="variable"><name>resultSet</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_base_1ac612e6a8555d0d15e2915902aee817b3" kind="variable"><name>level</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_base_1aaafae726cdbfb9cd91063894595fc708" kind="variable"><name>types</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_base_1a9d48befcba55bc8dcf658485e3a76a2c" kind="variable"><name>xpos</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_base_1a45c397463b8941c961e204770cf7a0a9" kind="variable"><name>ypos</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_base_1a13bf42f14b23b76bb0ac2226760da0e9" kind="function"><name>LevelBase</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_base_1ac37fe20e6f183f3f3c07d170b6dd62de" kind="function"><name>close</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_base_1ac2cde934abb58bd81b1d14729ec48d3c" kind="function"><name>getTypes</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_base_1a193a4d1d30cb319aada767c5b2d03203" kind="function"><name>getXpos</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_base_1aa40f0324d66fd9e0258effbf414529d6" kind="function"><name>getYpos</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_base_1a964242977c3be4e55f845292282274fd" kind="function"><name>changeLevel</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_base_1abf0872558b24f1681158688b77901957" kind="function"><name>update</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_game_1_1_level_1_1_level_handle" kind="class"><name>paoo::Game::Level::LevelHandle</name>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a25ddc59add5954393ed8dea0ec05e9d0" kind="variable"><name>nrLevel</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1afd86a30ce7256bd6c30221ea6f083d3e" kind="variable"><name>difficulty</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a31ba50d864e1f44549aba5272ccc6b44" kind="variable"><name>enableMusic</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1ab8e919ecc3250ebba3b92fdbdcb1b2df" kind="variable"><name>saveFile</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1ab34728db25db333edf055c456babdf9b" kind="variable"><name>base</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a688395f26904a4fbe58a2b4a329559f3" kind="variable"><name>lbase</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1ac9ccf1d730caf6d5eb0a3595853c92df" kind="variable"><name>sbase</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a4a3634cf43937ac4104a81389dcad910" kind="variable"><name>items</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1ad633855f0ac358e0c1bde18f1e9604ad" kind="variable"><name>backgorund</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a7815c545813c40692463c45e52df0014" kind="function"><name>LevelHandle</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a43ce92f954bc00e37e498f59479a3387" kind="function"><name>render</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1ae72c561b61aae891be491d8290b92dad" kind="function"><name>saveLevelToFile</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a4f4aa2be75606c12db4e19f4816cb7e9" kind="function"><name>loadLevelFromFile</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a367bfdd068cf3baa5ab0632de3a03401" kind="function"><name>loadLevelFromSQL</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1ab17c592082044180fc0de803310ab895" kind="function"><name>setLevel</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a85d335660feaa703407d639b11c579ae" kind="function"><name>getLevel</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a03b5f506ab9cdc3032211b7a02202dbd" kind="function"><name>getItems</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a5d13b64c89582e70cfdfebb2b3b9d534" kind="function"><name>getLbase</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a6961baa71d071dcd54ddd5badd9e90f7" kind="function"><name>getBase</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a0527e193ba2868e20cd21182631e896b" kind="function"><name>getSbase</name></member>
+    <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a95f4fd4312fe3b1ad2d959ebca037af6" kind="function"><name>setDifficulty</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_main" kind="class"><name>paoo::Main</name>
+    <member refid="classpaoo_1_1_main_1aa9a98cd90cc8ddb78629a05d04e9241f" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_game_1_1_map" kind="class"><name>paoo::Game::Map</name>
+    <member refid="classpaoo_1_1_game_1_1_map_1a974962b31b19b860ca8f07dcb90f295d" kind="variable"><name>BOARD_WIDTH</name></member>
+    <member refid="classpaoo_1_1_game_1_1_map_1aa8a25a9edc8a7f86845f6b05c4c607d1" kind="variable"><name>BOARD_HEIGHT</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_menu_1_1_menu" kind="class"><name>paoo::Menu::Menu</name>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a330d0c6372138e890651bb89dc725d83" kind="variable"><name>WIDTH</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a2f4cdd603014a2a5dfcf22c7e6443034" kind="variable"><name>HEIGHT</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a85f5d17ac007a6044090d2f09624a2cd" kind="variable"><name>name</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a2f1cee9696c3b23e35444c2e23f9cfa5" kind="variable"><name>frame</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a82a59827e03672e81cfd06aab09648a5" kind="variable"><name>playButton</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1aca0ee989ab6e1583f2c9fd6f233cf74f" kind="variable"><name>musicButton</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a4f3bbae9c1abebee400fe1424196f40a" kind="variable"><name>base</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a7a66ca318549ac9ae28b1d531baa841c" kind="variable"><name>running</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1ad638ace034be097c56c1c06245677ad6" kind="variable"><name>gameOver</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a833895a07534f364394e1174d169f643" kind="variable"><name>optionMenu</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a342bb5b89ce9ce29c7efd65c4854cf9c" kind="variable"><name>level</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a230302469f94acba59fb83eba3b86d0f" kind="variable"><name>dificulty</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1ae47277275e6d8e292c0ec9fdfd9a85e4" kind="variable"><name>music</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1af79e308fe8a0c9f7a4a38b2a8a8d104d" kind="variable"><name>saveFile</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1ab2abc3156c49bc4c4e45deccf7002273" kind="variable"><name>Mouse</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a7fcbc87353d0ac85276d14d900e6a3bf" kind="variable"><name>Key</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1afeb66c7a7230bccc5744a573713d02ac" kind="variable"><name>helpButton</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a520279544cdc7459b518111dd5d4e686" kind="variable"><name>optionButton</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a54083f789d159bdc1cc13df341636de0" kind="variable"><name>quitButton</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1aebfa1f639f1545067f874bfe63cc6823" kind="variable"><name>loadButton</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a7105beaaefac6b442d6d859d26fd4046" kind="variable"><name>plusButton1</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1aab29ab42f62f7168fe739327cfbc6048" kind="variable"><name>minusButton1</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a721cdccb46dfb9a068d1aa6409882f75" kind="variable"><name>backButton</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a98b6ff9a29abf2d4fd9693c248b3ccbc" kind="variable"><name>plusButton2</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a4865622f8c20bf1871d8a2cd72a5e663" kind="variable"><name>minusButton2</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1aeb6108bfbf42e81c0b125444723ba059" kind="function"><name>play</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a052c3e8a46285ff0e1e24284e59dde6e" kind="function"><name>run</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a793c1a928f9055aa32d799d1c1d53f34" kind="function"><name>start</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a58d490b2e341339524c01508a05394dd" kind="function"><name>getFrame</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a7263dfd308e4e843643fa29ebdd39b65" kind="function"><name>setFrame</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1ac210ddebc72b956f6d62913b45ce16c7" kind="function"><name>getLevel</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a84ff02e1acf22a414cb82d5023c2be1a" kind="function"><name>setLevel</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a9413cb674c1e989a1ea2dd56776a7b4f" kind="function"><name>getDificulty</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a31e65113ada51c0adb14fe91b734cfe0" kind="function"><name>setDificulty</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1ad21722ef009d8e17b0f6c93852a5d100" kind="function"><name>loadSettings</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1aa5a289a2d1ed03c526a34e0275fb2fed" kind="function"><name>getBase</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a3d858ce61580b2fe11e36cf1d560dc1d" kind="function"><name>getPlayButton</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a7ce0d94acfef7a30cc929cf9140a5ccf" kind="function"><name>getHelpButton</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a8d1fd4990b0a0f77506d5f8e101b6071" kind="function"><name>getOptionButton</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a2b04f36ec7d4f310fd5f0af327a0f5d4" kind="function"><name>getQuitButton</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a62fb9d80d77a925ce41b65b1eb6d47f8" kind="function"><name>getLoadButton</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1aa4c7b1c938abbcb691c59051903ed29b" kind="function"><name>getBackButton</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a79503facfa57859b05c82489698ce1bb" kind="function"><name>getMusicButton</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a25b27014ba047c1fa06fbe0553017ee2" kind="function"><name>getPlusButton1</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1ac70a1b7231e13a84c9230090fed1f559" kind="function"><name>getMinusButton1</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a0bd3fc33b238a00af533599badcc0a4b" kind="function"><name>getPlusButton2</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a961ea44584c0d8a34112626d40b2ee8b" kind="function"><name>getMinusButton2</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1aaa65838a64c67dd9d50aba0bae57c7c2" kind="function"><name>setMusic</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a4acecfc5391037206eeb46c9cb05e86a" kind="function"><name>getMusic</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a96ed9dca35e440282ec1e9a08f2c89dc" kind="function"><name>setOptionMenu</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a04506669b0ca15ef77d1a138c1ac023a" kind="function"><name>isOptionMenu</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a6f0c14ab3f944d501ee49996d8b229ba" kind="function"><name>isRunning</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a09254d68209d6697c76560a14c084cfc" kind="function"><name>setRunning</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a9635d9e642b84b9040d8cc7d8b0da125" kind="function"><name>isGameOver</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a4eb6542c1011bc52692de4366f40a28f" kind="function"><name>setGameOver</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_1a88c376abd54d081af91605bbae6c940b" kind="function"><name>render</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_menu_1_1_menu_input" kind="class"><name>paoo::Menu::MenuInput</name>
+    <member refid="classpaoo_1_1_menu_1_1_menu_input_1a7f6b71e7ce73800d0859c4073b27be36" kind="variable"><name>i</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_input_1a342857b545f94cbd57c34163d65b0581" kind="variable"><name>buttons</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_input_1a7514f79ede08b45b3b2ce9247f350825" kind="variable"><name>source</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_input_1a32356df18f530a4523f77e5c2491fd4a" kind="function"><name>MenuInput</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_input_1a05d9332cd4a69ffac777b10b15823857" kind="function"><name>keyTyped</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_input_1aaea2b108f8855fc345692d4aaf192ffc" kind="function"><name>keyPressed</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_input_1a981b9a0ddcf5e8d204a784ca4db51555" kind="function"><name>keyReleased</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_menu_input_1a87c36622a370784b4bc93e09c2857c28" kind="function"><name>setValues</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_items_1_1_missile" kind="class"><name>paoo::Items::Missile</name>
+    <member refid="classpaoo_1_1_items_1_1_missile_1ad363fb0578f27e0890fae9c5fba01728" kind="variable"><name>BOARD_WIDTH</name></member>
+    <member refid="classpaoo_1_1_items_1_1_missile_1a13becb2fa59228c8b2cbd3b3e066dda9" kind="variable"><name>MISSILE_SPEED</name></member>
+    <member refid="classpaoo_1_1_items_1_1_missile_1aa6f30e52136318977355ffd3fe32f07c" kind="function"><name>Missile</name></member>
+    <member refid="classpaoo_1_1_items_1_1_missile_1a59a84ef0cd78b06f3c9d2392593dca2d" kind="function"><name>move</name></member>
+    <member refid="classpaoo_1_1_items_1_1_missile_1af5d88a7b197e0b0390d992875197da83" kind="function"><name>initMissile</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_game_1_1_input_1_1_mouse_input" kind="class"><name>paoo::Game::Input::MouseInput</name>
+    <member refid="classpaoo_1_1_game_1_1_input_1_1_mouse_input_1a9973ec5b7f55270bb91c60924219c3a0" kind="function"><name>mouseClicked</name></member>
+    <member refid="classpaoo_1_1_game_1_1_input_1_1_mouse_input_1ab73a5a5d5a784256e7e6f1c90ec784e6" kind="function"><name>mousePressed</name></member>
+    <member refid="classpaoo_1_1_game_1_1_input_1_1_mouse_input_1a3357ff0f00935c74f66d4953b8f2809e" kind="function"><name>mouseReleased</name></member>
+    <member refid="classpaoo_1_1_game_1_1_input_1_1_mouse_input_1af300007fdac0746930f3baf8c760a60e" kind="function"><name>mouseEntered</name></member>
+    <member refid="classpaoo_1_1_game_1_1_input_1_1_mouse_input_1acc3f2c44520e1348a4b6dc716a44704b" kind="function"><name>mouseExited</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_menu_1_1_mouse_input" kind="class"><name>paoo::Menu::MouseInput</name>
+    <member refid="classpaoo_1_1_menu_1_1_mouse_input_1af2e1b8a2b94ca435e9a0ccdc8e829bee" kind="variable"><name>source</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_mouse_input_1a03d5efe9b495f4c0364231df581b33d7" kind="function"><name>MouseInput</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" kind="function"><name>mouseClicked</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_mouse_input_1a957bdc6878ccef494455ec53ab12192c" kind="function"><name>mousePressed</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_mouse_input_1a0be52d23a06eb4bbf46d28211eebfe91" kind="function"><name>mouseReleased</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_mouse_input_1a6306fb25a685f985e7a4386f9583e368" kind="function"><name>mouseEntered</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_mouse_input_1aaefa08ddd3ac1118722ce484b3471fee" kind="function"><name>mouseExited</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" kind="class"><name>paoo::Menu::Buttons::MyButton</name>
+    <member refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1a84135ae837dd5911683dd0e6f72e92ef" kind="variable"><name>x</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1a1cf9d0ba5dc63769ad3d03f93cf75cb1" kind="variable"><name>y</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1a465cae46644be892aed6f8adf98c1116" kind="variable"><name>width</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1ae9746ee665c839cf031b34f57ae7b759" kind="variable"><name>height</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1a5f570b3f9c9507b54d4df20075d97c22" kind="variable"><name>image</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1a168af5cf4b81df6bd8945d9f532cd6cd" kind="function"><name>MyButton</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1af57431ccf917b69062439a8439d46bba" kind="function"><name>render</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1aab8724dc0be5ead5bee8751b58f48916" kind="function"><name>isPressed</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1a48e1df2c75e27a3f498cca76b6cdda00" kind="function"><name>changeImage</name></member>
+    <member refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1a93080ddd8ebaa9350aefa0b86b80b8b7" kind="function"><name>changeLocation</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_game_1_1_score_base" kind="class"><name>paoo::Game::ScoreBase</name>
+    <member refid="classpaoo_1_1_game_1_1_score_base_1ac25a8203f2184e46570ce50a81590e39" kind="variable"><name>c</name></member>
+    <member refid="classpaoo_1_1_game_1_1_score_base_1aa8974b6797768b6e62138fdac4cfa5fb" kind="variable"><name>str</name></member>
+    <member refid="classpaoo_1_1_game_1_1_score_base_1a3290f8518b81aa1499481a4097fc5a98" kind="variable"><name>level</name></member>
+    <member refid="classpaoo_1_1_game_1_1_score_base_1a1d4cb2a6f5137f71c68583c160b86010" kind="variable"><name>difficulty</name></member>
+    <member refid="classpaoo_1_1_game_1_1_score_base_1a8e2e09cef97326f6126f37e3e54cf31f" kind="variable"><name>music</name></member>
+    <member refid="classpaoo_1_1_game_1_1_score_base_1a2478a4f4142c6ebbb37b5f27fc91f160" kind="variable"><name>text</name></member>
+    <member refid="classpaoo_1_1_game_1_1_score_base_1a92eb71ae804d640b41713b6a9c209f91" kind="variable"><name>resultSet</name></member>
+    <member refid="classpaoo_1_1_game_1_1_score_base_1a8c1a11c656ad9c6bf667ffdb822a2356" kind="function"><name>ScoreBase</name></member>
+    <member refid="classpaoo_1_1_game_1_1_score_base_1ad34cb687fd907db29825ca5ac1f6f46f" kind="function"><name>close</name></member>
+    <member refid="classpaoo_1_1_game_1_1_score_base_1a54602711ab038d52bee96b3cf0615fae" kind="function"><name>saveScore</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_items_1_1_ship" kind="class"><name>paoo::Items::Ship</name>
+    <member refid="classpaoo_1_1_items_1_1_ship_1ae2b8f46c221f4ea0da3b65505d3bdc17" kind="variable"><name>x</name></member>
+    <member refid="classpaoo_1_1_items_1_1_ship_1a5aef1d0d56af2ae436cba36c794b1081" kind="variable"><name>y</name></member>
+    <member refid="classpaoo_1_1_items_1_1_ship_1a79ba23aac86e5457ee6301c46cd507af" kind="variable"><name>width</name></member>
+    <member refid="classpaoo_1_1_items_1_1_ship_1a590c5d0512ad2ee37d4bea8561cf9bb1" kind="variable"><name>height</name></member>
+    <member refid="classpaoo_1_1_items_1_1_ship_1a9b743569cfef8ae8a877e383bbf9c191" kind="variable"><name>vis</name></member>
+    <member refid="classpaoo_1_1_items_1_1_ship_1a82dbe83c5499357bece99a8dd1de5fdb" kind="variable"><name>image</name></member>
+    <member refid="classpaoo_1_1_items_1_1_ship_1ac739f8177ccac2a0e7be62d577a45c67" kind="function"><name>Ship</name></member>
+    <member refid="classpaoo_1_1_items_1_1_ship_1a9042f4deac7bc7c2b224f877c8636d46" kind="function"><name>getImage</name></member>
+    <member refid="classpaoo_1_1_items_1_1_ship_1a038e58f70fce9e412d7f8b069e4cfe4e" kind="function"><name>getX</name></member>
+    <member refid="classpaoo_1_1_items_1_1_ship_1a02e256416b61c36c4375d67cdd6c7373" kind="function"><name>getY</name></member>
+    <member refid="classpaoo_1_1_items_1_1_ship_1a0cb18800e4db4b287c1cb793aab85c47" kind="function"><name>isVisible</name></member>
+    <member refid="classpaoo_1_1_items_1_1_ship_1a0a4409f779411275bb10362efcf4e17e" kind="function"><name>setVisible</name></member>
+    <member refid="classpaoo_1_1_items_1_1_ship_1a540f6064272d5b9f73c3e5661d4cfc6b" kind="function"><name>getBounds</name></member>
+    <member refid="classpaoo_1_1_items_1_1_ship_1a60b6aced2ae8143135d905f641b7b1fd" kind="function"><name>setX</name></member>
+    <member refid="classpaoo_1_1_items_1_1_ship_1a94ea4419de2ea2828a7e2a76fc0c6342" kind="function"><name>setY</name></member>
+    <member refid="classpaoo_1_1_items_1_1_ship_1a26e5283307efcda7e480223704c068bb" kind="function"><name>increaseDifficulty</name></member>
+    <member refid="classpaoo_1_1_items_1_1_ship_1a8a1388848ffe1f94e897a7e943b30737" kind="function"><name>fire</name></member>
+    <member refid="classpaoo_1_1_items_1_1_ship_1a27fd97422585e0e7e2735b07410b1c32" kind="function"><name>getShoots</name></member>
+    <member refid="classpaoo_1_1_items_1_1_ship_1ab817d0df9c868274152f08704284d1b6" kind="function"><name>getImageDimensions</name></member>
+    <member refid="classpaoo_1_1_items_1_1_ship_1acc4f8c0351c9dcdca559605b955d5143" kind="function"><name>loadImage</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_items_1_1_shoot" kind="class"><name>paoo::Items::Shoot</name>
+    <member refid="classpaoo_1_1_items_1_1_shoot_1ad0a2027ae7ca741af66dbc9130ef8276" kind="variable"><name>BOARD_WIDTH</name></member>
+    <member refid="classpaoo_1_1_items_1_1_shoot_1a038860419db49c18d4ace73db96e28db" kind="variable"><name>MISSILE_SPEED</name></member>
+    <member refid="classpaoo_1_1_items_1_1_shoot_1aefdbe2d087fa5044ab6f46d78041656b" kind="function"><name>Shoot</name></member>
+    <member refid="classpaoo_1_1_items_1_1_shoot_1a4842af7195b4b21c7f43f0bfdf3add73" kind="function"><name>move</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_items_1_1_shoots" kind="class"><name>paoo::Items::Shoots</name>
+    <member refid="classpaoo_1_1_items_1_1_shoots_1aa8386dc58b02bc2a999dde23b16a5198" kind="function"><name>Shoots</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_simple_frame" kind="class"><name>paoo::SimpleFrame</name>
+    <member refid="classpaoo_1_1_simple_frame_1a80932aad381cff97c9f21a135bc57a99" kind="function"><name>SimpleFrame</name></member>
+    <member refid="classpaoo_1_1_simple_frame_1a7451a5a060f0408e49a53a42c180b7bf" kind="function"><name>stopFrame</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_items_1_1_small_enemy" kind="class"><name>paoo::Items::SmallEnemy</name>
+    <member refid="classpaoo_1_1_items_1_1_small_enemy_1a35244c923f8364c8b5cab23c27af6076" kind="variable"><name>missiles</name></member>
+    <member refid="classpaoo_1_1_items_1_1_small_enemy_1a7bb4704effa2394f46d21318ec0b95f5" kind="variable"><name>initial</name></member>
+    <member refid="classpaoo_1_1_items_1_1_small_enemy_1a265bfe0c287741336cdd98d7d7c3e104" kind="variable"><name>time</name></member>
+    <member refid="classpaoo_1_1_items_1_1_small_enemy_1a74243a482b53ab9dc9ed8c9e490e68fc" kind="variable"><name>dy</name></member>
+    <member refid="classpaoo_1_1_items_1_1_small_enemy_1a655a84b883c1645b2295c99710fe849e" kind="variable"><name>waitTime</name></member>
+    <member refid="classpaoo_1_1_items_1_1_small_enemy_1ae469e250c2acd243c22f7a7b4d088365" kind="variable"><name>speed</name></member>
+    <member refid="classpaoo_1_1_items_1_1_small_enemy_1af3d3b82ae17586f90695d7ba17827a0f" kind="function"><name>SmallEnemy</name></member>
+    <member refid="classpaoo_1_1_items_1_1_small_enemy_1aa73deddb0318a3e95db80a32cf00561b" kind="function"><name>fire</name></member>
+    <member refid="classpaoo_1_1_items_1_1_small_enemy_1aa8b1f1f61ad3645e33b01c70486c4248" kind="function"><name>getShoots</name></member>
+    <member refid="classpaoo_1_1_items_1_1_small_enemy_1afb7a05343dae785c5ef9463a8b2ea25d" kind="function"><name>increaseDifficulty</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_items_1_1_space_ship" kind="class"><name>paoo::Items::SpaceShip</name>
+    <member refid="classpaoo_1_1_items_1_1_space_ship_1aca352f6db0710fa86ea728247debcdd3" kind="variable"><name>dx</name></member>
+    <member refid="classpaoo_1_1_items_1_1_space_ship_1ad7f13196a66c8beec127ba26358561c6" kind="variable"><name>dy</name></member>
+    <member refid="classpaoo_1_1_items_1_1_space_ship_1acdc8d5f4e57ee8b28f45628cf1007257" kind="variable"><name>missiles</name></member>
+    <member refid="classpaoo_1_1_items_1_1_space_ship_1af402036d913d5e36afa11fbae677fee7" kind="variable"><name>nr_shoots</name></member>
+    <member refid="classpaoo_1_1_items_1_1_space_ship_1a9d9d475fdb8dfdb03e48bddde8171151" kind="function"><name>SpaceShip</name></member>
+    <member refid="classpaoo_1_1_items_1_1_space_ship_1a331e159ff1a6ce645ced0936b8b2ef5f" kind="function"><name>move</name></member>
+    <member refid="classpaoo_1_1_items_1_1_space_ship_1ac04c03ba7193912e7ea4ae64cb1d4901" kind="function"><name>keyPressed</name></member>
+    <member refid="classpaoo_1_1_items_1_1_space_ship_1a762bbe4e27487b5b57f21136ce615a35" kind="function"><name>getMissiles</name></member>
+    <member refid="classpaoo_1_1_items_1_1_space_ship_1a12d7356da6039839f943d9fbe4539b36" kind="function"><name>fire</name></member>
+    <member refid="classpaoo_1_1_items_1_1_space_ship_1ae250005cc80d1b59d4ad8a9dfcb5f0e9" kind="function"><name>regenerateAmu</name></member>
+    <member refid="classpaoo_1_1_items_1_1_space_ship_1a56b5568cb658644bcd7080aec1754ec1" kind="function"><name>updateImg</name></member>
+    <member refid="classpaoo_1_1_items_1_1_space_ship_1a36d7ecc2c5785244cf125d181fa193a9" kind="function"><name>keyReleased</name></member>
+    <member refid="classpaoo_1_1_items_1_1_space_ship_1af7ea717028d2ed142dd407e124b7b840" kind="function"><name>getNr_shoots</name></member>
+    <member refid="classpaoo_1_1_items_1_1_space_ship_1a4649ffe82f4e4ce051417491084c8302" kind="function"><name>setNr_shoots</name></member>
+    <member refid="classpaoo_1_1_items_1_1_space_ship_1a59ec553b2d1666efec8c8b2cfaeabe1c" kind="function"><name>initSpaceShip</name></member>
+  </compound>
+  <compound refid="classpaoo_1_1_game_1_1_input_1_1_window_handle" kind="class"><name>paoo::Game::Input::WindowHandle</name>
+    <member refid="classpaoo_1_1_game_1_1_input_1_1_window_handle_1a40a6b5eb140c8189d18e76e7b7bb67a3" kind="function"><name>windowActivated</name></member>
+    <member refid="classpaoo_1_1_game_1_1_input_1_1_window_handle_1ab9bece9782fc819dd217f819af7684a2" kind="function"><name>windowClosed</name></member>
+    <member refid="classpaoo_1_1_game_1_1_input_1_1_window_handle_1aee5028fa96e2a65ce8cf1fb6135746af" kind="function"><name>windowClosing</name></member>
+    <member refid="classpaoo_1_1_game_1_1_input_1_1_window_handle_1ae786fe93453d3b364e825c1a587ea1a3" kind="function"><name>windowDeactivated</name></member>
+    <member refid="classpaoo_1_1_game_1_1_input_1_1_window_handle_1a453314a2a5e8ee77adde8479681072b1" kind="function"><name>windowDeiconified</name></member>
+    <member refid="classpaoo_1_1_game_1_1_input_1_1_window_handle_1a7b647629b364a18bf08618f97eb489d7" kind="function"><name>windowIconified</name></member>
+    <member refid="classpaoo_1_1_game_1_1_input_1_1_window_handle_1a6642b61f61f6b3ab5c1ab7a224c7645e" kind="function"><name>windowOpened</name></member>
+  </compound>
+  <compound refid="namespacejava_1_1awt" kind="namespace"><name>java::awt</name>
+  </compound>
+  <compound refid="namespacejava_1_1awt_1_1event" kind="namespace"><name>java::awt::event</name>
+  </compound>
+  <compound refid="namespacejava_1_1sql" kind="namespace"><name>java::sql</name>
+  </compound>
+  <compound refid="namespacejavax_1_1swing" kind="namespace"><name>javax::swing</name>
+  </compound>
+  <compound refid="namespacepaoo" kind="namespace"><name>paoo</name>
+  </compound>
+  <compound refid="namespacepaoo_1_1_game" kind="namespace"><name>paoo::Game</name>
+  </compound>
+  <compound refid="namespacepaoo_1_1_game_1_1_input" kind="namespace"><name>paoo::Game::Input</name>
+  </compound>
+  <compound refid="namespacepaoo_1_1_game_1_1_level" kind="namespace"><name>paoo::Game::Level</name>
+  </compound>
+  <compound refid="namespacepaoo_1_1_items" kind="namespace"><name>paoo::Items</name>
+  </compound>
+  <compound refid="namespacepaoo_1_1_menu" kind="namespace"><name>paoo::Menu</name>
+  </compound>
+  <compound refid="namespacepaoo_1_1_menu_1_1_buttons" kind="namespace"><name>paoo::Menu::Buttons</name>
+  </compound>
+  <compound refid="_base_values_8java" kind="file"><name>BaseValues.java</name>
+  </compound>
+  <compound refid="_font_8java" kind="file"><name>Font.java</name>
+  </compound>
+  <compound refid="_game_8java" kind="file"><name>Game.java</name>
+  </compound>
+  <compound refid="_input_handle_8java" kind="file"><name>InputHandle.java</name>
+  </compound>
+  <compound refid="_game_2_input_2_mouse_input_8java" kind="file"><name>MouseInput.java</name>
+  </compound>
+  <compound refid="_menu_2_mouse_input_8java" kind="file"><name>MouseInput.java</name>
+  </compound>
+  <compound refid="_window_handle_8java" kind="file"><name>WindowHandle.java</name>
+  </compound>
+  <compound refid="_abstract_ship_factory_8java" kind="file"><name>AbstractShipFactory.java</name>
+  </compound>
+  <compound refid="_level_base_8java" kind="file"><name>LevelBase.java</name>
+  </compound>
+  <compound refid="_level_handle_8java" kind="file"><name>LevelHandle.java</name>
+  </compound>
+  <compound refid="_map_8java" kind="file"><name>Map.java</name>
+  </compound>
+  <compound refid="_score_base_8java" kind="file"><name>ScoreBase.java</name>
+  </compound>
+  <compound refid="_animated_item_8java" kind="file"><name>AnimatedItem.java</name>
+  </compound>
+  <compound refid="_backgorund_8java" kind="file"><name>Backgorund.java</name>
+  </compound>
+  <compound refid="_big_enemy_8java" kind="file"><name>BigEnemy.java</name>
+  </compound>
+  <compound refid="_bombs_8java" kind="file"><name>Bombs.java</name>
+  </compound>
+  <compound refid="_enemy_missile_8java" kind="file"><name>EnemyMissile.java</name>
+  </compound>
+  <compound refid="_heart_8java" kind="file"><name>Heart.java</name>
+  </compound>
+  <compound refid="_item_8java" kind="file"><name>Item.java</name>
+  </compound>
+  <compound refid="_missile_8java" kind="file"><name>Missile.java</name>
+  </compound>
+  <compound refid="_ship_8java" kind="file"><name>Ship.java</name>
+  </compound>
+  <compound refid="_shoot_8java" kind="file"><name>Shoot.java</name>
+  </compound>
+  <compound refid="_shoots_8java" kind="file"><name>Shoots.java</name>
+  </compound>
+  <compound refid="_small_enemy_8java" kind="file"><name>SmallEnemy.java</name>
+  </compound>
+  <compound refid="_space_ship_8java" kind="file"><name>SpaceShip.java</name>
+  </compound>
+  <compound refid="_main_8java" kind="file"><name>Main.java</name>
+  </compound>
+  <compound refid="_my_button_8java" kind="file"><name>MyButton.java</name>
+  </compound>
+  <compound refid="_menu_8java" kind="file"><name>Menu.java</name>
+  </compound>
+  <compound refid="_menu_input_8java" kind="file"><name>MenuInput.java</name>
+  </compound>
+  <compound refid="_simple_frame_8java" kind="file"><name>SimpleFrame.java</name>
+  </compound>
+  <compound refid="dir_7e9ea3a38dde395c4f4991c4e98722c9" kind="dir"><name>src/paoo/Menu/Buttons</name>
+  </compound>
+  <compound refid="dir_993a5439930a3fe2c7c5dea43c0e893a" kind="dir"><name>src/paoo/Game</name>
+  </compound>
+  <compound refid="dir_d975c76423d91c756903ebaad3e65fdd" kind="dir"><name>src/paoo/Game/Input</name>
+  </compound>
+  <compound refid="dir_a4af21cdb5a287f618b2b60bfc2cb0e6" kind="dir"><name>src/paoo/Items</name>
+  </compound>
+  <compound refid="dir_1a60bf5f7d6b7938f3da79f548e10c99" kind="dir"><name>src/paoo/Game/Level</name>
+  </compound>
+  <compound refid="dir_888095fcae4b45471bb3dccfdc01d195" kind="dir"><name>src/paoo/Menu</name>
+  </compound>
+  <compound refid="dir_997871f80a68007750d8acec4ba8f3c6" kind="dir"><name>src/paoo</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+</doxygenindex>

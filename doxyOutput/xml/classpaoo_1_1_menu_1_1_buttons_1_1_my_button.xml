@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" kind="class" language="Java" prot="public">
+    <compoundname>paoo::Menu::Buttons::MyButton</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1a84135ae837dd5911683dd0e6f72e92ef" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Menu.Buttons.MyButton.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Buttons/MyButton.java" line="8" column="1" bodyfile="src/paoo/Menu/Buttons/MyButton.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1a1cf9d0ba5dc63769ad3d03f93cf75cb1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Menu.Buttons.MyButton.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Buttons/MyButton.java" line="9" column="1" bodyfile="src/paoo/Menu/Buttons/MyButton.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1a465cae46644be892aed6f8adf98c1116" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Menu.Buttons.MyButton.width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Buttons/MyButton.java" line="10" column="1" bodyfile="src/paoo/Menu/Buttons/MyButton.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1ae9746ee665c839cf031b34f57ae7b759" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Menu.Buttons.MyButton.height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Buttons/MyButton.java" line="11" column="1" bodyfile="src/paoo/Menu/Buttons/MyButton.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1a5f570b3f9c9507b54d4df20075d97c22" prot="private" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image paoo.Menu.Buttons.MyButton.image</definition>
+        <argsstring></argsstring>
+        <name>image</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Buttons/MyButton.java" line="13" column="1" bodyfile="src/paoo/Menu/Buttons/MyButton.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1a168af5cf4b81df6bd8945d9f532cd6cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>paoo.Menu.Buttons.MyButton.MyButton</definition>
+        <argsstring>(String imagine, int x, int y)</argsstring>
+        <name>MyButton</name>
+        <param>
+          <type>String</type>
+          <declname>imagine</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Buttons/MyButton.java" line="15" column="1" bodyfile="src/paoo/Menu/Buttons/MyButton.java" bodystart="15" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1af57431ccf917b69062439a8439d46bba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Menu.Buttons.MyButton.render</definition>
+        <argsstring>(Graphics g)</argsstring>
+        <name>render</name>
+        <param>
+          <type>Graphics</type>
+          <declname>g</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Buttons/MyButton.java" line="24" column="1" bodyfile="src/paoo/Menu/Buttons/MyButton.java" bodystart="24" bodyend="27"/>
+        <referencedby refid="classpaoo_1_1_game_1_1_game_1ad94433dadeb33e87418110324cd8437f" compoundref="_game_8java" startline="268" endline="349">paoo.Game.Game.render</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1aab8724dc0be5ead5bee8751b58f48916" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean paoo.Menu.Buttons.MyButton.isPressed</definition>
+        <argsstring>(int xx, int yy)</argsstring>
+        <name>isPressed</name>
+        <param>
+          <type>int</type>
+          <declname>xx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>yy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Buttons/MyButton.java" line="29" column="1" bodyfile="src/paoo/Menu/Buttons/MyButton.java" bodystart="29" bodyend="32"/>
+        <referencedby refid="classpaoo_1_1_game_1_1_input_1_1_mouse_input_1a9973ec5b7f55270bb91c60924219c3a0" compoundref="_game_2_input_2_mouse_input_8java" startline="11" endline="52">paoo.Game.Input.MouseInput.mouseClicked</referencedby>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1a48e1df2c75e27a3f498cca76b6cdda00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Menu.Buttons.MyButton.changeImage</definition>
+        <argsstring>(String imagine)</argsstring>
+        <name>changeImage</name>
+        <param>
+          <type>String</type>
+          <declname>imagine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Buttons/MyButton.java" line="34" column="1" bodyfile="src/paoo/Menu/Buttons/MyButton.java" bodystart="34" bodyend="37"/>
+        <referencedby refid="classpaoo_1_1_menu_1_1_mouse_input_1a451095ef489f36aaf1ea7c3c9df44627" compoundref="_menu_2_mouse_input_8java" startline="14" endline="90">paoo.Menu.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1a93080ddd8ebaa9350aefa0b86b80b8b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Menu.Buttons.MyButton.changeLocation</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>changeLocation</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Menu/Buttons/MyButton.java" line="39" column="1" bodyfile="src/paoo/Menu/Buttons/MyButton.java" bodystart="39" bodyend="39"/>
+        <referencedby refid="classpaoo_1_1_game_1_1_game_1ad94433dadeb33e87418110324cd8437f" compoundref="_game_8java" startline="268" endline="349">paoo.Game.Game.render</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/paoo/Menu/Buttons/MyButton.java" line="6" column="1" bodyfile="src/paoo/Menu/Buttons/MyButton.java" bodystart="6" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1a48e1df2c75e27a3f498cca76b6cdda00" prot="public" virt="non-virtual"><scope>paoo::Menu::Buttons::MyButton</scope><name>changeImage</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1a93080ddd8ebaa9350aefa0b86b80b8b7" prot="public" virt="non-virtual"><scope>paoo::Menu::Buttons::MyButton</scope><name>changeLocation</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1ae9746ee665c839cf031b34f57ae7b759" prot="private" virt="non-virtual"><scope>paoo::Menu::Buttons::MyButton</scope><name>height</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1a5f570b3f9c9507b54d4df20075d97c22" prot="private" virt="non-virtual"><scope>paoo::Menu::Buttons::MyButton</scope><name>image</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1aab8724dc0be5ead5bee8751b58f48916" prot="public" virt="non-virtual"><scope>paoo::Menu::Buttons::MyButton</scope><name>isPressed</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1a168af5cf4b81df6bd8945d9f532cd6cd" prot="public" virt="non-virtual"><scope>paoo::Menu::Buttons::MyButton</scope><name>MyButton</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1af57431ccf917b69062439a8439d46bba" prot="public" virt="non-virtual"><scope>paoo::Menu::Buttons::MyButton</scope><name>render</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1a465cae46644be892aed6f8adf98c1116" prot="private" virt="non-virtual"><scope>paoo::Menu::Buttons::MyButton</scope><name>width</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1a84135ae837dd5911683dd0e6f72e92ef" prot="private" virt="non-virtual"><scope>paoo::Menu::Buttons::MyButton</scope><name>x</name></member>
+      <member refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button_1a1cf9d0ba5dc63769ad3d03f93cf75cb1" prot="private" virt="non-virtual"><scope>paoo::Menu::Buttons::MyButton</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

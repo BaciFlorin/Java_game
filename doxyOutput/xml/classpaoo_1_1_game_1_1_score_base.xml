@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classpaoo_1_1_game_1_1_score_base" kind="class" language="Java" prot="public">
+    <compoundname>paoo::Game::ScoreBase</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_score_base_1ac25a8203f2184e46570ce50a81590e39" prot="private" static="no" mutable="no">
+        <type>Connection</type>
+        <definition>Connection paoo.Game.ScoreBase.c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <initializer>=null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/ScoreBase.java" line="11" column="1" bodyfile="src/paoo/Game/ScoreBase.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_score_base_1aa8974b6797768b6e62138fdac4cfa5fb" prot="private" static="no" mutable="no">
+        <type>Statement</type>
+        <definition>Statement paoo.Game.ScoreBase.str</definition>
+        <argsstring></argsstring>
+        <name>str</name>
+        <initializer>=null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/ScoreBase.java" line="12" column="1" bodyfile="src/paoo/Game/ScoreBase.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_score_base_1a3290f8518b81aa1499481a4097fc5a98" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Game.ScoreBase.level</definition>
+        <argsstring></argsstring>
+        <name>level</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/ScoreBase.java" line="13" column="1" bodyfile="src/paoo/Game/ScoreBase.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_score_base_1a1d4cb2a6f5137f71c68583c160b86010" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Game.ScoreBase.difficulty</definition>
+        <argsstring></argsstring>
+        <name>difficulty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/ScoreBase.java" line="14" column="1" bodyfile="src/paoo/Game/ScoreBase.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_score_base_1a8e2e09cef97326f6126f37e3e54cf31f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Game.ScoreBase.music</definition>
+        <argsstring></argsstring>
+        <name>music</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/ScoreBase.java" line="15" column="1" bodyfile="src/paoo/Game/ScoreBase.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_score_base_1a2478a4f4142c6ebbb37b5f27fc91f160" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String paoo.Game.ScoreBase.text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/ScoreBase.java" line="16" column="1" bodyfile="src/paoo/Game/ScoreBase.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_score_base_1a92eb71ae804d640b41713b6a9c209f91" prot="private" static="no" mutable="no">
+        <type>ResultSet</type>
+        <definition>ResultSet paoo.Game.ScoreBase.resultSet</definition>
+        <argsstring></argsstring>
+        <name>resultSet</name>
+        <initializer>=null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/ScoreBase.java" line="17" column="1" bodyfile="src/paoo/Game/ScoreBase.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_score_base_1a8c1a11c656ad9c6bf667ffdb822a2356" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>paoo.Game.ScoreBase.ScoreBase</definition>
+        <argsstring>()</argsstring>
+        <name>ScoreBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/ScoreBase.java" line="19" column="1" bodyfile="src/paoo/Game/ScoreBase.java" bodystart="19" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_score_base_1ad34cb687fd907db29825ca5ac1f6f46f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.ScoreBase.close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/ScoreBase.java" line="33" column="1" bodyfile="src/paoo/Game/ScoreBase.java" bodystart="33" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_score_base_1a54602711ab038d52bee96b3cf0615fae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.ScoreBase.saveScore</definition>
+        <argsstring>(int score, int nivel)</argsstring>
+        <name>saveScore</name>
+        <param>
+          <type>int</type>
+          <declname>score</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nivel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/ScoreBase.java" line="45" column="1" bodyfile="src/paoo/Game/ScoreBase.java" bodystart="45" bodyend="58"/>
+        <referencedby refid="classpaoo_1_1_game_1_1_game_1afac86035f5f348c7a362526d4ce4602f" compoundref="_game_8java" startline="158" endline="181">paoo.Game.Game.nextLvl</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/paoo/Game/ScoreBase.java" line="10" column="1" bodyfile="src/paoo/Game/ScoreBase.java" bodystart="10" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classpaoo_1_1_game_1_1_score_base_1ac25a8203f2184e46570ce50a81590e39" prot="private" virt="non-virtual"><scope>paoo::Game::ScoreBase</scope><name>c</name></member>
+      <member refid="classpaoo_1_1_game_1_1_score_base_1ad34cb687fd907db29825ca5ac1f6f46f" prot="public" virt="non-virtual"><scope>paoo::Game::ScoreBase</scope><name>close</name></member>
+      <member refid="classpaoo_1_1_game_1_1_score_base_1a1d4cb2a6f5137f71c68583c160b86010" prot="private" virt="non-virtual"><scope>paoo::Game::ScoreBase</scope><name>difficulty</name></member>
+      <member refid="classpaoo_1_1_game_1_1_score_base_1a3290f8518b81aa1499481a4097fc5a98" prot="private" virt="non-virtual"><scope>paoo::Game::ScoreBase</scope><name>level</name></member>
+      <member refid="classpaoo_1_1_game_1_1_score_base_1a8e2e09cef97326f6126f37e3e54cf31f" prot="private" virt="non-virtual"><scope>paoo::Game::ScoreBase</scope><name>music</name></member>
+      <member refid="classpaoo_1_1_game_1_1_score_base_1a92eb71ae804d640b41713b6a9c209f91" prot="private" virt="non-virtual"><scope>paoo::Game::ScoreBase</scope><name>resultSet</name></member>
+      <member refid="classpaoo_1_1_game_1_1_score_base_1a54602711ab038d52bee96b3cf0615fae" prot="public" virt="non-virtual"><scope>paoo::Game::ScoreBase</scope><name>saveScore</name></member>
+      <member refid="classpaoo_1_1_game_1_1_score_base_1a8c1a11c656ad9c6bf667ffdb822a2356" prot="public" virt="non-virtual"><scope>paoo::Game::ScoreBase</scope><name>ScoreBase</name></member>
+      <member refid="classpaoo_1_1_game_1_1_score_base_1aa8974b6797768b6e62138fdac4cfa5fb" prot="private" virt="non-virtual"><scope>paoo::Game::ScoreBase</scope><name>str</name></member>
+      <member refid="classpaoo_1_1_game_1_1_score_base_1a2478a4f4142c6ebbb37b5f27fc91f160" prot="private" virt="non-virtual"><scope>paoo::Game::ScoreBase</scope><name>text</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

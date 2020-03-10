@@ -1,0 +1,12 @@
+digraph "paoo.Menu.Menu.play"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node69 [label="paoo.Menu.Menu.play",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node69 -> Node70 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node70 [label="paoo.Menu.Menu.start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_menu_1_1_menu.html#a793c1a928f9055aa32d799d1c1d53f34",tooltip=" "];
+  Node70 -> Node71 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node71 [label="paoo.Main.main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_main.html#aa9a98cd90cc8ddb78629a05d04e9241f",tooltip=" "];
+}

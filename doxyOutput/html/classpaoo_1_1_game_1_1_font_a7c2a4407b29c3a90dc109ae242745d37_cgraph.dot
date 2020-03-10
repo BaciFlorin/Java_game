@@ -1,0 +1,10 @@
+digraph "paoo.Game.Font.render"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node11 [label="paoo.Game.Font.render",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="paoo.Game.Font.getArial",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_game_1_1_font.html#a464e341f2d94a8e2f46e01ad5110e68a",tooltip=" "];
+}

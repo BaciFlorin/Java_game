@@ -1,0 +1,446 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classpaoo_1_1_items_1_1_item" kind="class" language="Java" prot="public">
+    <compoundname>paoo::Items::Item</compoundname>
+    <derivedcompoundref refid="classpaoo_1_1_items_1_1_backgorund" prot="public" virt="non-virtual">paoo.Items.Backgorund</derivedcompoundref>
+    <derivedcompoundref refid="classpaoo_1_1_items_1_1_heart" prot="public" virt="non-virtual">paoo.Items.Heart</derivedcompoundref>
+    <derivedcompoundref refid="classpaoo_1_1_items_1_1_shoot" prot="public" virt="non-virtual">paoo.Items.Shoot</derivedcompoundref>
+    <derivedcompoundref refid="classpaoo_1_1_items_1_1_shoots" prot="public" virt="non-virtual">paoo.Items.Shoots</derivedcompoundref>
+    <derivedcompoundref refid="classpaoo_1_1_items_1_1_space_ship" prot="public" virt="non-virtual">paoo.Items.SpaceShip</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Items.Item.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Item.java" line="7" column="1" bodyfile="src/paoo/Items/Item.java" bodystart="7" bodyend="-1"/>
+        <referencedby refid="classpaoo_1_1_items_1_1_backgorund_1a0ee50e509313d100b87bbb0f15e5950a" compoundref="_backgorund_8java" startline="6" endline="11">paoo.Items.Backgorund.Backgorund</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_backgorund_1a0fffcaa11fa7b039ce86ebd8413a21bb" compoundref="_backgorund_8java" startline="13" endline="17">paoo.Items.Backgorund.setXY</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_backgorund_1ab6c2f00b5679effca1b27983424be596" compoundref="_backgorund_8java" startline="19" endline="22">paoo.Items.Backgorund.move</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_bombs_1a640e7fc967eaa79fe13e50bd6c6934d1" compoundref="_bombs_8java" startline="7" endline="10">paoo.Items.Bombs.Bombs</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_bombs_1a5cb654243a73aba4de1dfc1f0db183be" compoundref="_bombs_8java" startline="19" endline="35">paoo.Items.Bombs.move</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_enemy_missile_1ae7b8a002f6e2892934e35ca43e83fd16" compoundref="_enemy_missile_8java" startline="5" endline="8">paoo.Items.EnemyMissile.EnemyMissile</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_enemy_missile_1a0d0883b7da57417135b6803866153184" compoundref="_enemy_missile_8java" startline="17" endline="24">paoo.Items.EnemyMissile.move</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_heart_1a767806bbe5d7a4bb677124a1d8fd0c4c" compoundref="_heart_8java" startline="4" endline="9">paoo.Items.Heart.Heart</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_item_1a67ea19aa148b70ac2204f58891e34fd3" compoundref="_item_8java" startline="14" endline="19">paoo.Items.Item.Item</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_item_1aa57c228eb43ddffd7006dcc2f34d06d2" compoundref="_item_8java" startline="35" endline="37">paoo.Items.Item.getX</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_item_1a888dd14cc1821e98f21329163c728236" compoundref="_item_8java" startline="51" endline="53">paoo.Items.Item.getBounds</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_item_1a61ce25a678554d62ae06f2d46c8ac350" compoundref="_item_8java" startline="60" endline="63">paoo.Items.Item.setX</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_missile_1aa6f30e52136318977355ffd3fe32f07c" compoundref="_missile_8java" startline="8" endline="11">paoo.Items.Missile.Missile</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_missile_1a59a84ef0cd78b06f3c9d2392593dca2d" compoundref="_missile_8java" startline="20" endline="27">paoo.Items.Missile.move</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_shoot_1aefdbe2d087fa5044ab6f46d78041656b" compoundref="_shoot_8java" startline="7" endline="9">paoo.Items.Shoot.Shoot</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_shoots_1aa8386dc58b02bc2a999dde23b16a5198" compoundref="_shoots_8java" startline="4" endline="9">paoo.Items.Shoots.Shoots</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_space_ship_1a9d9d475fdb8dfdb03e48bddde8171151" compoundref="_space_ship_8java" startline="17" endline="21">paoo.Items.SpaceShip.SpaceShip</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_space_ship_1a331e159ff1a6ce645ced0936b8b2ef5f" compoundref="_space_ship_8java" startline="31" endline="70">paoo.Items.SpaceShip.move</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_space_ship_1a12d7356da6039839f943d9fbe4539b36" compoundref="_space_ship_8java" startline="95" endline="101">paoo.Items.SpaceShip.fire</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_item_1a4e9f4d0ae406e925a75e12a4f0059589" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Items.Item.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Item.java" line="8" column="1" bodyfile="src/paoo/Items/Item.java" bodystart="8" bodyend="-1"/>
+        <referencedby refid="classpaoo_1_1_items_1_1_backgorund_1a0ee50e509313d100b87bbb0f15e5950a" compoundref="_backgorund_8java" startline="6" endline="11">paoo.Items.Backgorund.Backgorund</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_backgorund_1a0fffcaa11fa7b039ce86ebd8413a21bb" compoundref="_backgorund_8java" startline="13" endline="17">paoo.Items.Backgorund.setXY</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_bombs_1a640e7fc967eaa79fe13e50bd6c6934d1" compoundref="_bombs_8java" startline="7" endline="10">paoo.Items.Bombs.Bombs</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_enemy_missile_1ae7b8a002f6e2892934e35ca43e83fd16" compoundref="_enemy_missile_8java" startline="5" endline="8">paoo.Items.EnemyMissile.EnemyMissile</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_heart_1a767806bbe5d7a4bb677124a1d8fd0c4c" compoundref="_heart_8java" startline="4" endline="9">paoo.Items.Heart.Heart</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_item_1a67ea19aa148b70ac2204f58891e34fd3" compoundref="_item_8java" startline="14" endline="19">paoo.Items.Item.Item</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_item_1a9fbdcb5d086e8fe52ff17b9006d79bce" compoundref="_item_8java" startline="39" endline="41">paoo.Items.Item.getY</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_item_1a888dd14cc1821e98f21329163c728236" compoundref="_item_8java" startline="51" endline="53">paoo.Items.Item.getBounds</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_item_1a1117854dca20c8e69bbd1e85f2d68b24" compoundref="_item_8java" startline="65" endline="68">paoo.Items.Item.setY</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_missile_1aa6f30e52136318977355ffd3fe32f07c" compoundref="_missile_8java" startline="8" endline="11">paoo.Items.Missile.Missile</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_shoot_1aefdbe2d087fa5044ab6f46d78041656b" compoundref="_shoot_8java" startline="7" endline="9">paoo.Items.Shoot.Shoot</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_shoots_1aa8386dc58b02bc2a999dde23b16a5198" compoundref="_shoots_8java" startline="4" endline="9">paoo.Items.Shoots.Shoots</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_space_ship_1a9d9d475fdb8dfdb03e48bddde8171151" compoundref="_space_ship_8java" startline="17" endline="21">paoo.Items.SpaceShip.SpaceShip</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_space_ship_1a331e159ff1a6ce645ced0936b8b2ef5f" compoundref="_space_ship_8java" startline="31" endline="70">paoo.Items.SpaceShip.move</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_space_ship_1a12d7356da6039839f943d9fbe4539b36" compoundref="_space_ship_8java" startline="95" endline="101">paoo.Items.SpaceShip.fire</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_item_1a87a31aefbdd060475c082fd0a8bea27e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Items.Item.width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Item.java" line="9" column="1" bodyfile="src/paoo/Items/Item.java" bodystart="9" bodyend="-1"/>
+        <referencedby refid="classpaoo_1_1_items_1_1_item_1a3786544c6204b9e3ba2022bfa7803233" compoundref="_item_8java" startline="21" endline="24">paoo.Items.Item.getImageDimensions</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_item_1a888dd14cc1821e98f21329163c728236" compoundref="_item_8java" startline="51" endline="53">paoo.Items.Item.getBounds</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_space_ship_1a331e159ff1a6ce645ced0936b8b2ef5f" compoundref="_space_ship_8java" startline="31" endline="70">paoo.Items.SpaceShip.move</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_space_ship_1a12d7356da6039839f943d9fbe4539b36" compoundref="_space_ship_8java" startline="95" endline="101">paoo.Items.SpaceShip.fire</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_item_1a8cad22b0f254231b14fe9148fd8ee223" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Items.Item.height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Item.java" line="10" column="1" bodyfile="src/paoo/Items/Item.java" bodystart="10" bodyend="-1"/>
+        <referencedby refid="classpaoo_1_1_items_1_1_item_1a3786544c6204b9e3ba2022bfa7803233" compoundref="_item_8java" startline="21" endline="24">paoo.Items.Item.getImageDimensions</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_item_1a888dd14cc1821e98f21329163c728236" compoundref="_item_8java" startline="51" endline="53">paoo.Items.Item.getBounds</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_space_ship_1a331e159ff1a6ce645ced0936b8b2ef5f" compoundref="_space_ship_8java" startline="31" endline="70">paoo.Items.SpaceShip.move</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_space_ship_1a12d7356da6039839f943d9fbe4539b36" compoundref="_space_ship_8java" startline="95" endline="101">paoo.Items.SpaceShip.fire</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_item_1a176df687dcb5ca636f6aaa667b9b43a1" prot="public" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean paoo.Items.Item.vis</definition>
+        <argsstring></argsstring>
+        <name>vis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Item.java" line="11" column="1" bodyfile="src/paoo/Items/Item.java" bodystart="11" bodyend="-1"/>
+        <referencedby refid="classpaoo_1_1_items_1_1_bombs_1a5cb654243a73aba4de1dfc1f0db183be" compoundref="_bombs_8java" startline="19" endline="35">paoo.Items.Bombs.move</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_enemy_missile_1a0d0883b7da57417135b6803866153184" compoundref="_enemy_missile_8java" startline="17" endline="24">paoo.Items.EnemyMissile.move</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_item_1a67ea19aa148b70ac2204f58891e34fd3" compoundref="_item_8java" startline="14" endline="19">paoo.Items.Item.Item</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_item_1a9b43e69a9411d6506f63abb20a1a9b70" compoundref="_item_8java" startline="43" endline="45">paoo.Items.Item.isVisible</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_item_1a8e9c3167c76cc0a0b56b8276f429d0a3" compoundref="_item_8java" startline="47" endline="49">paoo.Items.Item.setVisible</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_missile_1a59a84ef0cd78b06f3c9d2392593dca2d" compoundref="_missile_8java" startline="20" endline="27">paoo.Items.Missile.move</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_items_1_1_item_1affe12d9d5138d1e304a21af3d1f83952" prot="public" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image paoo.Items.Item.image</definition>
+        <argsstring></argsstring>
+        <name>image</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Item.java" line="12" column="1" bodyfile="src/paoo/Items/Item.java" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classpaoo_1_1_items_1_1_backgorund_1ac158065e5487af0ea2e1845e34081fb6" compoundref="_backgorund_8java" startline="24" endline="28">paoo.Items.Backgorund.changeImage</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_item_1a3786544c6204b9e3ba2022bfa7803233" compoundref="_item_8java" startline="21" endline="24">paoo.Items.Item.getImageDimensions</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_item_1a321bec3d90dc1127c3b103edf14922d0" compoundref="_item_8java" startline="26" endline="29">paoo.Items.Item.loadImage</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_item_1aba2cf2a1a9ce810df283bcff6a187e07" compoundref="_item_8java" startline="31" endline="33">paoo.Items.Item.getImage</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_space_ship_1a331e159ff1a6ce645ced0936b8b2ef5f" compoundref="_space_ship_8java" startline="31" endline="70">paoo.Items.SpaceShip.move</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_space_ship_1a56b5568cb658644bcd7080aec1754ec1" compoundref="_space_ship_8java" startline="110" endline="113">paoo.Items.SpaceShip.updateImg</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_item_1a67ea19aa148b70ac2204f58891e34fd3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>paoo.Items.Item.Item</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>Item</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Item.java" line="14" column="1" bodyfile="src/paoo/Items/Item.java" bodystart="14" bodyend="19"/>
+        <references refid="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" compoundref="_item_8java" startline="7">paoo.Items.Item.x</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1a4e9f4d0ae406e925a75e12a4f0059589" compoundref="_item_8java" startline="8">paoo.Items.Item.y</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1a176df687dcb5ca636f6aaa667b9b43a1" compoundref="_item_8java" startline="11">paoo.Items.Item.vis</references>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_item_1aba2cf2a1a9ce810df283bcff6a187e07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Image</type>
+        <definition>Image paoo.Items.Item.getImage</definition>
+        <argsstring>()</argsstring>
+        <name>getImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Item.java" line="31" column="1" bodyfile="src/paoo/Items/Item.java" bodystart="31" bodyend="33"/>
+        <references refid="classpaoo_1_1_items_1_1_item_1affe12d9d5138d1e304a21af3d1f83952" compoundref="_item_8java" startline="12">paoo.Items.Item.image</references>
+        <referencedby refid="classpaoo_1_1_game_1_1_game_1ad94433dadeb33e87418110324cd8437f" compoundref="_game_8java" startline="268" endline="349">paoo.Game.Game.render</referencedby>
+        <referencedby refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a43ce92f954bc00e37e498f59479a3387" compoundref="_level_handle_8java" startline="49" endline="80">paoo.Game.Level.LevelHandle.render</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_item_1aa57c228eb43ddffd7006dcc2f34d06d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int paoo.Items.Item.getX</definition>
+        <argsstring>()</argsstring>
+        <name>getX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Item.java" line="35" column="1" bodyfile="src/paoo/Items/Item.java" bodystart="35" bodyend="37"/>
+        <references refid="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" compoundref="_item_8java" startline="7">paoo.Items.Item.x</references>
+        <referencedby refid="classpaoo_1_1_game_1_1_game_1ad94433dadeb33e87418110324cd8437f" compoundref="_game_8java" startline="268" endline="349">paoo.Game.Game.render</referencedby>
+        <referencedby refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a43ce92f954bc00e37e498f59479a3387" compoundref="_level_handle_8java" startline="49" endline="80">paoo.Game.Level.LevelHandle.render</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_item_1a9fbdcb5d086e8fe52ff17b9006d79bce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int paoo.Items.Item.getY</definition>
+        <argsstring>()</argsstring>
+        <name>getY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Item.java" line="39" column="1" bodyfile="src/paoo/Items/Item.java" bodystart="39" bodyend="41"/>
+        <references refid="classpaoo_1_1_items_1_1_item_1a4e9f4d0ae406e925a75e12a4f0059589" compoundref="_item_8java" startline="8">paoo.Items.Item.y</references>
+        <referencedby refid="classpaoo_1_1_game_1_1_game_1ad94433dadeb33e87418110324cd8437f" compoundref="_game_8java" startline="268" endline="349">paoo.Game.Game.render</referencedby>
+        <referencedby refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a43ce92f954bc00e37e498f59479a3387" compoundref="_level_handle_8java" startline="49" endline="80">paoo.Game.Level.LevelHandle.render</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_item_1a9b43e69a9411d6506f63abb20a1a9b70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean paoo.Items.Item.isVisible</definition>
+        <argsstring>()</argsstring>
+        <name>isVisible</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Item.java" line="43" column="1" bodyfile="src/paoo/Items/Item.java" bodystart="43" bodyend="45"/>
+        <references refid="classpaoo_1_1_items_1_1_item_1a176df687dcb5ca636f6aaa667b9b43a1" compoundref="_item_8java" startline="11">paoo.Items.Item.vis</references>
+        <referencedby refid="classpaoo_1_1_game_1_1_game_1ad94433dadeb33e87418110324cd8437f" compoundref="_game_8java" startline="268" endline="349">paoo.Game.Game.render</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_item_1a8e9c3167c76cc0a0b56b8276f429d0a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Items.Item.setVisible</definition>
+        <argsstring>(Boolean visible)</argsstring>
+        <name>setVisible</name>
+        <param>
+          <type>Boolean</type>
+          <declname>visible</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Item.java" line="47" column="1" bodyfile="src/paoo/Items/Item.java" bodystart="47" bodyend="49"/>
+        <references refid="classpaoo_1_1_items_1_1_item_1a176df687dcb5ca636f6aaa667b9b43a1" compoundref="_item_8java" startline="11">paoo.Items.Item.vis</references>
+        <referencedby refid="classpaoo_1_1_game_1_1_game_1a0a2f9dd2d90e1809d4acab5739ce5152" compoundref="_game_8java" startline="139" endline="156">paoo.Game.Game.restore</referencedby>
+        <referencedby refid="classpaoo_1_1_game_1_1_game_1afac86035f5f348c7a362526d4ce4602f" compoundref="_game_8java" startline="158" endline="181">paoo.Game.Game.nextLvl</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_item_1a888dd14cc1821e98f21329163c728236" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Rectangle</type>
+        <definition>Rectangle paoo.Items.Item.getBounds</definition>
+        <argsstring>()</argsstring>
+        <name>getBounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Item.java" line="51" column="1" bodyfile="src/paoo/Items/Item.java" bodystart="51" bodyend="53"/>
+        <references refid="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" compoundref="_item_8java" startline="7">paoo.Items.Item.x</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1a4e9f4d0ae406e925a75e12a4f0059589" compoundref="_item_8java" startline="8">paoo.Items.Item.y</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1a87a31aefbdd060475c082fd0a8bea27e" compoundref="_item_8java" startline="9">paoo.Items.Item.width</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1a8cad22b0f254231b14fe9148fd8ee223" compoundref="_item_8java" startline="10">paoo.Items.Item.height</references>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_item_1aaa33c2ff4971c3f1b52dbcea5f8a9c00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Items.Item.tick</definition>
+        <argsstring>()</argsstring>
+        <name>tick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Item.java" line="55" column="1" bodyfile="src/paoo/Items/Item.java" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_item_1a61ce25a678554d62ae06f2d46c8ac350" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Items.Item.setX</definition>
+        <argsstring>(int x)</argsstring>
+        <name>setX</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Item.java" line="60" column="1" bodyfile="src/paoo/Items/Item.java" bodystart="60" bodyend="63"/>
+        <references refid="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" compoundref="_item_8java" startline="7">paoo.Items.Item.x</references>
+        <referencedby refid="classpaoo_1_1_game_1_1_game_1a0a2f9dd2d90e1809d4acab5739ce5152" compoundref="_game_8java" startline="139" endline="156">paoo.Game.Game.restore</referencedby>
+        <referencedby refid="classpaoo_1_1_game_1_1_game_1afac86035f5f348c7a362526d4ce4602f" compoundref="_game_8java" startline="158" endline="181">paoo.Game.Game.nextLvl</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_item_1a1117854dca20c8e69bbd1e85f2d68b24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Items.Item.setY</definition>
+        <argsstring>(int y)</argsstring>
+        <name>setY</name>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Item.java" line="65" column="1" bodyfile="src/paoo/Items/Item.java" bodystart="65" bodyend="68"/>
+        <references refid="classpaoo_1_1_items_1_1_item_1a4e9f4d0ae406e925a75e12a4f0059589" compoundref="_item_8java" startline="8">paoo.Items.Item.y</references>
+        <referencedby refid="classpaoo_1_1_game_1_1_game_1a0a2f9dd2d90e1809d4acab5739ce5152" compoundref="_game_8java" startline="139" endline="156">paoo.Game.Game.restore</referencedby>
+        <referencedby refid="classpaoo_1_1_game_1_1_game_1afac86035f5f348c7a362526d4ce4602f" compoundref="_game_8java" startline="158" endline="181">paoo.Game.Game.nextLvl</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_item_1a3786544c6204b9e3ba2022bfa7803233" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Items.Item.getImageDimensions</definition>
+        <argsstring>()</argsstring>
+        <name>getImageDimensions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Item.java" line="21" column="1" bodyfile="src/paoo/Items/Item.java" bodystart="21" bodyend="24"/>
+        <references refid="classpaoo_1_1_items_1_1_item_1a87a31aefbdd060475c082fd0a8bea27e" compoundref="_item_8java" startline="9">paoo.Items.Item.width</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1affe12d9d5138d1e304a21af3d1f83952" compoundref="_item_8java" startline="12">paoo.Items.Item.image</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1a8cad22b0f254231b14fe9148fd8ee223" compoundref="_item_8java" startline="10">paoo.Items.Item.height</references>
+        <referencedby refid="classpaoo_1_1_items_1_1_backgorund_1a0ee50e509313d100b87bbb0f15e5950a" compoundref="_backgorund_8java" startline="6" endline="11">paoo.Items.Backgorund.Backgorund</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_heart_1a767806bbe5d7a4bb677124a1d8fd0c4c" compoundref="_heart_8java" startline="4" endline="9">paoo.Items.Heart.Heart</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_shoots_1aa8386dc58b02bc2a999dde23b16a5198" compoundref="_shoots_8java" startline="4" endline="9">paoo.Items.Shoots.Shoots</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_items_1_1_item_1a321bec3d90dc1127c3b103edf14922d0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Items.Item.loadImage</definition>
+        <argsstring>(String imageName)</argsstring>
+        <name>loadImage</name>
+        <param>
+          <type>String</type>
+          <declname>imageName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Items/Item.java" line="26" column="1" bodyfile="src/paoo/Items/Item.java" bodystart="26" bodyend="29"/>
+        <references refid="classpaoo_1_1_items_1_1_item_1affe12d9d5138d1e304a21af3d1f83952" compoundref="_item_8java" startline="12">paoo.Items.Item.image</references>
+        <referencedby refid="classpaoo_1_1_items_1_1_backgorund_1a0ee50e509313d100b87bbb0f15e5950a" compoundref="_backgorund_8java" startline="6" endline="11">paoo.Items.Backgorund.Backgorund</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_bombs_1a5cb654243a73aba4de1dfc1f0db183be" compoundref="_bombs_8java" startline="19" endline="35">paoo.Items.Bombs.move</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_heart_1a767806bbe5d7a4bb677124a1d8fd0c4c" compoundref="_heart_8java" startline="4" endline="9">paoo.Items.Heart.Heart</referencedby>
+        <referencedby refid="classpaoo_1_1_items_1_1_shoots_1aa8386dc58b02bc2a999dde23b16a5198" compoundref="_shoots_8java" startline="4" endline="9">paoo.Items.Shoots.Shoots</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="41">
+        <label>paoo.Items.Item</label>
+        <link refid="classpaoo_1_1_items_1_1_item"/>
+      </node>
+      <node id="48">
+        <label>paoo.Items.Shoots</label>
+        <link refid="classpaoo_1_1_items_1_1_shoots"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>paoo.Items.Backgorund</label>
+        <link refid="classpaoo_1_1_items_1_1_backgorund"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>paoo.Items.Missile</label>
+        <link refid="classpaoo_1_1_items_1_1_missile"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>paoo.Items.Bombs</label>
+        <link refid="classpaoo_1_1_items_1_1_bombs"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>paoo.Items.EnemyMissile</label>
+        <link refid="classpaoo_1_1_items_1_1_enemy_missile"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>paoo.Items.Shoot</label>
+        <link refid="classpaoo_1_1_items_1_1_shoot"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>paoo.Items.SpaceShip</label>
+        <link refid="classpaoo_1_1_items_1_1_space_ship"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>paoo.Items.Heart</label>
+        <link refid="classpaoo_1_1_items_1_1_heart"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="src/paoo/Items/Item.java" line="6" column="1" bodyfile="src/paoo/Items/Item.java" bodystart="6" bodyend="70"/>
+    <listofallmembers>
+      <member refid="classpaoo_1_1_items_1_1_item_1a888dd14cc1821e98f21329163c728236" prot="public" virt="non-virtual"><scope>paoo::Items::Item</scope><name>getBounds</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1aba2cf2a1a9ce810df283bcff6a187e07" prot="public" virt="non-virtual"><scope>paoo::Items::Item</scope><name>getImage</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a3786544c6204b9e3ba2022bfa7803233" prot="protected" virt="non-virtual"><scope>paoo::Items::Item</scope><name>getImageDimensions</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1aa57c228eb43ddffd7006dcc2f34d06d2" prot="public" virt="non-virtual"><scope>paoo::Items::Item</scope><name>getX</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a9fbdcb5d086e8fe52ff17b9006d79bce" prot="public" virt="non-virtual"><scope>paoo::Items::Item</scope><name>getY</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a8cad22b0f254231b14fe9148fd8ee223" prot="public" virt="non-virtual"><scope>paoo::Items::Item</scope><name>height</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1affe12d9d5138d1e304a21af3d1f83952" prot="public" virt="non-virtual"><scope>paoo::Items::Item</scope><name>image</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a9b43e69a9411d6506f63abb20a1a9b70" prot="public" virt="non-virtual"><scope>paoo::Items::Item</scope><name>isVisible</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a67ea19aa148b70ac2204f58891e34fd3" prot="public" virt="non-virtual"><scope>paoo::Items::Item</scope><name>Item</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a321bec3d90dc1127c3b103edf14922d0" prot="protected" virt="non-virtual"><scope>paoo::Items::Item</scope><name>loadImage</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a8e9c3167c76cc0a0b56b8276f429d0a3" prot="public" virt="non-virtual"><scope>paoo::Items::Item</scope><name>setVisible</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a61ce25a678554d62ae06f2d46c8ac350" prot="public" virt="non-virtual"><scope>paoo::Items::Item</scope><name>setX</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a1117854dca20c8e69bbd1e85f2d68b24" prot="public" virt="non-virtual"><scope>paoo::Items::Item</scope><name>setY</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1aaa33c2ff4971c3f1b52dbcea5f8a9c00" prot="public" virt="non-virtual"><scope>paoo::Items::Item</scope><name>tick</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a176df687dcb5ca636f6aaa667b9b43a1" prot="public" virt="non-virtual"><scope>paoo::Items::Item</scope><name>vis</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a87a31aefbdd060475c082fd0a8bea27e" prot="public" virt="non-virtual"><scope>paoo::Items::Item</scope><name>width</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1abb77e4f5461a4873b672e73ccba7d24f" prot="public" virt="non-virtual"><scope>paoo::Items::Item</scope><name>x</name></member>
+      <member refid="classpaoo_1_1_items_1_1_item_1a4e9f4d0ae406e925a75e12a4f0059589" prot="public" virt="non-virtual"><scope>paoo::Items::Item</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

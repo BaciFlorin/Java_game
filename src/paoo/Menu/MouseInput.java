@@ -46,11 +46,6 @@ public class MouseInput implements MouseListener {
                     source.setOptionMenu(true);
                 }
 
-                //Help
-                if (source.getHelpButton().isPressed(e.getX(), e.getY())) {
-
-                }
-
             } else {
                 //Music set button
                 if (source.getMusicButton().isPressed(e.getX(), e.getY())) {

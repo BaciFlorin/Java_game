@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classpaoo_1_1_game_1_1_level_1_1_level_handle" kind="class" language="Java" prot="public">
+    <compoundname>paoo::Game::Level::LevelHandle</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a25ddc59add5954393ed8dea0ec05e9d0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Game.Level.LevelHandle.nrLevel</definition>
+        <argsstring></argsstring>
+        <name>nrLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Level/LevelHandle.java" line="18" column="1" bodyfile="src/paoo/Game/Level/LevelHandle.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_level_1_1_level_handle_1afd86a30ce7256bd6c30221ea6f083d3e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int paoo.Game.Level.LevelHandle.difficulty</definition>
+        <argsstring></argsstring>
+        <name>difficulty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Level/LevelHandle.java" line="19" column="1" bodyfile="src/paoo/Game/Level/LevelHandle.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a31ba50d864e1f44549aba5272ccc6b44" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean paoo.Game.Level.LevelHandle.enableMusic</definition>
+        <argsstring></argsstring>
+        <name>enableMusic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Level/LevelHandle.java" line="20" column="1" bodyfile="src/paoo/Game/Level/LevelHandle.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_level_1_1_level_handle_1ab8e919ecc3250ebba3b92fdbdcb1b2df" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String paoo.Game.Level.LevelHandle.saveFile</definition>
+        <argsstring></argsstring>
+        <name>saveFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Level/LevelHandle.java" line="21" column="1" bodyfile="src/paoo/Game/Level/LevelHandle.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_level_1_1_level_handle_1ab34728db25db333edf055c456babdf9b" prot="private" static="no" mutable="no">
+        <type><ref refid="classpaoo_1_1_game_1_1_base_values" kindref="compound">BaseValues</ref></type>
+        <definition>BaseValues paoo.Game.Level.LevelHandle.base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Level/LevelHandle.java" line="24" column="1" bodyfile="src/paoo/Game/Level/LevelHandle.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a688395f26904a4fbe58a2b4a329559f3" prot="private" static="no" mutable="no">
+        <type><ref refid="classpaoo_1_1_game_1_1_level_1_1_level_base" kindref="compound">LevelBase</ref></type>
+        <definition>LevelBase paoo.Game.Level.LevelHandle.lbase</definition>
+        <argsstring></argsstring>
+        <name>lbase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Level/LevelHandle.java" line="25" column="1" bodyfile="src/paoo/Game/Level/LevelHandle.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_level_1_1_level_handle_1ac9ccf1d730caf6d5eb0a3595853c92df" prot="private" static="no" mutable="no">
+        <type><ref refid="classpaoo_1_1_game_1_1_score_base" kindref="compound">ScoreBase</ref></type>
+        <definition>ScoreBase paoo.Game.Level.LevelHandle.sbase</definition>
+        <argsstring></argsstring>
+        <name>sbase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Level/LevelHandle.java" line="26" column="1" bodyfile="src/paoo/Game/Level/LevelHandle.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a4a3634cf43937ac4104a81389dcad910" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="classpaoo_1_1_items_1_1_ship" kindref="compound">Ship</ref> &gt;</type>
+        <definition>List&lt;Ship&gt; paoo.Game.Level.LevelHandle.items</definition>
+        <argsstring></argsstring>
+        <name>items</name>
+        <initializer>=new ArrayList&lt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Level/LevelHandle.java" line="27" column="1" bodyfile="src/paoo/Game/Level/LevelHandle.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpaoo_1_1_game_1_1_level_1_1_level_handle_1ad633855f0ac358e0c1bde18f1e9604ad" prot="private" static="no" mutable="no">
+        <type><ref refid="classpaoo_1_1_items_1_1_backgorund" kindref="compound">Backgorund</ref></type>
+        <definition>Backgorund paoo.Game.Level.LevelHandle.backgorund</definition>
+        <argsstring></argsstring>
+        <name>backgorund</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Level/LevelHandle.java" line="28" column="1" bodyfile="src/paoo/Game/Level/LevelHandle.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a7815c545813c40692463c45e52df0014" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>paoo.Game.Level.LevelHandle.LevelHandle</definition>
+        <argsstring>()</argsstring>
+        <name>LevelHandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Level/LevelHandle.java" line="30" column="1" bodyfile="src/paoo/Game/Level/LevelHandle.java" bodystart="30" bodyend="47"/>
+        <references refid="classpaoo_1_1_game_1_1_base_values_1a258ae1a37e7219a66f668fcccc1244b2" compoundref="_base_values_8java" startline="55" endline="59">paoo.Game.BaseValues.getLevel</references>
+        <references refid="classpaoo_1_1_game_1_1_base_values_1a37a29c701ed8b25551aa776be9385340" compoundref="_base_values_8java" startline="61" endline="65">paoo.Game.BaseValues.getDifficulty</references>
+        <references refid="classpaoo_1_1_game_1_1_base_values_1a017fdb7c3e1db1f2f197fc11f4825efe" compoundref="_base_values_8java" startline="73" endline="77">paoo.Game.BaseValues.getFile</references>
+        <references refid="classpaoo_1_1_game_1_1_base_values_1a43dd006d008e62eae221ec833ef27d2d" compoundref="_base_values_8java" startline="67" endline="71">paoo.Game.BaseValues.getMusic</references>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a43ce92f954bc00e37e498f59479a3387" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.Level.LevelHandle.render</definition>
+        <argsstring>(Graphics g)</argsstring>
+        <name>render</name>
+        <param>
+          <type>Graphics</type>
+          <declname>g</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Level/LevelHandle.java" line="49" column="1" bodyfile="src/paoo/Game/Level/LevelHandle.java" bodystart="49" bodyend="80"/>
+        <references refid="classpaoo_1_1_items_1_1_backgorund_1ac158065e5487af0ea2e1845e34081fb6" compoundref="_backgorund_8java" startline="24" endline="28">paoo.Items.Backgorund.changeImage</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1aba2cf2a1a9ce810df283bcff6a187e07" compoundref="_item_8java" startline="31" endline="33">paoo.Items.Item.getImage</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1aa57c228eb43ddffd7006dcc2f34d06d2" compoundref="_item_8java" startline="35" endline="37">paoo.Items.Item.getX</references>
+        <references refid="classpaoo_1_1_items_1_1_item_1a9fbdcb5d086e8fe52ff17b9006d79bce" compoundref="_item_8java" startline="39" endline="41">paoo.Items.Item.getY</references>
+        <references refid="classpaoo_1_1_items_1_1_ship_1a0cb18800e4db4b287c1cb793aab85c47" compoundref="_ship_8java" startline="43" endline="45">paoo.Items.Ship.isVisible</references>
+        <references refid="classpaoo_1_1_items_1_1_ship_1a9042f4deac7bc7c2b224f877c8636d46" compoundref="_ship_8java" startline="31" endline="33">paoo.Items.Ship.getImage</references>
+        <references refid="classpaoo_1_1_items_1_1_ship_1a038e58f70fce9e412d7f8b069e4cfe4e" compoundref="_ship_8java" startline="35" endline="37">paoo.Items.Ship.getX</references>
+        <references refid="classpaoo_1_1_items_1_1_ship_1a02e256416b61c36c4375d67cdd6c7373" compoundref="_ship_8java" startline="39" endline="41">paoo.Items.Ship.getY</references>
+        <references refid="classpaoo_1_1_items_1_1_ship_1a27fd97422585e0e7e2735b07410b1c32">paoo.Items.Ship.getShoots</references>
+        <referencedby refid="classpaoo_1_1_game_1_1_game_1ad94433dadeb33e87418110324cd8437f" compoundref="_game_8java" startline="268" endline="349">paoo.Game.Game.render</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_level_1_1_level_handle_1ae72c561b61aae891be491d8290b92dad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.Level.LevelHandle.saveLevelToFile</definition>
+        <argsstring>()</argsstring>
+        <name>saveLevelToFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Level/LevelHandle.java" line="82" column="1" bodyfile="src/paoo/Game/Level/LevelHandle.java" bodystart="82" bodyend="123"/>
+        <referencedby refid="classpaoo_1_1_game_1_1_input_1_1_mouse_input_1a9973ec5b7f55270bb91c60924219c3a0" compoundref="_game_2_input_2_mouse_input_8java" startline="11" endline="52">paoo.Game.Input.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a4f4aa2be75606c12db4e19f4816cb7e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.Level.LevelHandle.loadLevelFromFile</definition>
+        <argsstring>()</argsstring>
+        <name>loadLevelFromFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Level/LevelHandle.java" line="125" column="1" bodyfile="src/paoo/Game/Level/LevelHandle.java" bodystart="125" bodyend="168"/>
+        <references refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a367bfdd068cf3baa5ab0632de3a03401" compoundref="_level_handle_8java" startline="171" endline="186">paoo.Game.Level.LevelHandle.loadLevelFromSQL</references>
+        <references refid="classpaoo_1_1_game_1_1_level_1_1_abstract_ship_factory_1a8cb1e38327a9ce0deb2e53cad78d9082" compoundref="_abstract_ship_factory_8java" startline="8" endline="19">paoo.Game.Level.AbstractShipFactory.createShip</references>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a367bfdd068cf3baa5ab0632de3a03401" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.Level.LevelHandle.loadLevelFromSQL</definition>
+        <argsstring>()</argsstring>
+        <name>loadLevelFromSQL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Level/LevelHandle.java" line="171" column="1" bodyfile="src/paoo/Game/Level/LevelHandle.java" bodystart="171" bodyend="186"/>
+        <references refid="classpaoo_1_1_game_1_1_level_1_1_level_base_1ac2cde934abb58bd81b1d14729ec48d3c" compoundref="_level_base_8java" startline="69" endline="69">paoo.Game.Level.LevelBase.getTypes</references>
+        <references refid="classpaoo_1_1_game_1_1_level_1_1_level_base_1a193a4d1d30cb319aada767c5b2d03203" compoundref="_level_base_8java" startline="70" endline="70">paoo.Game.Level.LevelBase.getXpos</references>
+        <references refid="classpaoo_1_1_game_1_1_level_1_1_level_base_1aa40f0324d66fd9e0258effbf414529d6" compoundref="_level_base_8java" startline="71" endline="71">paoo.Game.Level.LevelBase.getYpos</references>
+        <references refid="classpaoo_1_1_game_1_1_level_1_1_abstract_ship_factory_1a8cb1e38327a9ce0deb2e53cad78d9082" compoundref="_abstract_ship_factory_8java" startline="8" endline="19">paoo.Game.Level.AbstractShipFactory.createShip</references>
+        <referencedby refid="classpaoo_1_1_game_1_1_game_1a0a2f9dd2d90e1809d4acab5739ce5152" compoundref="_game_8java" startline="139" endline="156">paoo.Game.Game.restore</referencedby>
+        <referencedby refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a4f4aa2be75606c12db4e19f4816cb7e9" compoundref="_level_handle_8java" startline="125" endline="168">paoo.Game.Level.LevelHandle.loadLevelFromFile</referencedby>
+        <referencedby refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1ab17c592082044180fc0de803310ab895" compoundref="_level_handle_8java" startline="196" endline="207">paoo.Game.Level.LevelHandle.setLevel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_level_1_1_level_handle_1ab17c592082044180fc0de803310ab895" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.Level.LevelHandle.setLevel</definition>
+        <argsstring>(int nr)</argsstring>
+        <name>setLevel</name>
+        <param>
+          <type>int</type>
+          <declname>nr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Level/LevelHandle.java" line="196" column="1" bodyfile="src/paoo/Game/Level/LevelHandle.java" bodystart="196" bodyend="207"/>
+        <references refid="classpaoo_1_1_game_1_1_level_1_1_level_base_1a964242977c3be4e55f845292282274fd" compoundref="_level_base_8java" startline="73" endline="80">paoo.Game.Level.LevelBase.changeLevel</references>
+        <references refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a367bfdd068cf3baa5ab0632de3a03401" compoundref="_level_handle_8java" startline="171" endline="186">paoo.Game.Level.LevelHandle.loadLevelFromSQL</references>
+        <referencedby refid="classpaoo_1_1_game_1_1_game_1afac86035f5f348c7a362526d4ce4602f" compoundref="_game_8java" startline="158" endline="181">paoo.Game.Game.nextLvl</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a85d335660feaa703407d639b11c579ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int paoo.Game.Level.LevelHandle.getLevel</definition>
+        <argsstring>()</argsstring>
+        <name>getLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Level/LevelHandle.java" line="209" column="1" bodyfile="src/paoo/Game/Level/LevelHandle.java" bodystart="209" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a03b5f506ab9cdc3032211b7a02202dbd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classpaoo_1_1_items_1_1_ship" kindref="compound">Ship</ref> &gt;</type>
+        <definition>List&lt;Ship&gt; paoo.Game.Level.LevelHandle.getItems</definition>
+        <argsstring>()</argsstring>
+        <name>getItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Level/LevelHandle.java" line="214" column="1" bodyfile="src/paoo/Game/Level/LevelHandle.java" bodystart="214" bodyend="217"/>
+        <referencedby refid="classpaoo_1_1_game_1_1_game_1a0a2f9dd2d90e1809d4acab5739ce5152" compoundref="_game_8java" startline="139" endline="156">paoo.Game.Game.restore</referencedby>
+        <referencedby refid="classpaoo_1_1_game_1_1_game_1afac86035f5f348c7a362526d4ce4602f" compoundref="_game_8java" startline="158" endline="181">paoo.Game.Game.nextLvl</referencedby>
+        <referencedby refid="classpaoo_1_1_game_1_1_game_1ad94433dadeb33e87418110324cd8437f" compoundref="_game_8java" startline="268" endline="349">paoo.Game.Game.render</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a5d13b64c89582e70cfdfebb2b3b9d534" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classpaoo_1_1_game_1_1_level_1_1_level_base" kindref="compound">LevelBase</ref></type>
+        <definition>LevelBase paoo.Game.Level.LevelHandle.getLbase</definition>
+        <argsstring>()</argsstring>
+        <name>getLbase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Level/LevelHandle.java" line="220" column="1" bodyfile="src/paoo/Game/Level/LevelHandle.java" bodystart="220" bodyend="220"/>
+        <referencedby refid="classpaoo_1_1_game_1_1_input_1_1_mouse_input_1a9973ec5b7f55270bb91c60924219c3a0" compoundref="_game_2_input_2_mouse_input_8java" startline="11" endline="52">paoo.Game.Input.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a6961baa71d071dcd54ddd5badd9e90f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classpaoo_1_1_game_1_1_base_values" kindref="compound">BaseValues</ref></type>
+        <definition>BaseValues paoo.Game.Level.LevelHandle.getBase</definition>
+        <argsstring>()</argsstring>
+        <name>getBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Level/LevelHandle.java" line="221" column="1" bodyfile="src/paoo/Game/Level/LevelHandle.java" bodystart="221" bodyend="221"/>
+        <referencedby refid="classpaoo_1_1_game_1_1_input_1_1_mouse_input_1a9973ec5b7f55270bb91c60924219c3a0" compoundref="_game_2_input_2_mouse_input_8java" startline="11" endline="52">paoo.Game.Input.MouseInput.mouseClicked</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a0527e193ba2868e20cd21182631e896b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classpaoo_1_1_game_1_1_score_base" kindref="compound">ScoreBase</ref></type>
+        <definition>ScoreBase paoo.Game.Level.LevelHandle.getSbase</definition>
+        <argsstring>()</argsstring>
+        <name>getSbase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Level/LevelHandle.java" line="222" column="1" bodyfile="src/paoo/Game/Level/LevelHandle.java" bodystart="222" bodyend="222"/>
+        <referencedby refid="classpaoo_1_1_game_1_1_game_1afac86035f5f348c7a362526d4ce4602f" compoundref="_game_8java" startline="158" endline="181">paoo.Game.Game.nextLvl</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a95f4fd4312fe3b1ad2d959ebca037af6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.Level.LevelHandle.setDifficulty</definition>
+        <argsstring>()</argsstring>
+        <name>setDifficulty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Level/LevelHandle.java" line="188" column="1" bodyfile="src/paoo/Game/Level/LevelHandle.java" bodystart="188" bodyend="194"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/paoo/Game/Level/LevelHandle.java" line="16" column="1" bodyfile="src/paoo/Game/Level/LevelHandle.java" bodystart="16" bodyend="223"/>
+    <listofallmembers>
+      <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1ad633855f0ac358e0c1bde18f1e9604ad" prot="private" virt="non-virtual"><scope>paoo::Game::Level::LevelHandle</scope><name>backgorund</name></member>
+      <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1ab34728db25db333edf055c456babdf9b" prot="private" virt="non-virtual"><scope>paoo::Game::Level::LevelHandle</scope><name>base</name></member>
+      <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1afd86a30ce7256bd6c30221ea6f083d3e" prot="private" virt="non-virtual"><scope>paoo::Game::Level::LevelHandle</scope><name>difficulty</name></member>
+      <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a31ba50d864e1f44549aba5272ccc6b44" prot="private" virt="non-virtual"><scope>paoo::Game::Level::LevelHandle</scope><name>enableMusic</name></member>
+      <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a6961baa71d071dcd54ddd5badd9e90f7" prot="public" virt="non-virtual"><scope>paoo::Game::Level::LevelHandle</scope><name>getBase</name></member>
+      <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a03b5f506ab9cdc3032211b7a02202dbd" prot="public" virt="non-virtual"><scope>paoo::Game::Level::LevelHandle</scope><name>getItems</name></member>
+      <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a5d13b64c89582e70cfdfebb2b3b9d534" prot="public" virt="non-virtual"><scope>paoo::Game::Level::LevelHandle</scope><name>getLbase</name></member>
+      <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a85d335660feaa703407d639b11c579ae" prot="public" virt="non-virtual"><scope>paoo::Game::Level::LevelHandle</scope><name>getLevel</name></member>
+      <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a0527e193ba2868e20cd21182631e896b" prot="public" virt="non-virtual"><scope>paoo::Game::Level::LevelHandle</scope><name>getSbase</name></member>
+      <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a4a3634cf43937ac4104a81389dcad910" prot="private" virt="non-virtual"><scope>paoo::Game::Level::LevelHandle</scope><name>items</name></member>
+      <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a688395f26904a4fbe58a2b4a329559f3" prot="private" virt="non-virtual"><scope>paoo::Game::Level::LevelHandle</scope><name>lbase</name></member>
+      <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a7815c545813c40692463c45e52df0014" prot="public" virt="non-virtual"><scope>paoo::Game::Level::LevelHandle</scope><name>LevelHandle</name></member>
+      <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a4f4aa2be75606c12db4e19f4816cb7e9" prot="public" virt="non-virtual"><scope>paoo::Game::Level::LevelHandle</scope><name>loadLevelFromFile</name></member>
+      <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a367bfdd068cf3baa5ab0632de3a03401" prot="public" virt="non-virtual"><scope>paoo::Game::Level::LevelHandle</scope><name>loadLevelFromSQL</name></member>
+      <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a25ddc59add5954393ed8dea0ec05e9d0" prot="private" virt="non-virtual"><scope>paoo::Game::Level::LevelHandle</scope><name>nrLevel</name></member>
+      <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a43ce92f954bc00e37e498f59479a3387" prot="public" virt="non-virtual"><scope>paoo::Game::Level::LevelHandle</scope><name>render</name></member>
+      <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1ab8e919ecc3250ebba3b92fdbdcb1b2df" prot="private" virt="non-virtual"><scope>paoo::Game::Level::LevelHandle</scope><name>saveFile</name></member>
+      <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1ae72c561b61aae891be491d8290b92dad" prot="public" virt="non-virtual"><scope>paoo::Game::Level::LevelHandle</scope><name>saveLevelToFile</name></member>
+      <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1ac9ccf1d730caf6d5eb0a3595853c92df" prot="private" virt="non-virtual"><scope>paoo::Game::Level::LevelHandle</scope><name>sbase</name></member>
+      <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1a95f4fd4312fe3b1ad2d959ebca037af6" prot="private" virt="non-virtual"><scope>paoo::Game::Level::LevelHandle</scope><name>setDifficulty</name></member>
+      <member refid="classpaoo_1_1_game_1_1_level_1_1_level_handle_1ab17c592082044180fc0de803310ab895" prot="public" virt="non-virtual"><scope>paoo::Game::Level::LevelHandle</scope><name>setLevel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classpaoo_1_1_game_1_1_input_1_1_window_handle" kind="class" language="Java" prot="public">
+    <compoundname>paoo::Game::Input::WindowHandle</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">WindowListener</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_input_1_1_window_handle_1a40a6b5eb140c8189d18e76e7b7bb67a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.Input.WindowHandle.windowActivated</definition>
+        <argsstring>(WindowEvent event)</argsstring>
+        <name>windowActivated</name>
+        <param>
+          <type>WindowEvent</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Input/WindowHandle.java" line="11" column="1" bodyfile="src/paoo/Game/Input/WindowHandle.java" bodystart="11" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_input_1_1_window_handle_1ab9bece9782fc819dd217f819af7684a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.Input.WindowHandle.windowClosed</definition>
+        <argsstring>(WindowEvent event)</argsstring>
+        <name>windowClosed</name>
+        <param>
+          <type>WindowEvent</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Input/WindowHandle.java" line="15" column="1" bodyfile="src/paoo/Game/Input/WindowHandle.java" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_input_1_1_window_handle_1aee5028fa96e2a65ce8cf1fb6135746af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.Input.WindowHandle.windowClosing</definition>
+        <argsstring>(WindowEvent event)</argsstring>
+        <name>windowClosing</name>
+        <param>
+          <type>WindowEvent</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Input/WindowHandle.java" line="20" column="1" bodyfile="src/paoo/Game/Input/WindowHandle.java" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_input_1_1_window_handle_1ae786fe93453d3b364e825c1a587ea1a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.Input.WindowHandle.windowDeactivated</definition>
+        <argsstring>(WindowEvent event)</argsstring>
+        <name>windowDeactivated</name>
+        <param>
+          <type>WindowEvent</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Input/WindowHandle.java" line="25" column="1" bodyfile="src/paoo/Game/Input/WindowHandle.java" bodystart="25" bodyend="27"/>
+        <references refid="classpaoo_1_1_game_1_1_game_1a965237e054132599526675bb31204b8f" compoundref="_game_8java" startline="511" endline="511">paoo.Game.Game.setPause</references>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_input_1_1_window_handle_1a453314a2a5e8ee77adde8479681072b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.Input.WindowHandle.windowDeiconified</definition>
+        <argsstring>(WindowEvent event)</argsstring>
+        <name>windowDeiconified</name>
+        <param>
+          <type>WindowEvent</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Input/WindowHandle.java" line="30" column="1" bodyfile="src/paoo/Game/Input/WindowHandle.java" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_input_1_1_window_handle_1a7b647629b364a18bf08618f97eb489d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.Input.WindowHandle.windowIconified</definition>
+        <argsstring>(WindowEvent event)</argsstring>
+        <name>windowIconified</name>
+        <param>
+          <type>WindowEvent</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Input/WindowHandle.java" line="35" column="1" bodyfile="src/paoo/Game/Input/WindowHandle.java" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classpaoo_1_1_game_1_1_input_1_1_window_handle_1a6642b61f61f6b3ab5c1ab7a224c7645e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void paoo.Game.Input.WindowHandle.windowOpened</definition>
+        <argsstring>(WindowEvent event)</argsstring>
+        <name>windowOpened</name>
+        <param>
+          <type>WindowEvent</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/paoo/Game/Input/WindowHandle.java" line="40" column="1" bodyfile="src/paoo/Game/Input/WindowHandle.java" bodystart="40" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="113">
+        <label>paoo.Game.Input.WindowHandle</label>
+        <link refid="classpaoo_1_1_game_1_1_input_1_1_window_handle"/>
+        <childnode refid="114" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="114">
+        <label>WindowListener</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="115">
+        <label>paoo.Game.Input.WindowHandle</label>
+        <link refid="classpaoo_1_1_game_1_1_input_1_1_window_handle"/>
+        <childnode refid="116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="116">
+        <label>WindowListener</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/paoo/Game/Input/WindowHandle.java" line="8" column="1" bodyfile="src/paoo/Game/Input/WindowHandle.java" bodystart="8" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classpaoo_1_1_game_1_1_input_1_1_window_handle_1a40a6b5eb140c8189d18e76e7b7bb67a3" prot="public" virt="non-virtual"><scope>paoo::Game::Input::WindowHandle</scope><name>windowActivated</name></member>
+      <member refid="classpaoo_1_1_game_1_1_input_1_1_window_handle_1ab9bece9782fc819dd217f819af7684a2" prot="public" virt="non-virtual"><scope>paoo::Game::Input::WindowHandle</scope><name>windowClosed</name></member>
+      <member refid="classpaoo_1_1_game_1_1_input_1_1_window_handle_1aee5028fa96e2a65ce8cf1fb6135746af" prot="public" virt="non-virtual"><scope>paoo::Game::Input::WindowHandle</scope><name>windowClosing</name></member>
+      <member refid="classpaoo_1_1_game_1_1_input_1_1_window_handle_1ae786fe93453d3b364e825c1a587ea1a3" prot="public" virt="non-virtual"><scope>paoo::Game::Input::WindowHandle</scope><name>windowDeactivated</name></member>
+      <member refid="classpaoo_1_1_game_1_1_input_1_1_window_handle_1a453314a2a5e8ee77adde8479681072b1" prot="public" virt="non-virtual"><scope>paoo::Game::Input::WindowHandle</scope><name>windowDeiconified</name></member>
+      <member refid="classpaoo_1_1_game_1_1_input_1_1_window_handle_1a7b647629b364a18bf08618f97eb489d7" prot="public" virt="non-virtual"><scope>paoo::Game::Input::WindowHandle</scope><name>windowIconified</name></member>
+      <member refid="classpaoo_1_1_game_1_1_input_1_1_window_handle_1a6642b61f61f6b3ab5c1ab7a224c7645e" prot="public" virt="non-virtual"><scope>paoo::Game::Input::WindowHandle</scope><name>windowOpened</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

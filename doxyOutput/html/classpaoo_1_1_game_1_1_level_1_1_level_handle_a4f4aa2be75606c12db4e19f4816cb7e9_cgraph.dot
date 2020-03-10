@@ -1,0 +1,19 @@
+digraph "paoo.Game.Level.LevelHandle.loadLevelFromFile"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node27 [label="paoo.Game.Level.LevelHandle.load\lLevelFromFile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node27 -> Node28 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="paoo.Game.Level.LevelHandle.load\lLevelFromSQL",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_game_1_1_level_1_1_level_handle.html#a367bfdd068cf3baa5ab0632de3a03401",tooltip=" "];
+  Node28 -> Node29 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="paoo.Game.Level.LevelBase.get\lTypes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_game_1_1_level_1_1_level_base.html#ac2cde934abb58bd81b1d14729ec48d3c",tooltip=" "];
+  Node28 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="paoo.Game.Level.LevelBase.getXpos",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_game_1_1_level_1_1_level_base.html#a193a4d1d30cb319aada767c5b2d03203",tooltip=" "];
+  Node28 -> Node31 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="paoo.Game.Level.LevelBase.getYpos",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_game_1_1_level_1_1_level_base.html#aa40f0324d66fd9e0258effbf414529d6",tooltip=" "];
+  Node28 -> Node32 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="paoo.Game.Level.Abstract\lShipFactory.createShip",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpaoo_1_1_game_1_1_level_1_1_abstract_ship_factory.html#a8cb1e38327a9ce0deb2e53cad78d9082",tooltip=" "];
+  Node27 -> Node32 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

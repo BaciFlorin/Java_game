@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacepaoo_1_1_game" kind="namespace" language="Java">
+    <compoundname>paoo::Game</compoundname>
+    <innerclass refid="classpaoo_1_1_game_1_1_base_values" prot="public">paoo::Game::BaseValues</innerclass>
+    <innerclass refid="classpaoo_1_1_game_1_1_font" prot="public">paoo::Game::Font</innerclass>
+    <innerclass refid="classpaoo_1_1_game_1_1_game" prot="public">paoo::Game::Game</innerclass>
+    <innerclass refid="classpaoo_1_1_game_1_1_map" prot="public">paoo::Game::Map</innerclass>
+    <innerclass refid="classpaoo_1_1_game_1_1_score_base" prot="public">paoo::Game::ScoreBase</innerclass>
+    <innernamespace refid="namespacepaoo_1_1_game_1_1_input">paoo::Game::Input</innernamespace>
+    <innernamespace refid="namespacepaoo_1_1_game_1_1_level">paoo::Game::Level</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/paoo/Game/BaseValues.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

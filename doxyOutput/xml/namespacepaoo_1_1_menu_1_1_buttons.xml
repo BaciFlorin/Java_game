@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacepaoo_1_1_menu_1_1_buttons" kind="namespace" language="Java">
+    <compoundname>paoo::Menu::Buttons</compoundname>
+    <innerclass refid="classpaoo_1_1_menu_1_1_buttons_1_1_my_button" prot="public">paoo::Menu::Buttons::MyButton</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/paoo/Menu/Buttons/MyButton.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>
